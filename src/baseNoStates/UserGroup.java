@@ -38,8 +38,10 @@ public class UserGroup {
    * @param id  the id of the area.
    */
   public boolean validateArea(String id) {
+    Visitor visitor = new FindAreaById(id);
     for (Area area : areas) {
-      if (area.findAreaById(id) != null) {
+      area.acceptVisitor(visitor);
+      if (visitor.getArea() != null) {
         return true;
       }
     }

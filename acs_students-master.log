@@ -252,3 +252,2234 @@ Content-type: application/json
 Access-Control-Allow-Origin: *
 
 {"reasons":[],"authorized":true,"action":"close","closed":true,"state":"locked","doorId":"D2"}
+2023-11-16 14:31:10,689 [WebServer.java:36] - Server started.
+Listening for connections on port : 8080 ...
+
+2023-11-16 14:31:19,383 [WebServer.java:74] - sockedthread : GET /refresh HTTP/1.1
+2023-11-16 14:31:19,390 [WebServer.java:92] - 0 refresh
+2023-11-16 14:31:19,390 [WebServer.java:122] - tokens : 
+2023-11-16 14:31:19,391 [WebServer.java:124] - refresh, 
+2023-11-16 14:31:19,391 [WebServer.java:124] - null, 
+2023-11-16 14:31:19,391 [WebServer.java:124] - null, 
+2023-11-16 14:31:19,391 [WebServer.java:124] - null, 
+2023-11-16 14:31:19,391 [WebServer.java:124] - null, 
+2023-11-16 14:31:19,392 [WebServer.java:124] - null, 
+2023-11-16 14:31:19,392 [WebServer.java:124] - null, 
+2023-11-16 14:31:19,392 [WebServer.java:124] - null, 
+2023-11-16 14:31:19,392 [WebServer.java:124] - null, 
+2023-11-16 14:31:19,392 [WebServer.java:124] - null, 
+2023-11-16 14:31:19,392 [WebServer.java:124] - null, 
+2023-11-16 14:31:19,393 [WebServer.java:124] - null, 
+2023-11-16 14:31:19,393 [WebServer.java:124] - null, 
+2023-11-16 14:31:19,393 [WebServer.java:124] - null, 
+2023-11-16 14:31:19,393 [WebServer.java:124] - null, 
+2023-11-16 14:31:19,393 [WebServer.java:124] - null, 
+2023-11-16 14:31:19,393 [WebServer.java:124] - null, 
+2023-11-16 14:31:19,393 [WebServer.java:124] - null, 
+2023-11-16 14:31:19,393 [WebServer.java:124] - null, 
+2023-11-16 14:31:19,394 [WebServer.java:124] - null, 
+2023-11-16 14:31:19,394 [WebServer.java:126] - 
+2023-11-16 14:31:19,395 [WebServer.java:100] - created request refresh RequestRefresh{[]}
+2023-11-16 14:31:19,416 [WebServer.java:102] - processed request refresh RequestRefresh{[{"closed":true,"id":"D1","state":"locked"}, {"closed":true,"id":"D2","state":"locked"}, {"closed":true,"id":"D3","state":"locked"}, {"closed":true,"id":"D4","state":"locked"}, {"closed":true,"id":"D5","state":"locked"}, {"closed":true,"id":"D6","state":"locked"}, {"closed":true,"id":"D7","state":"locked"}, {"closed":true,"id":"D8","state":"locked"}, {"closed":true,"id":"D9","state":"locked"}]}
+2023-11-16 14:31:19,417 [WebServer.java:105] - answer
+HTTP/1.0 200 OK
+Content-type: application/json
+Access-Control-Allow-Origin: *
+
+{"doors":[{"closed":true,"id":"D1","state":"locked"},{"closed":true,"id":"D2","state":"locked"},{"closed":true,"id":"D3","state":"locked"},{"closed":true,"id":"D4","state":"locked"},{"closed":true,"id":"D5","state":"locked"},{"closed":true,"id":"D6","state":"locked"},{"closed":true,"id":"D7","state":"locked"},{"closed":true,"id":"D8","state":"locked"},{"closed":true,"id":"D9","state":"locked"}]}
+2023-11-16 14:31:23,855 [WebServer.java:74] - sockedthread : GET /reader?credential=11343&action=unlock&datetime=2023-11-16T09:30&doorId=D2 HTTP/1.1
+2023-11-16 14:31:23,855 [WebServer.java:92] - 0 reader
+2023-11-16 14:31:23,855 [WebServer.java:92] - 1 credential
+2023-11-16 14:31:23,855 [WebServer.java:92] - 2 11343
+2023-11-16 14:31:23,855 [WebServer.java:92] - 3 action
+2023-11-16 14:31:23,855 [WebServer.java:92] - 4 unlock
+2023-11-16 14:31:23,855 [WebServer.java:92] - 5 datetime
+2023-11-16 14:31:23,855 [WebServer.java:92] - 6 2023-11-16T09:30
+2023-11-16 14:31:23,856 [WebServer.java:92] - 7 doorId
+2023-11-16 14:31:23,856 [WebServer.java:92] - 8 D2
+2023-11-16 14:31:23,856 [WebServer.java:122] - tokens : 
+2023-11-16 14:31:23,856 [WebServer.java:124] - reader, 
+2023-11-16 14:31:23,856 [WebServer.java:124] - credential, 
+2023-11-16 14:31:23,856 [WebServer.java:124] - 11343, 
+2023-11-16 14:31:23,856 [WebServer.java:124] - action, 
+2023-11-16 14:31:23,856 [WebServer.java:124] - unlock, 
+2023-11-16 14:31:23,857 [WebServer.java:124] - datetime, 
+2023-11-16 14:31:23,857 [WebServer.java:124] - 2023-11-16T09:30, 
+2023-11-16 14:31:23,857 [WebServer.java:124] - doorId, 
+2023-11-16 14:31:23,857 [WebServer.java:124] - D2, 
+2023-11-16 14:31:23,857 [WebServer.java:124] - null, 
+2023-11-16 14:31:23,857 [WebServer.java:124] - null, 
+2023-11-16 14:31:23,857 [WebServer.java:124] - null, 
+2023-11-16 14:31:23,857 [WebServer.java:124] - null, 
+2023-11-16 14:31:23,857 [WebServer.java:124] - null, 
+2023-11-16 14:31:23,857 [WebServer.java:124] - null, 
+2023-11-16 14:31:23,858 [WebServer.java:124] - null, 
+2023-11-16 14:31:23,858 [WebServer.java:124] - null, 
+2023-11-16 14:31:23,858 [WebServer.java:124] - null, 
+2023-11-16 14:31:23,858 [WebServer.java:124] - null, 
+2023-11-16 14:31:23,858 [WebServer.java:124] - null, 
+2023-11-16 14:31:23,858 [WebServer.java:126] - 
+2023-11-16 14:31:23,869 [WebServer.java:100] - created request reader Request{credential=11343, userName=unknown, action=unlock, now=2023-11-16T09:30, doorID=D2, closed=false, authorized=false, reasons=[]}
+2023-11-16 14:31:23,870 [Lock.java:21] - Door D2 has been unlocked
+2023-11-16 14:31:23,870 [WebServer.java:102] - processed request reader Request{credential=11343, userName=unknown, action=unlock, now=2023-11-16T09:30, doorID=D2, closed=true, authorized=true, reasons=[]}
+2023-11-16 14:31:23,870 [WebServer.java:105] - answer
+HTTP/1.0 200 OK
+Content-type: application/json
+Access-Control-Allow-Origin: *
+
+{"reasons":[],"authorized":true,"action":"unlock","closed":true,"state":"unlocked","doorId":"D2"}
+2023-11-16 14:31:25,794 [WebServer.java:74] - sockedthread : GET /reader?credential=11343&action=open&datetime=2023-11-16T09:30&doorId=D2 HTTP/1.1
+2023-11-16 14:31:25,794 [WebServer.java:92] - 0 reader
+2023-11-16 14:31:25,794 [WebServer.java:92] - 1 credential
+2023-11-16 14:31:25,794 [WebServer.java:92] - 2 11343
+2023-11-16 14:31:25,794 [WebServer.java:92] - 3 action
+2023-11-16 14:31:25,795 [WebServer.java:92] - 4 open
+2023-11-16 14:31:25,795 [WebServer.java:92] - 5 datetime
+2023-11-16 14:31:25,795 [WebServer.java:92] - 6 2023-11-16T09:30
+2023-11-16 14:31:25,795 [WebServer.java:92] - 7 doorId
+2023-11-16 14:31:25,795 [WebServer.java:92] - 8 D2
+2023-11-16 14:31:25,795 [WebServer.java:122] - tokens : 
+2023-11-16 14:31:25,795 [WebServer.java:124] - reader, 
+2023-11-16 14:31:25,795 [WebServer.java:124] - credential, 
+2023-11-16 14:31:25,795 [WebServer.java:124] - 11343, 
+2023-11-16 14:31:25,795 [WebServer.java:124] - action, 
+2023-11-16 14:31:25,795 [WebServer.java:124] - open, 
+2023-11-16 14:31:25,795 [WebServer.java:124] - datetime, 
+2023-11-16 14:31:25,795 [WebServer.java:124] - 2023-11-16T09:30, 
+2023-11-16 14:31:25,796 [WebServer.java:124] - doorId, 
+2023-11-16 14:31:25,796 [WebServer.java:124] - D2, 
+2023-11-16 14:31:25,796 [WebServer.java:124] - null, 
+2023-11-16 14:31:25,796 [WebServer.java:124] - null, 
+2023-11-16 14:31:25,796 [WebServer.java:124] - null, 
+2023-11-16 14:31:25,796 [WebServer.java:124] - null, 
+2023-11-16 14:31:25,796 [WebServer.java:124] - null, 
+2023-11-16 14:31:25,796 [WebServer.java:124] - null, 
+2023-11-16 14:31:25,796 [WebServer.java:124] - null, 
+2023-11-16 14:31:25,796 [WebServer.java:124] - null, 
+2023-11-16 14:31:25,796 [WebServer.java:124] - null, 
+2023-11-16 14:31:25,797 [WebServer.java:124] - null, 
+2023-11-16 14:31:25,797 [WebServer.java:124] - null, 
+2023-11-16 14:31:25,797 [WebServer.java:126] - 
+2023-11-16 14:31:25,797 [WebServer.java:100] - created request reader Request{credential=11343, userName=unknown, action=open, now=2023-11-16T09:30, doorID=D2, closed=false, authorized=false, reasons=[]}
+2023-11-16 14:31:25,797 [WebServer.java:102] - processed request reader Request{credential=11343, userName=unknown, action=open, now=2023-11-16T09:30, doorID=D2, closed=false, authorized=true, reasons=[]}
+2023-11-16 14:31:25,797 [WebServer.java:105] - answer
+HTTP/1.0 200 OK
+Content-type: application/json
+Access-Control-Allow-Origin: *
+
+{"reasons":[],"authorized":true,"action":"open","closed":false,"state":"unlocked","doorId":"D2"}
+2023-11-16 14:31:27,262 [WebServer.java:74] - sockedthread : GET /reader?credential=11343&action=close&datetime=2023-11-16T09:30&doorId=D2 HTTP/1.1
+2023-11-16 14:31:27,262 [WebServer.java:92] - 0 reader
+2023-11-16 14:31:27,262 [WebServer.java:92] - 1 credential
+2023-11-16 14:31:27,262 [WebServer.java:92] - 2 11343
+2023-11-16 14:31:27,262 [WebServer.java:92] - 3 action
+2023-11-16 14:31:27,262 [WebServer.java:92] - 4 close
+2023-11-16 14:31:27,262 [WebServer.java:92] - 5 datetime
+2023-11-16 14:31:27,262 [WebServer.java:92] - 6 2023-11-16T09:30
+2023-11-16 14:31:27,263 [WebServer.java:92] - 7 doorId
+2023-11-16 14:31:27,263 [WebServer.java:92] - 8 D2
+2023-11-16 14:31:27,263 [WebServer.java:122] - tokens : 
+2023-11-16 14:31:27,263 [WebServer.java:124] - reader, 
+2023-11-16 14:31:27,263 [WebServer.java:124] - credential, 
+2023-11-16 14:31:27,263 [WebServer.java:124] - 11343, 
+2023-11-16 14:31:27,263 [WebServer.java:124] - action, 
+2023-11-16 14:31:27,263 [WebServer.java:124] - close, 
+2023-11-16 14:31:27,263 [WebServer.java:124] - datetime, 
+2023-11-16 14:31:27,263 [WebServer.java:124] - 2023-11-16T09:30, 
+2023-11-16 14:31:27,263 [WebServer.java:124] - doorId, 
+2023-11-16 14:31:27,263 [WebServer.java:124] - D2, 
+2023-11-16 14:31:27,263 [WebServer.java:124] - null, 
+2023-11-16 14:31:27,263 [WebServer.java:124] - null, 
+2023-11-16 14:31:27,263 [WebServer.java:124] - null, 
+2023-11-16 14:31:27,263 [WebServer.java:124] - null, 
+2023-11-16 14:31:27,263 [WebServer.java:124] - null, 
+2023-11-16 14:31:27,264 [WebServer.java:124] - null, 
+2023-11-16 14:31:27,264 [WebServer.java:124] - null, 
+2023-11-16 14:31:27,264 [WebServer.java:124] - null, 
+2023-11-16 14:31:27,264 [WebServer.java:124] - null, 
+2023-11-16 14:31:27,264 [WebServer.java:124] - null, 
+2023-11-16 14:31:27,264 [WebServer.java:124] - null, 
+2023-11-16 14:31:27,264 [WebServer.java:126] - 
+2023-11-16 14:31:27,264 [WebServer.java:100] - created request reader Request{credential=11343, userName=unknown, action=close, now=2023-11-16T09:30, doorID=D2, closed=false, authorized=false, reasons=[]}
+2023-11-16 14:31:27,264 [WebServer.java:102] - processed request reader Request{credential=11343, userName=unknown, action=close, now=2023-11-16T09:30, doorID=D2, closed=true, authorized=true, reasons=[]}
+2023-11-16 14:31:27,264 [WebServer.java:105] - answer
+HTTP/1.0 200 OK
+Content-type: application/json
+Access-Control-Allow-Origin: *
+
+{"reasons":[],"authorized":true,"action":"close","closed":true,"state":"unlocked","doorId":"D2"}
+2023-11-16 14:31:28,962 [WebServer.java:74] - sockedthread : GET /reader?credential=11343&action=lock&datetime=2023-11-16T09:30&doorId=D2 HTTP/1.1
+2023-11-16 14:31:28,962 [WebServer.java:92] - 0 reader
+2023-11-16 14:31:28,963 [WebServer.java:92] - 1 credential
+2023-11-16 14:31:28,963 [WebServer.java:92] - 2 11343
+2023-11-16 14:31:28,963 [WebServer.java:92] - 3 action
+2023-11-16 14:31:28,963 [WebServer.java:92] - 4 lock
+2023-11-16 14:31:28,963 [WebServer.java:92] - 5 datetime
+2023-11-16 14:31:28,963 [WebServer.java:92] - 6 2023-11-16T09:30
+2023-11-16 14:31:28,963 [WebServer.java:92] - 7 doorId
+2023-11-16 14:31:28,963 [WebServer.java:92] - 8 D2
+2023-11-16 14:31:28,963 [WebServer.java:122] - tokens : 
+2023-11-16 14:31:28,963 [WebServer.java:124] - reader, 
+2023-11-16 14:31:28,963 [WebServer.java:124] - credential, 
+2023-11-16 14:31:28,963 [WebServer.java:124] - 11343, 
+2023-11-16 14:31:28,963 [WebServer.java:124] - action, 
+2023-11-16 14:31:28,963 [WebServer.java:124] - lock, 
+2023-11-16 14:31:28,963 [WebServer.java:124] - datetime, 
+2023-11-16 14:31:28,963 [WebServer.java:124] - 2023-11-16T09:30, 
+2023-11-16 14:31:28,964 [WebServer.java:124] - doorId, 
+2023-11-16 14:31:28,964 [WebServer.java:124] - D2, 
+2023-11-16 14:31:28,964 [WebServer.java:124] - null, 
+2023-11-16 14:31:28,964 [WebServer.java:124] - null, 
+2023-11-16 14:31:28,964 [WebServer.java:124] - null, 
+2023-11-16 14:31:28,964 [WebServer.java:124] - null, 
+2023-11-16 14:31:28,964 [WebServer.java:124] - null, 
+2023-11-16 14:31:28,964 [WebServer.java:124] - null, 
+2023-11-16 14:31:28,964 [WebServer.java:124] - null, 
+2023-11-16 14:31:28,964 [WebServer.java:124] - null, 
+2023-11-16 14:31:28,964 [WebServer.java:124] - null, 
+2023-11-16 14:31:28,964 [WebServer.java:124] - null, 
+2023-11-16 14:31:28,964 [WebServer.java:124] - null, 
+2023-11-16 14:31:28,964 [WebServer.java:126] - 
+2023-11-16 14:31:28,965 [WebServer.java:100] - created request reader Request{credential=11343, userName=unknown, action=lock, now=2023-11-16T09:30, doorID=D2, closed=false, authorized=false, reasons=[]}
+2023-11-16 14:31:28,965 [Unlock.java:17] - Door D2 has been locked
+2023-11-16 14:31:28,965 [WebServer.java:102] - processed request reader Request{credential=11343, userName=unknown, action=lock, now=2023-11-16T09:30, doorID=D2, closed=true, authorized=true, reasons=[]}
+2023-11-16 14:31:28,965 [WebServer.java:105] - answer
+HTTP/1.0 200 OK
+Content-type: application/json
+Access-Control-Allow-Origin: *
+
+{"reasons":[],"authorized":true,"action":"lock","closed":true,"state":"locked","doorId":"D2"}
+2023-11-16 14:31:43,487 [WebServer.java:74] - sockedthread : GET /area?credential=43295&action=unlock&datetime=2023-11-16T09:30&areaId=parking HTTP/1.1
+2023-11-16 14:31:43,487 [WebServer.java:92] - 0 area
+2023-11-16 14:31:43,488 [WebServer.java:92] - 1 credential
+2023-11-16 14:31:43,488 [WebServer.java:92] - 2 43295
+2023-11-16 14:31:43,488 [WebServer.java:92] - 3 action
+2023-11-16 14:31:43,488 [WebServer.java:92] - 4 unlock
+2023-11-16 14:31:43,488 [WebServer.java:92] - 5 datetime
+2023-11-16 14:31:43,488 [WebServer.java:92] - 6 2023-11-16T09:30
+2023-11-16 14:31:43,488 [WebServer.java:92] - 7 areaId
+2023-11-16 14:31:43,488 [WebServer.java:92] - 8 parking
+2023-11-16 14:31:43,488 [WebServer.java:122] - tokens : 
+2023-11-16 14:31:43,488 [WebServer.java:124] - area, 
+2023-11-16 14:31:43,488 [WebServer.java:124] - credential, 
+2023-11-16 14:31:43,488 [WebServer.java:124] - 43295, 
+2023-11-16 14:31:43,489 [WebServer.java:124] - action, 
+2023-11-16 14:31:43,489 [WebServer.java:124] - unlock, 
+2023-11-16 14:31:43,489 [WebServer.java:124] - datetime, 
+2023-11-16 14:31:43,489 [WebServer.java:124] - 2023-11-16T09:30, 
+2023-11-16 14:31:43,489 [WebServer.java:124] - areaId, 
+2023-11-16 14:31:43,489 [WebServer.java:124] - parking, 
+2023-11-16 14:31:43,489 [WebServer.java:124] - null, 
+2023-11-16 14:31:43,489 [WebServer.java:124] - null, 
+2023-11-16 14:31:43,489 [WebServer.java:124] - null, 
+2023-11-16 14:31:43,489 [WebServer.java:124] - null, 
+2023-11-16 14:31:43,489 [WebServer.java:124] - null, 
+2023-11-16 14:31:43,489 [WebServer.java:124] - null, 
+2023-11-16 14:31:43,489 [WebServer.java:124] - null, 
+2023-11-16 14:31:43,489 [WebServer.java:124] - null, 
+2023-11-16 14:31:43,489 [WebServer.java:124] - null, 
+2023-11-16 14:31:43,489 [WebServer.java:124] - null, 
+2023-11-16 14:31:43,489 [WebServer.java:124] - null, 
+2023-11-16 14:31:43,490 [WebServer.java:126] - 
+2023-11-16 14:31:43,493 [WebServer.java:100] - created request area Request{credential=43295, action=unlock, now=2023-11-16T09:30, areaId=parking, requestsDoors=}
+2023-11-16 14:31:43,494 [WebServer.java:116] - Exception : java.lang.NullPointerException: Cannot invoke "baseNoStates.Area.acceptVisitor(baseNoStates.Visitor)" because "area" is null
+2023-11-16 14:31:48,750 [WebServer.java:74] - sockedthread : GET /area?credential=43295&action=unlock&datetime=2023-11-16T09:30&areaId=ground_floor HTTP/1.1
+2023-11-16 14:31:48,751 [WebServer.java:92] - 0 area
+2023-11-16 14:31:48,751 [WebServer.java:92] - 1 credential
+2023-11-16 14:31:48,751 [WebServer.java:92] - 2 43295
+2023-11-16 14:31:48,751 [WebServer.java:92] - 3 action
+2023-11-16 14:31:48,752 [WebServer.java:92] - 4 unlock
+2023-11-16 14:31:48,752 [WebServer.java:92] - 5 datetime
+2023-11-16 14:31:48,752 [WebServer.java:92] - 6 2023-11-16T09:30
+2023-11-16 14:31:48,752 [WebServer.java:92] - 7 areaId
+2023-11-16 14:31:48,752 [WebServer.java:92] - 8 ground_floor
+2023-11-16 14:31:48,752 [WebServer.java:122] - tokens : 
+2023-11-16 14:31:48,752 [WebServer.java:124] - area, 
+2023-11-16 14:31:48,752 [WebServer.java:124] - credential, 
+2023-11-16 14:31:48,752 [WebServer.java:124] - 43295, 
+2023-11-16 14:31:48,752 [WebServer.java:124] - action, 
+2023-11-16 14:31:48,752 [WebServer.java:124] - unlock, 
+2023-11-16 14:31:48,752 [WebServer.java:124] - datetime, 
+2023-11-16 14:31:48,752 [WebServer.java:124] - 2023-11-16T09:30, 
+2023-11-16 14:31:48,752 [WebServer.java:124] - areaId, 
+2023-11-16 14:31:48,752 [WebServer.java:124] - ground_floor, 
+2023-11-16 14:31:48,752 [WebServer.java:124] - null, 
+2023-11-16 14:31:48,752 [WebServer.java:124] - null, 
+2023-11-16 14:31:48,752 [WebServer.java:124] - null, 
+2023-11-16 14:31:48,753 [WebServer.java:124] - null, 
+2023-11-16 14:31:48,753 [WebServer.java:124] - null, 
+2023-11-16 14:31:48,753 [WebServer.java:124] - null, 
+2023-11-16 14:31:48,753 [WebServer.java:124] - null, 
+2023-11-16 14:31:48,753 [WebServer.java:124] - null, 
+2023-11-16 14:31:48,754 [WebServer.java:124] - null, 
+2023-11-16 14:31:48,754 [WebServer.java:124] - null, 
+2023-11-16 14:31:48,754 [WebServer.java:124] - null, 
+2023-11-16 14:31:48,754 [WebServer.java:126] - 
+2023-11-16 14:31:48,754 [WebServer.java:100] - created request area Request{credential=43295, action=unlock, now=2023-11-16T09:30, areaId=ground_floor, requestsDoors=}
+2023-11-16 14:31:48,755 [WebServer.java:102] - processed request area Request{credential=43295, action=unlock, now=2023-11-16T09:30, areaId=ground_floor, requestsDoors=}
+2023-11-16 14:31:48,755 [WebServer.java:105] - answer
+HTTP/1.0 200 OK
+Content-type: application/json
+Access-Control-Allow-Origin: *
+
+{"todo":"request areas not yet implemented","areaId":"ground_floor","action":"unlock","requestsDoors":[]}
+2023-11-16 14:31:58,094 [WebServer.java:74] - sockedthread : GET /area?credential=43295&action=unlock&datetime=2023-11-16T09:30&areaId=room2 HTTP/1.1
+2023-11-16 14:31:58,094 [WebServer.java:92] - 0 area
+2023-11-16 14:31:58,094 [WebServer.java:92] - 1 credential
+2023-11-16 14:31:58,094 [WebServer.java:92] - 2 43295
+2023-11-16 14:31:58,094 [WebServer.java:92] - 3 action
+2023-11-16 14:31:58,094 [WebServer.java:92] - 4 unlock
+2023-11-16 14:31:58,094 [WebServer.java:92] - 5 datetime
+2023-11-16 14:31:58,094 [WebServer.java:92] - 6 2023-11-16T09:30
+2023-11-16 14:31:58,094 [WebServer.java:92] - 7 areaId
+2023-11-16 14:31:58,095 [WebServer.java:92] - 8 room2
+2023-11-16 14:31:58,095 [WebServer.java:122] - tokens : 
+2023-11-16 14:31:58,095 [WebServer.java:124] - area, 
+2023-11-16 14:31:58,095 [WebServer.java:124] - credential, 
+2023-11-16 14:31:58,095 [WebServer.java:124] - 43295, 
+2023-11-16 14:31:58,095 [WebServer.java:124] - action, 
+2023-11-16 14:31:58,095 [WebServer.java:124] - unlock, 
+2023-11-16 14:31:58,095 [WebServer.java:124] - datetime, 
+2023-11-16 14:31:58,095 [WebServer.java:124] - 2023-11-16T09:30, 
+2023-11-16 14:31:58,095 [WebServer.java:124] - areaId, 
+2023-11-16 14:31:58,095 [WebServer.java:124] - room2, 
+2023-11-16 14:31:58,096 [WebServer.java:124] - null, 
+2023-11-16 14:31:58,096 [WebServer.java:124] - null, 
+2023-11-16 14:31:58,096 [WebServer.java:124] - null, 
+2023-11-16 14:31:58,096 [WebServer.java:124] - null, 
+2023-11-16 14:31:58,096 [WebServer.java:124] - null, 
+2023-11-16 14:31:58,096 [WebServer.java:124] - null, 
+2023-11-16 14:31:58,096 [WebServer.java:124] - null, 
+2023-11-16 14:31:58,096 [WebServer.java:124] - null, 
+2023-11-16 14:31:58,096 [WebServer.java:124] - null, 
+2023-11-16 14:31:58,096 [WebServer.java:124] - null, 
+2023-11-16 14:31:58,096 [WebServer.java:124] - null, 
+2023-11-16 14:31:58,096 [WebServer.java:126] - 
+2023-11-16 14:31:58,097 [WebServer.java:100] - created request area Request{credential=43295, action=unlock, now=2023-11-16T09:30, areaId=room2, requestsDoors=}
+2023-11-16 14:31:58,097 [WebServer.java:116] - Exception : java.lang.NullPointerException: Cannot invoke "baseNoStates.Area.acceptVisitor(baseNoStates.Visitor)" because "area" is null
+2023-11-16 14:32:01,709 [WebServer.java:74] - sockedthread : GET /area?credential=11343&action=unlock&datetime=2023-11-16T09:30&areaId=room2 HTTP/1.1
+2023-11-16 14:32:01,709 [WebServer.java:92] - 0 area
+2023-11-16 14:32:01,709 [WebServer.java:92] - 1 credential
+2023-11-16 14:32:01,709 [WebServer.java:92] - 2 11343
+2023-11-16 14:32:01,709 [WebServer.java:92] - 3 action
+2023-11-16 14:32:01,709 [WebServer.java:92] - 4 unlock
+2023-11-16 14:32:01,709 [WebServer.java:92] - 5 datetime
+2023-11-16 14:32:01,709 [WebServer.java:92] - 6 2023-11-16T09:30
+2023-11-16 14:32:01,709 [WebServer.java:92] - 7 areaId
+2023-11-16 14:32:01,710 [WebServer.java:92] - 8 room2
+2023-11-16 14:32:01,710 [WebServer.java:122] - tokens : 
+2023-11-16 14:32:01,710 [WebServer.java:124] - area, 
+2023-11-16 14:32:01,710 [WebServer.java:124] - credential, 
+2023-11-16 14:32:01,710 [WebServer.java:124] - 11343, 
+2023-11-16 14:32:01,710 [WebServer.java:124] - action, 
+2023-11-16 14:32:01,710 [WebServer.java:124] - unlock, 
+2023-11-16 14:32:01,711 [WebServer.java:124] - datetime, 
+2023-11-16 14:32:01,711 [WebServer.java:124] - 2023-11-16T09:30, 
+2023-11-16 14:32:01,711 [WebServer.java:124] - areaId, 
+2023-11-16 14:32:01,711 [WebServer.java:124] - room2, 
+2023-11-16 14:32:01,711 [WebServer.java:124] - null, 
+2023-11-16 14:32:01,711 [WebServer.java:124] - null, 
+2023-11-16 14:32:01,711 [WebServer.java:124] - null, 
+2023-11-16 14:32:01,711 [WebServer.java:124] - null, 
+2023-11-16 14:32:01,711 [WebServer.java:124] - null, 
+2023-11-16 14:32:01,711 [WebServer.java:124] - null, 
+2023-11-16 14:32:01,712 [WebServer.java:124] - null, 
+2023-11-16 14:32:01,712 [WebServer.java:124] - null, 
+2023-11-16 14:32:01,712 [WebServer.java:124] - null, 
+2023-11-16 14:32:01,712 [WebServer.java:124] - null, 
+2023-11-16 14:32:01,712 [WebServer.java:124] - null, 
+2023-11-16 14:32:01,712 [WebServer.java:126] - 
+2023-11-16 14:32:01,712 [WebServer.java:100] - created request area Request{credential=11343, action=unlock, now=2023-11-16T09:30, areaId=room2, requestsDoors=}
+2023-11-16 14:32:01,712 [Lock.java:21] - Door D6 has been unlocked
+2023-11-16 14:32:01,712 [WebServer.java:102] - processed request area Request{credential=11343, action=unlock, now=2023-11-16T09:30, areaId=room2, requestsDoors=[Request{credential=11343, userName=unknown, action=unlock, now=2023-11-16T09:30, doorID=D6, closed=true, authorized=true, reasons=[]}]}
+2023-11-16 14:32:01,712 [WebServer.java:105] - answer
+HTTP/1.0 200 OK
+Content-type: application/json
+Access-Control-Allow-Origin: *
+
+{"todo":"request areas not yet implemented","areaId":"room2","action":"unlock","requestsDoors":[{"reasons":[],"authorized":true,"action":"unlock","closed":true,"state":"unlocked","doorId":"D6"}]}
+2023-11-16 14:32:07,532 [WebServer.java:74] - sockedthread : GET /area?credential=11343&action=unlock&datetime=2023-11-16T09:30&areaId=hall HTTP/1.1
+2023-11-16 14:32:07,532 [WebServer.java:92] - 0 area
+2023-11-16 14:32:07,532 [WebServer.java:92] - 1 credential
+2023-11-16 14:32:07,532 [WebServer.java:92] - 2 11343
+2023-11-16 14:32:07,532 [WebServer.java:92] - 3 action
+2023-11-16 14:32:07,532 [WebServer.java:92] - 4 unlock
+2023-11-16 14:32:07,532 [WebServer.java:92] - 5 datetime
+2023-11-16 14:32:07,532 [WebServer.java:92] - 6 2023-11-16T09:30
+2023-11-16 14:32:07,532 [WebServer.java:92] - 7 areaId
+2023-11-16 14:32:07,533 [WebServer.java:92] - 8 hall
+2023-11-16 14:32:07,533 [WebServer.java:122] - tokens : 
+2023-11-16 14:32:07,533 [WebServer.java:124] - area, 
+2023-11-16 14:32:07,533 [WebServer.java:124] - credential, 
+2023-11-16 14:32:07,533 [WebServer.java:124] - 11343, 
+2023-11-16 14:32:07,533 [WebServer.java:124] - action, 
+2023-11-16 14:32:07,533 [WebServer.java:124] - unlock, 
+2023-11-16 14:32:07,533 [WebServer.java:124] - datetime, 
+2023-11-16 14:32:07,533 [WebServer.java:124] - 2023-11-16T09:30, 
+2023-11-16 14:32:07,533 [WebServer.java:124] - areaId, 
+2023-11-16 14:32:07,533 [WebServer.java:124] - hall, 
+2023-11-16 14:32:07,533 [WebServer.java:124] - null, 
+2023-11-16 14:32:07,533 [WebServer.java:124] - null, 
+2023-11-16 14:32:07,533 [WebServer.java:124] - null, 
+2023-11-16 14:32:07,533 [WebServer.java:124] - null, 
+2023-11-16 14:32:07,533 [WebServer.java:124] - null, 
+2023-11-16 14:32:07,533 [WebServer.java:124] - null, 
+2023-11-16 14:32:07,533 [WebServer.java:124] - null, 
+2023-11-16 14:32:07,533 [WebServer.java:124] - null, 
+2023-11-16 14:32:07,533 [WebServer.java:124] - null, 
+2023-11-16 14:32:07,534 [WebServer.java:124] - null, 
+2023-11-16 14:32:07,534 [WebServer.java:124] - null, 
+2023-11-16 14:32:07,534 [WebServer.java:126] - 
+2023-11-16 14:32:07,534 [WebServer.java:100] - created request area Request{credential=11343, action=unlock, now=2023-11-16T09:30, areaId=hall, requestsDoors=}
+2023-11-16 14:32:07,534 [Lock.java:21] - Door D3 has been unlocked
+2023-11-16 14:32:07,534 [Lock.java:21] - Door D4 has been unlocked
+2023-11-16 14:32:07,534 [WebServer.java:102] - processed request area Request{credential=11343, action=unlock, now=2023-11-16T09:30, areaId=hall, requestsDoors=[Request{credential=11343, userName=unknown, action=unlock, now=2023-11-16T09:30, doorID=D3, closed=true, authorized=true, reasons=[]}, Request{credential=11343, userName=unknown, action=unlock, now=2023-11-16T09:30, doorID=D4, closed=true, authorized=true, reasons=[]}]}
+2023-11-16 14:32:07,534 [WebServer.java:105] - answer
+HTTP/1.0 200 OK
+Content-type: application/json
+Access-Control-Allow-Origin: *
+
+{"todo":"request areas not yet implemented","areaId":"hall","action":"unlock","requestsDoors":[{"reasons":[],"authorized":true,"action":"unlock","closed":true,"state":"unlocked","doorId":"D3"},{"reasons":[],"authorized":true,"action":"unlock","closed":true,"state":"unlocked","doorId":"D4"}]}
+2023-11-16 14:32:11,798 [WebServer.java:74] - sockedthread : GET /area?credential=11343&action=lock&datetime=2023-11-16T09:30&areaId=hall HTTP/1.1
+2023-11-16 14:32:11,800 [WebServer.java:92] - 0 area
+2023-11-16 14:32:11,800 [WebServer.java:92] - 1 credential
+2023-11-16 14:32:11,800 [WebServer.java:92] - 2 11343
+2023-11-16 14:32:11,800 [WebServer.java:92] - 3 action
+2023-11-16 14:32:11,800 [WebServer.java:92] - 4 lock
+2023-11-16 14:32:11,800 [WebServer.java:92] - 5 datetime
+2023-11-16 14:32:11,800 [WebServer.java:92] - 6 2023-11-16T09:30
+2023-11-16 14:32:11,800 [WebServer.java:92] - 7 areaId
+2023-11-16 14:32:11,800 [WebServer.java:92] - 8 hall
+2023-11-16 14:32:11,800 [WebServer.java:122] - tokens : 
+2023-11-16 14:32:11,800 [WebServer.java:124] - area, 
+2023-11-16 14:32:11,800 [WebServer.java:124] - credential, 
+2023-11-16 14:32:11,800 [WebServer.java:124] - 11343, 
+2023-11-16 14:32:11,800 [WebServer.java:124] - action, 
+2023-11-16 14:32:11,800 [WebServer.java:124] - lock, 
+2023-11-16 14:32:11,800 [WebServer.java:124] - datetime, 
+2023-11-16 14:32:11,800 [WebServer.java:124] - 2023-11-16T09:30, 
+2023-11-16 14:32:11,800 [WebServer.java:124] - areaId, 
+2023-11-16 14:32:11,800 [WebServer.java:124] - hall, 
+2023-11-16 14:32:11,800 [WebServer.java:124] - null, 
+2023-11-16 14:32:11,800 [WebServer.java:124] - null, 
+2023-11-16 14:32:11,800 [WebServer.java:124] - null, 
+2023-11-16 14:32:11,800 [WebServer.java:124] - null, 
+2023-11-16 14:32:11,800 [WebServer.java:124] - null, 
+2023-11-16 14:32:11,800 [WebServer.java:124] - null, 
+2023-11-16 14:32:11,800 [WebServer.java:124] - null, 
+2023-11-16 14:32:11,800 [WebServer.java:124] - null, 
+2023-11-16 14:32:11,800 [WebServer.java:124] - null, 
+2023-11-16 14:32:11,800 [WebServer.java:124] - null, 
+2023-11-16 14:32:11,801 [WebServer.java:124] - null, 
+2023-11-16 14:32:11,801 [WebServer.java:126] - 
+2023-11-16 14:32:11,801 [WebServer.java:100] - created request area Request{credential=11343, action=lock, now=2023-11-16T09:30, areaId=hall, requestsDoors=}
+2023-11-16 14:32:11,801 [Unlock.java:17] - Door D3 has been locked
+2023-11-16 14:32:11,801 [Unlock.java:17] - Door D4 has been locked
+2023-11-16 14:32:11,801 [WebServer.java:102] - processed request area Request{credential=11343, action=lock, now=2023-11-16T09:30, areaId=hall, requestsDoors=[Request{credential=11343, userName=unknown, action=lock, now=2023-11-16T09:30, doorID=D3, closed=true, authorized=true, reasons=[]}, Request{credential=11343, userName=unknown, action=lock, now=2023-11-16T09:30, doorID=D4, closed=true, authorized=true, reasons=[]}]}
+2023-11-16 14:32:11,801 [WebServer.java:105] - answer
+HTTP/1.0 200 OK
+Content-type: application/json
+Access-Control-Allow-Origin: *
+
+{"todo":"request areas not yet implemented","areaId":"hall","action":"lock","requestsDoors":[{"reasons":[],"authorized":true,"action":"lock","closed":true,"state":"locked","doorId":"D3"},{"reasons":[],"authorized":true,"action":"lock","closed":true,"state":"locked","doorId":"D4"}]}
+2023-11-16 14:32:13,921 [WebServer.java:74] - sockedthread : GET /area?credential=11343&action=lock&datetime=2023-11-16T09:30&areaId=room2 HTTP/1.1
+2023-11-16 14:32:13,921 [WebServer.java:92] - 0 area
+2023-11-16 14:32:13,922 [WebServer.java:92] - 1 credential
+2023-11-16 14:32:13,922 [WebServer.java:92] - 2 11343
+2023-11-16 14:32:13,922 [WebServer.java:92] - 3 action
+2023-11-16 14:32:13,922 [WebServer.java:92] - 4 lock
+2023-11-16 14:32:13,922 [WebServer.java:92] - 5 datetime
+2023-11-16 14:32:13,922 [WebServer.java:92] - 6 2023-11-16T09:30
+2023-11-16 14:32:13,922 [WebServer.java:92] - 7 areaId
+2023-11-16 14:32:13,922 [WebServer.java:92] - 8 room2
+2023-11-16 14:32:13,922 [WebServer.java:122] - tokens : 
+2023-11-16 14:32:13,922 [WebServer.java:124] - area, 
+2023-11-16 14:32:13,922 [WebServer.java:124] - credential, 
+2023-11-16 14:32:13,922 [WebServer.java:124] - 11343, 
+2023-11-16 14:32:13,922 [WebServer.java:124] - action, 
+2023-11-16 14:32:13,922 [WebServer.java:124] - lock, 
+2023-11-16 14:32:13,922 [WebServer.java:124] - datetime, 
+2023-11-16 14:32:13,922 [WebServer.java:124] - 2023-11-16T09:30, 
+2023-11-16 14:32:13,923 [WebServer.java:124] - areaId, 
+2023-11-16 14:32:13,923 [WebServer.java:124] - room2, 
+2023-11-16 14:32:13,923 [WebServer.java:124] - null, 
+2023-11-16 14:32:13,923 [WebServer.java:124] - null, 
+2023-11-16 14:32:13,923 [WebServer.java:124] - null, 
+2023-11-16 14:32:13,923 [WebServer.java:124] - null, 
+2023-11-16 14:32:13,923 [WebServer.java:124] - null, 
+2023-11-16 14:32:13,923 [WebServer.java:124] - null, 
+2023-11-16 14:32:13,923 [WebServer.java:124] - null, 
+2023-11-16 14:32:13,923 [WebServer.java:124] - null, 
+2023-11-16 14:32:13,923 [WebServer.java:124] - null, 
+2023-11-16 14:32:13,923 [WebServer.java:124] - null, 
+2023-11-16 14:32:13,923 [WebServer.java:124] - null, 
+2023-11-16 14:32:13,923 [WebServer.java:126] - 
+2023-11-16 14:32:13,924 [WebServer.java:100] - created request area Request{credential=11343, action=lock, now=2023-11-16T09:30, areaId=room2, requestsDoors=}
+2023-11-16 14:32:13,924 [Unlock.java:17] - Door D6 has been locked
+2023-11-16 14:32:13,924 [WebServer.java:102] - processed request area Request{credential=11343, action=lock, now=2023-11-16T09:30, areaId=room2, requestsDoors=[Request{credential=11343, userName=unknown, action=lock, now=2023-11-16T09:30, doorID=D6, closed=true, authorized=true, reasons=[]}]}
+2023-11-16 14:32:13,924 [WebServer.java:105] - answer
+HTTP/1.0 200 OK
+Content-type: application/json
+Access-Control-Allow-Origin: *
+
+{"todo":"request areas not yet implemented","areaId":"room2","action":"lock","requestsDoors":[{"reasons":[],"authorized":true,"action":"lock","closed":true,"state":"locked","doorId":"D6"}]}
+2023-11-16 14:32:18,635 [WebServer.java:74] - sockedthread : GET /area?credential=11343&action=unlock&datetime=2023-11-16T09:30&areaId=corridor HTTP/1.1
+2023-11-16 14:32:18,635 [WebServer.java:92] - 0 area
+2023-11-16 14:32:18,635 [WebServer.java:92] - 1 credential
+2023-11-16 14:32:18,635 [WebServer.java:92] - 2 11343
+2023-11-16 14:32:18,635 [WebServer.java:92] - 3 action
+2023-11-16 14:32:18,635 [WebServer.java:92] - 4 unlock
+2023-11-16 14:32:18,635 [WebServer.java:92] - 5 datetime
+2023-11-16 14:32:18,635 [WebServer.java:92] - 6 2023-11-16T09:30
+2023-11-16 14:32:18,635 [WebServer.java:92] - 7 areaId
+2023-11-16 14:32:18,635 [WebServer.java:92] - 8 corridor
+2023-11-16 14:32:18,635 [WebServer.java:122] - tokens : 
+2023-11-16 14:32:18,635 [WebServer.java:124] - area, 
+2023-11-16 14:32:18,635 [WebServer.java:124] - credential, 
+2023-11-16 14:32:18,636 [WebServer.java:124] - 11343, 
+2023-11-16 14:32:18,636 [WebServer.java:124] - action, 
+2023-11-16 14:32:18,636 [WebServer.java:124] - unlock, 
+2023-11-16 14:32:18,636 [WebServer.java:124] - datetime, 
+2023-11-16 14:32:18,636 [WebServer.java:124] - 2023-11-16T09:30, 
+2023-11-16 14:32:18,636 [WebServer.java:124] - areaId, 
+2023-11-16 14:32:18,636 [WebServer.java:124] - corridor, 
+2023-11-16 14:32:18,636 [WebServer.java:124] - null, 
+2023-11-16 14:32:18,636 [WebServer.java:124] - null, 
+2023-11-16 14:32:18,636 [WebServer.java:124] - null, 
+2023-11-16 14:32:18,636 [WebServer.java:124] - null, 
+2023-11-16 14:32:18,636 [WebServer.java:124] - null, 
+2023-11-16 14:32:18,636 [WebServer.java:124] - null, 
+2023-11-16 14:32:18,636 [WebServer.java:124] - null, 
+2023-11-16 14:32:18,636 [WebServer.java:124] - null, 
+2023-11-16 14:32:18,637 [WebServer.java:124] - null, 
+2023-11-16 14:32:18,637 [WebServer.java:124] - null, 
+2023-11-16 14:32:18,637 [WebServer.java:124] - null, 
+2023-11-16 14:32:18,637 [WebServer.java:126] - 
+2023-11-16 14:32:18,637 [WebServer.java:100] - created request area Request{credential=11343, action=unlock, now=2023-11-16T09:30, areaId=corridor, requestsDoors=}
+2023-11-16 14:32:18,637 [Lock.java:21] - Door D7 has been unlocked
+2023-11-16 14:32:18,637 [WebServer.java:102] - processed request area Request{credential=11343, action=unlock, now=2023-11-16T09:30, areaId=corridor, requestsDoors=[Request{credential=11343, userName=unknown, action=unlock, now=2023-11-16T09:30, doorID=D7, closed=true, authorized=true, reasons=[]}]}
+2023-11-16 14:32:18,637 [WebServer.java:105] - answer
+HTTP/1.0 200 OK
+Content-type: application/json
+Access-Control-Allow-Origin: *
+
+{"todo":"request areas not yet implemented","areaId":"corridor","action":"unlock","requestsDoors":[{"reasons":[],"authorized":true,"action":"unlock","closed":true,"state":"unlocked","doorId":"D7"}]}
+2023-11-16 14:32:23,702 [WebServer.java:74] - sockedthread : GET /area?credential=11343&action=lock&datetime=2023-11-16T09:30&areaId=corridor HTTP/1.1
+2023-11-16 14:32:23,702 [WebServer.java:92] - 0 area
+2023-11-16 14:32:23,703 [WebServer.java:92] - 1 credential
+2023-11-16 14:32:23,703 [WebServer.java:92] - 2 11343
+2023-11-16 14:32:23,703 [WebServer.java:92] - 3 action
+2023-11-16 14:32:23,703 [WebServer.java:92] - 4 lock
+2023-11-16 14:32:23,703 [WebServer.java:92] - 5 datetime
+2023-11-16 14:32:23,703 [WebServer.java:92] - 6 2023-11-16T09:30
+2023-11-16 14:32:23,703 [WebServer.java:92] - 7 areaId
+2023-11-16 14:32:23,703 [WebServer.java:92] - 8 corridor
+2023-11-16 14:32:23,703 [WebServer.java:122] - tokens : 
+2023-11-16 14:32:23,703 [WebServer.java:124] - area, 
+2023-11-16 14:32:23,703 [WebServer.java:124] - credential, 
+2023-11-16 14:32:23,703 [WebServer.java:124] - 11343, 
+2023-11-16 14:32:23,703 [WebServer.java:124] - action, 
+2023-11-16 14:32:23,703 [WebServer.java:124] - lock, 
+2023-11-16 14:32:23,703 [WebServer.java:124] - datetime, 
+2023-11-16 14:32:23,703 [WebServer.java:124] - 2023-11-16T09:30, 
+2023-11-16 14:32:23,703 [WebServer.java:124] - areaId, 
+2023-11-16 14:32:23,703 [WebServer.java:124] - corridor, 
+2023-11-16 14:32:23,703 [WebServer.java:124] - null, 
+2023-11-16 14:32:23,703 [WebServer.java:124] - null, 
+2023-11-16 14:32:23,703 [WebServer.java:124] - null, 
+2023-11-16 14:32:23,704 [WebServer.java:124] - null, 
+2023-11-16 14:32:23,704 [WebServer.java:124] - null, 
+2023-11-16 14:32:23,704 [WebServer.java:124] - null, 
+2023-11-16 14:32:23,704 [WebServer.java:124] - null, 
+2023-11-16 14:32:23,704 [WebServer.java:124] - null, 
+2023-11-16 14:32:23,704 [WebServer.java:124] - null, 
+2023-11-16 14:32:23,704 [WebServer.java:124] - null, 
+2023-11-16 14:32:23,704 [WebServer.java:124] - null, 
+2023-11-16 14:32:23,704 [WebServer.java:126] - 
+2023-11-16 14:32:23,704 [WebServer.java:100] - created request area Request{credential=11343, action=lock, now=2023-11-16T09:30, areaId=corridor, requestsDoors=}
+2023-11-16 14:32:23,704 [Unlock.java:17] - Door D7 has been locked
+2023-11-16 14:32:23,704 [WebServer.java:102] - processed request area Request{credential=11343, action=lock, now=2023-11-16T09:30, areaId=corridor, requestsDoors=[Request{credential=11343, userName=unknown, action=lock, now=2023-11-16T09:30, doorID=D7, closed=true, authorized=true, reasons=[]}]}
+2023-11-16 14:32:23,704 [WebServer.java:105] - answer
+HTTP/1.0 200 OK
+Content-type: application/json
+Access-Control-Allow-Origin: *
+
+{"todo":"request areas not yet implemented","areaId":"corridor","action":"lock","requestsDoors":[{"reasons":[],"authorized":true,"action":"lock","closed":true,"state":"locked","doorId":"D7"}]}
+2023-11-16 14:32:33,387 [WebServer.java:74] - sockedthread : GET /area?credential=11343&action=unlock&datetime=2023-11-16T09:30&areaId=hall HTTP/1.1
+2023-11-16 14:32:33,388 [WebServer.java:92] - 0 area
+2023-11-16 14:32:33,388 [WebServer.java:92] - 1 credential
+2023-11-16 14:32:33,388 [WebServer.java:92] - 2 11343
+2023-11-16 14:32:33,388 [WebServer.java:92] - 3 action
+2023-11-16 14:32:33,388 [WebServer.java:92] - 4 unlock
+2023-11-16 14:32:33,388 [WebServer.java:92] - 5 datetime
+2023-11-16 14:32:33,388 [WebServer.java:92] - 6 2023-11-16T09:30
+2023-11-16 14:32:33,388 [WebServer.java:92] - 7 areaId
+2023-11-16 14:32:33,388 [WebServer.java:92] - 8 hall
+2023-11-16 14:32:33,388 [WebServer.java:122] - tokens : 
+2023-11-16 14:32:33,389 [WebServer.java:124] - area, 
+2023-11-16 14:32:33,389 [WebServer.java:124] - credential, 
+2023-11-16 14:32:33,389 [WebServer.java:124] - 11343, 
+2023-11-16 14:32:33,389 [WebServer.java:124] - action, 
+2023-11-16 14:32:33,389 [WebServer.java:124] - unlock, 
+2023-11-16 14:32:33,389 [WebServer.java:124] - datetime, 
+2023-11-16 14:32:33,389 [WebServer.java:124] - 2023-11-16T09:30, 
+2023-11-16 14:32:33,389 [WebServer.java:124] - areaId, 
+2023-11-16 14:32:33,389 [WebServer.java:124] - hall, 
+2023-11-16 14:32:33,389 [WebServer.java:124] - null, 
+2023-11-16 14:32:33,389 [WebServer.java:124] - null, 
+2023-11-16 14:32:33,389 [WebServer.java:124] - null, 
+2023-11-16 14:32:33,389 [WebServer.java:124] - null, 
+2023-11-16 14:32:33,389 [WebServer.java:124] - null, 
+2023-11-16 14:32:33,391 [WebServer.java:124] - null, 
+2023-11-16 14:32:33,391 [WebServer.java:124] - null, 
+2023-11-16 14:32:33,391 [WebServer.java:124] - null, 
+2023-11-16 14:32:33,391 [WebServer.java:124] - null, 
+2023-11-16 14:32:33,391 [WebServer.java:124] - null, 
+2023-11-16 14:32:33,391 [WebServer.java:124] - null, 
+2023-11-16 14:32:33,391 [WebServer.java:126] - 
+2023-11-16 14:32:33,391 [WebServer.java:100] - created request area Request{credential=11343, action=unlock, now=2023-11-16T09:30, areaId=hall, requestsDoors=}
+2023-11-16 14:32:33,391 [Lock.java:21] - Door D3 has been unlocked
+2023-11-16 14:32:33,391 [Lock.java:21] - Door D4 has been unlocked
+2023-11-16 14:32:33,391 [WebServer.java:102] - processed request area Request{credential=11343, action=unlock, now=2023-11-16T09:30, areaId=hall, requestsDoors=[Request{credential=11343, userName=unknown, action=unlock, now=2023-11-16T09:30, doorID=D3, closed=true, authorized=true, reasons=[]}, Request{credential=11343, userName=unknown, action=unlock, now=2023-11-16T09:30, doorID=D4, closed=true, authorized=true, reasons=[]}]}
+2023-11-16 14:32:33,392 [WebServer.java:105] - answer
+HTTP/1.0 200 OK
+Content-type: application/json
+Access-Control-Allow-Origin: *
+
+{"todo":"request areas not yet implemented","areaId":"hall","action":"unlock","requestsDoors":[{"reasons":[],"authorized":true,"action":"unlock","closed":true,"state":"unlocked","doorId":"D3"},{"reasons":[],"authorized":true,"action":"unlock","closed":true,"state":"unlocked","doorId":"D4"}]}
+2023-11-16 14:32:38,795 [WebServer.java:74] - sockedthread : GET /area?credential=11343&action=lock&datetime=2023-11-16T09:30&areaId=hall HTTP/1.1
+2023-11-16 14:32:38,796 [WebServer.java:92] - 0 area
+2023-11-16 14:32:38,796 [WebServer.java:92] - 1 credential
+2023-11-16 14:32:38,796 [WebServer.java:92] - 2 11343
+2023-11-16 14:32:38,796 [WebServer.java:92] - 3 action
+2023-11-16 14:32:38,796 [WebServer.java:92] - 4 lock
+2023-11-16 14:32:38,796 [WebServer.java:92] - 5 datetime
+2023-11-16 14:32:38,796 [WebServer.java:92] - 6 2023-11-16T09:30
+2023-11-16 14:32:38,796 [WebServer.java:92] - 7 areaId
+2023-11-16 14:32:38,796 [WebServer.java:92] - 8 hall
+2023-11-16 14:32:38,796 [WebServer.java:122] - tokens : 
+2023-11-16 14:32:38,796 [WebServer.java:124] - area, 
+2023-11-16 14:32:38,796 [WebServer.java:124] - credential, 
+2023-11-16 14:32:38,796 [WebServer.java:124] - 11343, 
+2023-11-16 14:32:38,796 [WebServer.java:124] - action, 
+2023-11-16 14:32:38,796 [WebServer.java:124] - lock, 
+2023-11-16 14:32:38,796 [WebServer.java:124] - datetime, 
+2023-11-16 14:32:38,797 [WebServer.java:124] - 2023-11-16T09:30, 
+2023-11-16 14:32:38,797 [WebServer.java:124] - areaId, 
+2023-11-16 14:32:38,797 [WebServer.java:124] - hall, 
+2023-11-16 14:32:38,797 [WebServer.java:124] - null, 
+2023-11-16 14:32:38,798 [WebServer.java:124] - null, 
+2023-11-16 14:32:38,798 [WebServer.java:124] - null, 
+2023-11-16 14:32:38,798 [WebServer.java:124] - null, 
+2023-11-16 14:32:38,798 [WebServer.java:124] - null, 
+2023-11-16 14:32:38,798 [WebServer.java:124] - null, 
+2023-11-16 14:32:38,798 [WebServer.java:124] - null, 
+2023-11-16 14:32:38,798 [WebServer.java:124] - null, 
+2023-11-16 14:32:38,798 [WebServer.java:124] - null, 
+2023-11-16 14:32:38,798 [WebServer.java:124] - null, 
+2023-11-16 14:32:38,798 [WebServer.java:124] - null, 
+2023-11-16 14:32:38,798 [WebServer.java:126] - 
+2023-11-16 14:32:38,798 [WebServer.java:100] - created request area Request{credential=11343, action=lock, now=2023-11-16T09:30, areaId=hall, requestsDoors=}
+2023-11-16 14:32:38,799 [Unlock.java:17] - Door D3 has been locked
+2023-11-16 14:32:38,799 [Unlock.java:17] - Door D4 has been locked
+2023-11-16 14:32:38,799 [WebServer.java:102] - processed request area Request{credential=11343, action=lock, now=2023-11-16T09:30, areaId=hall, requestsDoors=[Request{credential=11343, userName=unknown, action=lock, now=2023-11-16T09:30, doorID=D3, closed=true, authorized=true, reasons=[]}, Request{credential=11343, userName=unknown, action=lock, now=2023-11-16T09:30, doorID=D4, closed=true, authorized=true, reasons=[]}]}
+2023-11-16 14:32:38,799 [WebServer.java:105] - answer
+HTTP/1.0 200 OK
+Content-type: application/json
+Access-Control-Allow-Origin: *
+
+{"todo":"request areas not yet implemented","areaId":"hall","action":"lock","requestsDoors":[{"reasons":[],"authorized":true,"action":"lock","closed":true,"state":"locked","doorId":"D3"},{"reasons":[],"authorized":true,"action":"lock","closed":true,"state":"locked","doorId":"D4"}]}
+2023-11-16 14:32:54,354 [WebServer.java:36] - Server started.
+Listening for connections on port : 8080 ...
+
+2023-11-16 14:32:56,147 [WebServer.java:74] - sockedthread : GET /refresh HTTP/1.1
+2023-11-16 14:32:56,152 [WebServer.java:92] - 0 refresh
+2023-11-16 14:32:56,152 [WebServer.java:122] - tokens : 
+2023-11-16 14:32:56,153 [WebServer.java:124] - refresh, 
+2023-11-16 14:32:56,153 [WebServer.java:124] - null, 
+2023-11-16 14:32:56,153 [WebServer.java:124] - null, 
+2023-11-16 14:32:56,153 [WebServer.java:124] - null, 
+2023-11-16 14:32:56,153 [WebServer.java:124] - null, 
+2023-11-16 14:32:56,153 [WebServer.java:124] - null, 
+2023-11-16 14:32:56,153 [WebServer.java:124] - null, 
+2023-11-16 14:32:56,153 [WebServer.java:124] - null, 
+2023-11-16 14:32:56,154 [WebServer.java:124] - null, 
+2023-11-16 14:32:56,154 [WebServer.java:124] - null, 
+2023-11-16 14:32:56,154 [WebServer.java:124] - null, 
+2023-11-16 14:32:56,154 [WebServer.java:124] - null, 
+2023-11-16 14:32:56,154 [WebServer.java:124] - null, 
+2023-11-16 14:32:56,154 [WebServer.java:124] - null, 
+2023-11-16 14:32:56,155 [WebServer.java:124] - null, 
+2023-11-16 14:32:56,155 [WebServer.java:124] - null, 
+2023-11-16 14:32:56,155 [WebServer.java:124] - null, 
+2023-11-16 14:32:56,155 [WebServer.java:124] - null, 
+2023-11-16 14:32:56,155 [WebServer.java:124] - null, 
+2023-11-16 14:32:56,155 [WebServer.java:124] - null, 
+2023-11-16 14:32:56,155 [WebServer.java:126] - 
+2023-11-16 14:32:56,156 [WebServer.java:100] - created request refresh RequestRefresh{[]}
+2023-11-16 14:32:56,173 [WebServer.java:102] - processed request refresh RequestRefresh{[{"closed":true,"id":"D1","state":"locked"}, {"closed":true,"id":"D2","state":"locked"}, {"closed":true,"id":"D3","state":"locked"}, {"closed":true,"id":"D4","state":"locked"}, {"closed":true,"id":"D5","state":"locked"}, {"closed":true,"id":"D6","state":"locked"}, {"closed":true,"id":"D7","state":"locked"}, {"closed":true,"id":"D8","state":"locked"}, {"closed":true,"id":"D9","state":"locked"}]}
+2023-11-16 14:32:56,174 [WebServer.java:105] - answer
+HTTP/1.0 200 OK
+Content-type: application/json
+Access-Control-Allow-Origin: *
+
+{"doors":[{"closed":true,"id":"D1","state":"locked"},{"closed":true,"id":"D2","state":"locked"},{"closed":true,"id":"D3","state":"locked"},{"closed":true,"id":"D4","state":"locked"},{"closed":true,"id":"D5","state":"locked"},{"closed":true,"id":"D6","state":"locked"},{"closed":true,"id":"D7","state":"locked"},{"closed":true,"id":"D8","state":"locked"},{"closed":true,"id":"D9","state":"locked"}]}
+2023-11-16 14:33:03,134 [WebServer.java:74] - sockedthread : GET /area?credential=11343&action=unlock&datetime=2023-11-16T09:30&areaId=ground_floor HTTP/1.1
+2023-11-16 14:33:03,134 [WebServer.java:92] - 0 area
+2023-11-16 14:33:03,134 [WebServer.java:92] - 1 credential
+2023-11-16 14:33:03,135 [WebServer.java:92] - 2 11343
+2023-11-16 14:33:03,135 [WebServer.java:92] - 3 action
+2023-11-16 14:33:03,135 [WebServer.java:92] - 4 unlock
+2023-11-16 14:33:03,135 [WebServer.java:92] - 5 datetime
+2023-11-16 14:33:03,135 [WebServer.java:92] - 6 2023-11-16T09:30
+2023-11-16 14:33:03,135 [WebServer.java:92] - 7 areaId
+2023-11-16 14:33:03,135 [WebServer.java:92] - 8 ground_floor
+2023-11-16 14:33:03,135 [WebServer.java:122] - tokens : 
+2023-11-16 14:33:03,136 [WebServer.java:124] - area, 
+2023-11-16 14:33:03,136 [WebServer.java:124] - credential, 
+2023-11-16 14:33:03,136 [WebServer.java:124] - 11343, 
+2023-11-16 14:33:03,136 [WebServer.java:124] - action, 
+2023-11-16 14:33:03,136 [WebServer.java:124] - unlock, 
+2023-11-16 14:33:03,136 [WebServer.java:124] - datetime, 
+2023-11-16 14:33:03,136 [WebServer.java:124] - 2023-11-16T09:30, 
+2023-11-16 14:33:03,136 [WebServer.java:124] - areaId, 
+2023-11-16 14:33:03,136 [WebServer.java:124] - ground_floor, 
+2023-11-16 14:33:03,136 [WebServer.java:124] - null, 
+2023-11-16 14:33:03,136 [WebServer.java:124] - null, 
+2023-11-16 14:33:03,136 [WebServer.java:124] - null, 
+2023-11-16 14:33:03,136 [WebServer.java:124] - null, 
+2023-11-16 14:33:03,136 [WebServer.java:124] - null, 
+2023-11-16 14:33:03,136 [WebServer.java:124] - null, 
+2023-11-16 14:33:03,136 [WebServer.java:124] - null, 
+2023-11-16 14:33:03,136 [WebServer.java:124] - null, 
+2023-11-16 14:33:03,137 [WebServer.java:124] - null, 
+2023-11-16 14:33:03,137 [WebServer.java:124] - null, 
+2023-11-16 14:33:03,137 [WebServer.java:124] - null, 
+2023-11-16 14:33:03,137 [WebServer.java:126] - 
+2023-11-16 14:33:03,156 [WebServer.java:100] - created request area Request{credential=11343, action=unlock, now=2023-11-16T09:30, areaId=ground_floor, requestsDoors=}
+2023-11-16 14:33:20,858 [WebServer.java:102] - processed request area Request{credential=11343, action=unlock, now=2023-11-16T09:30, areaId=ground_floor, requestsDoors=}
+2023-11-16 14:33:20,858 [WebServer.java:105] - answer
+HTTP/1.0 200 OK
+Content-type: application/json
+Access-Control-Allow-Origin: *
+
+{"todo":"request areas not yet implemented","areaId":"ground_floor","action":"unlock","requestsDoors":[]}
+2023-11-16 14:33:25,344 [WebServer.java:36] - Server started.
+Listening for connections on port : 8080 ...
+
+2023-11-16 14:33:32,320 [WebServer.java:74] - sockedthread : GET /area?credential=11343&action=unlock&datetime=2023-11-16T09:30&areaId=parking HTTP/1.1
+2023-11-16 14:33:32,324 [WebServer.java:92] - 0 area
+2023-11-16 14:33:32,324 [WebServer.java:92] - 1 credential
+2023-11-16 14:33:32,324 [WebServer.java:92] - 2 11343
+2023-11-16 14:33:32,324 [WebServer.java:92] - 3 action
+2023-11-16 14:33:32,324 [WebServer.java:92] - 4 unlock
+2023-11-16 14:33:32,324 [WebServer.java:92] - 5 datetime
+2023-11-16 14:33:32,324 [WebServer.java:92] - 6 2023-11-16T09:30
+2023-11-16 14:33:32,324 [WebServer.java:92] - 7 areaId
+2023-11-16 14:33:32,324 [WebServer.java:92] - 8 parking
+2023-11-16 14:33:32,324 [WebServer.java:122] - tokens : 
+2023-11-16 14:33:32,326 [WebServer.java:124] - area, 
+2023-11-16 14:33:32,326 [WebServer.java:124] - credential, 
+2023-11-16 14:33:32,326 [WebServer.java:124] - 11343, 
+2023-11-16 14:33:32,327 [WebServer.java:124] - action, 
+2023-11-16 14:33:32,327 [WebServer.java:124] - unlock, 
+2023-11-16 14:33:32,327 [WebServer.java:124] - datetime, 
+2023-11-16 14:33:32,327 [WebServer.java:124] - 2023-11-16T09:30, 
+2023-11-16 14:33:32,327 [WebServer.java:124] - areaId, 
+2023-11-16 14:33:32,327 [WebServer.java:124] - parking, 
+2023-11-16 14:33:32,327 [WebServer.java:124] - null, 
+2023-11-16 14:33:32,327 [WebServer.java:124] - null, 
+2023-11-16 14:33:32,327 [WebServer.java:124] - null, 
+2023-11-16 14:33:32,327 [WebServer.java:124] - null, 
+2023-11-16 14:33:32,327 [WebServer.java:124] - null, 
+2023-11-16 14:33:32,327 [WebServer.java:124] - null, 
+2023-11-16 14:33:32,328 [WebServer.java:124] - null, 
+2023-11-16 14:33:32,328 [WebServer.java:124] - null, 
+2023-11-16 14:33:32,328 [WebServer.java:124] - null, 
+2023-11-16 14:33:32,328 [WebServer.java:124] - null, 
+2023-11-16 14:33:32,328 [WebServer.java:124] - null, 
+2023-11-16 14:33:32,328 [WebServer.java:126] - 
+2023-11-16 14:33:32,341 [WebServer.java:100] - created request area Request{credential=11343, action=unlock, now=2023-11-16T09:30, areaId=parking, requestsDoors=}
+2023-11-16 14:34:30,463 [Lock.java:21] - Door D1 has been unlocked
+2023-11-16 14:34:30,464 [Lock.java:21] - Door D2 has been unlocked
+2023-11-16 14:34:30,474 [WebServer.java:102] - processed request area Request{credential=11343, action=unlock, now=2023-11-16T09:30, areaId=parking, requestsDoors=[Request{credential=11343, userName=unknown, action=unlock, now=2023-11-16T09:30, doorID=D1, closed=true, authorized=true, reasons=[]}, Request{credential=11343, userName=unknown, action=unlock, now=2023-11-16T09:30, doorID=D2, closed=true, authorized=true, reasons=[]}]}
+2023-11-16 14:34:30,482 [WebServer.java:105] - answer
+HTTP/1.0 200 OK
+Content-type: application/json
+Access-Control-Allow-Origin: *
+
+{"todo":"request areas not yet implemented","areaId":"parking","action":"unlock","requestsDoors":[{"reasons":[],"authorized":true,"action":"unlock","closed":true,"state":"unlocked","doorId":"D1"},{"reasons":[],"authorized":true,"action":"unlock","closed":true,"state":"unlocked","doorId":"D2"}]}
+2023-11-16 14:34:38,884 [WebServer.java:36] - Server started.
+Listening for connections on port : 8080 ...
+
+2023-11-16 14:34:42,368 [WebServer.java:36] - Server started.
+Listening for connections on port : 8080 ...
+
+2023-11-16 14:34:43,907 [WebServer.java:74] - sockedthread : GET /refresh HTTP/1.1
+2023-11-16 14:34:43,912 [WebServer.java:92] - 0 refresh
+2023-11-16 14:34:43,912 [WebServer.java:122] - tokens : 
+2023-11-16 14:34:43,913 [WebServer.java:124] - refresh, 
+2023-11-16 14:34:43,913 [WebServer.java:124] - null, 
+2023-11-16 14:34:43,913 [WebServer.java:124] - null, 
+2023-11-16 14:34:43,913 [WebServer.java:124] - null, 
+2023-11-16 14:34:43,913 [WebServer.java:124] - null, 
+2023-11-16 14:34:43,913 [WebServer.java:124] - null, 
+2023-11-16 14:34:43,913 [WebServer.java:124] - null, 
+2023-11-16 14:34:43,913 [WebServer.java:124] - null, 
+2023-11-16 14:34:43,913 [WebServer.java:124] - null, 
+2023-11-16 14:34:43,913 [WebServer.java:124] - null, 
+2023-11-16 14:34:43,914 [WebServer.java:124] - null, 
+2023-11-16 14:34:43,914 [WebServer.java:124] - null, 
+2023-11-16 14:34:43,914 [WebServer.java:124] - null, 
+2023-11-16 14:34:43,914 [WebServer.java:124] - null, 
+2023-11-16 14:34:43,914 [WebServer.java:124] - null, 
+2023-11-16 14:34:43,914 [WebServer.java:124] - null, 
+2023-11-16 14:34:43,914 [WebServer.java:124] - null, 
+2023-11-16 14:34:43,914 [WebServer.java:124] - null, 
+2023-11-16 14:34:43,914 [WebServer.java:124] - null, 
+2023-11-16 14:34:43,914 [WebServer.java:124] - null, 
+2023-11-16 14:34:43,915 [WebServer.java:126] - 
+2023-11-16 14:34:43,917 [WebServer.java:100] - created request refresh RequestRefresh{[]}
+2023-11-16 14:34:43,934 [WebServer.java:102] - processed request refresh RequestRefresh{[{"closed":true,"id":"D1","state":"locked"}, {"closed":true,"id":"D2","state":"locked"}, {"closed":true,"id":"D3","state":"locked"}, {"closed":true,"id":"D4","state":"locked"}, {"closed":true,"id":"D5","state":"locked"}, {"closed":true,"id":"D6","state":"locked"}, {"closed":true,"id":"D7","state":"locked"}, {"closed":true,"id":"D8","state":"locked"}, {"closed":true,"id":"D9","state":"locked"}]}
+2023-11-16 14:34:43,935 [WebServer.java:105] - answer
+HTTP/1.0 200 OK
+Content-type: application/json
+Access-Control-Allow-Origin: *
+
+{"doors":[{"closed":true,"id":"D1","state":"locked"},{"closed":true,"id":"D2","state":"locked"},{"closed":true,"id":"D3","state":"locked"},{"closed":true,"id":"D4","state":"locked"},{"closed":true,"id":"D5","state":"locked"},{"closed":true,"id":"D6","state":"locked"},{"closed":true,"id":"D7","state":"locked"},{"closed":true,"id":"D8","state":"locked"},{"closed":true,"id":"D9","state":"locked"}]}
+2023-11-16 14:34:49,628 [WebServer.java:74] - sockedthread : GET /area?credential=11343&action=lock&datetime=2023-11-16T09:30&areaId=ground_floor HTTP/1.1
+2023-11-16 14:34:49,628 [WebServer.java:92] - 0 area
+2023-11-16 14:34:49,628 [WebServer.java:92] - 1 credential
+2023-11-16 14:34:49,628 [WebServer.java:92] - 2 11343
+2023-11-16 14:34:49,628 [WebServer.java:92] - 3 action
+2023-11-16 14:34:49,629 [WebServer.java:92] - 4 lock
+2023-11-16 14:34:49,629 [WebServer.java:92] - 5 datetime
+2023-11-16 14:34:49,629 [WebServer.java:92] - 6 2023-11-16T09:30
+2023-11-16 14:34:49,629 [WebServer.java:92] - 7 areaId
+2023-11-16 14:34:49,629 [WebServer.java:92] - 8 ground_floor
+2023-11-16 14:34:49,629 [WebServer.java:122] - tokens : 
+2023-11-16 14:34:49,629 [WebServer.java:124] - area, 
+2023-11-16 14:34:49,629 [WebServer.java:124] - credential, 
+2023-11-16 14:34:49,629 [WebServer.java:124] - 11343, 
+2023-11-16 14:34:49,629 [WebServer.java:124] - action, 
+2023-11-16 14:34:49,629 [WebServer.java:124] - lock, 
+2023-11-16 14:34:49,629 [WebServer.java:124] - datetime, 
+2023-11-16 14:34:49,629 [WebServer.java:124] - 2023-11-16T09:30, 
+2023-11-16 14:34:49,629 [WebServer.java:124] - areaId, 
+2023-11-16 14:34:49,630 [WebServer.java:124] - ground_floor, 
+2023-11-16 14:34:49,630 [WebServer.java:124] - null, 
+2023-11-16 14:34:49,630 [WebServer.java:124] - null, 
+2023-11-16 14:34:49,630 [WebServer.java:124] - null, 
+2023-11-16 14:34:49,630 [WebServer.java:124] - null, 
+2023-11-16 14:34:49,630 [WebServer.java:124] - null, 
+2023-11-16 14:34:49,630 [WebServer.java:124] - null, 
+2023-11-16 14:34:49,630 [WebServer.java:124] - null, 
+2023-11-16 14:34:49,630 [WebServer.java:124] - null, 
+2023-11-16 14:34:49,630 [WebServer.java:124] - null, 
+2023-11-16 14:34:49,631 [WebServer.java:124] - null, 
+2023-11-16 14:34:49,631 [WebServer.java:124] - null, 
+2023-11-16 14:34:49,631 [WebServer.java:126] - 
+2023-11-16 14:34:49,641 [WebServer.java:100] - created request area Request{credential=11343, action=lock, now=2023-11-16T09:30, areaId=ground_floor, requestsDoors=}
+2023-11-16 14:35:49,487 [WebServer.java:102] - processed request area Request{credential=11343, action=lock, now=2023-11-16T09:30, areaId=ground_floor, requestsDoors=}
+2023-11-16 14:35:49,488 [WebServer.java:105] - answer
+HTTP/1.0 200 OK
+Content-type: application/json
+Access-Control-Allow-Origin: *
+
+{"todo":"request areas not yet implemented","areaId":"ground_floor","action":"lock","requestsDoors":[]}
+2023-11-16 14:35:55,927 [WebServer.java:36] - Server started.
+Listening for connections on port : 8080 ...
+
+2023-11-16 14:35:58,041 [WebServer.java:74] - sockedthread : GET /refresh HTTP/1.1
+2023-11-16 14:35:58,045 [WebServer.java:92] - 0 refresh
+2023-11-16 14:35:58,046 [WebServer.java:122] - tokens : 
+2023-11-16 14:35:58,046 [WebServer.java:124] - refresh, 
+2023-11-16 14:35:58,046 [WebServer.java:124] - null, 
+2023-11-16 14:35:58,046 [WebServer.java:124] - null, 
+2023-11-16 14:35:58,047 [WebServer.java:124] - null, 
+2023-11-16 14:35:58,047 [WebServer.java:124] - null, 
+2023-11-16 14:35:58,047 [WebServer.java:124] - null, 
+2023-11-16 14:35:58,047 [WebServer.java:124] - null, 
+2023-11-16 14:35:58,047 [WebServer.java:124] - null, 
+2023-11-16 14:35:58,048 [WebServer.java:124] - null, 
+2023-11-16 14:35:58,048 [WebServer.java:124] - null, 
+2023-11-16 14:35:58,048 [WebServer.java:124] - null, 
+2023-11-16 14:35:58,048 [WebServer.java:124] - null, 
+2023-11-16 14:35:58,048 [WebServer.java:124] - null, 
+2023-11-16 14:35:58,048 [WebServer.java:124] - null, 
+2023-11-16 14:35:58,049 [WebServer.java:124] - null, 
+2023-11-16 14:35:58,049 [WebServer.java:124] - null, 
+2023-11-16 14:35:58,049 [WebServer.java:124] - null, 
+2023-11-16 14:35:58,049 [WebServer.java:124] - null, 
+2023-11-16 14:35:58,049 [WebServer.java:124] - null, 
+2023-11-16 14:35:58,050 [WebServer.java:124] - null, 
+2023-11-16 14:35:58,050 [WebServer.java:126] - 
+2023-11-16 14:35:58,051 [WebServer.java:100] - created request refresh RequestRefresh{[]}
+2023-11-16 14:35:58,066 [WebServer.java:102] - processed request refresh RequestRefresh{[{"closed":true,"id":"D1","state":"locked"}, {"closed":true,"id":"D2","state":"locked"}, {"closed":true,"id":"D3","state":"locked"}, {"closed":true,"id":"D4","state":"locked"}, {"closed":true,"id":"D5","state":"locked"}, {"closed":true,"id":"D6","state":"locked"}, {"closed":true,"id":"D7","state":"locked"}, {"closed":true,"id":"D8","state":"locked"}, {"closed":true,"id":"D9","state":"locked"}]}
+2023-11-16 14:35:58,067 [WebServer.java:105] - answer
+HTTP/1.0 200 OK
+Content-type: application/json
+Access-Control-Allow-Origin: *
+
+{"doors":[{"closed":true,"id":"D1","state":"locked"},{"closed":true,"id":"D2","state":"locked"},{"closed":true,"id":"D3","state":"locked"},{"closed":true,"id":"D4","state":"locked"},{"closed":true,"id":"D5","state":"locked"},{"closed":true,"id":"D6","state":"locked"},{"closed":true,"id":"D7","state":"locked"},{"closed":true,"id":"D8","state":"locked"},{"closed":true,"id":"D9","state":"locked"}]}
+2023-11-16 14:36:04,407 [WebServer.java:74] - sockedthread : GET /area?credential=11343&action=unlock&datetime=2023-11-16T09:30&areaId=ground_floor HTTP/1.1
+2023-11-16 14:36:04,407 [WebServer.java:92] - 0 area
+2023-11-16 14:36:04,407 [WebServer.java:92] - 1 credential
+2023-11-16 14:36:04,408 [WebServer.java:92] - 2 11343
+2023-11-16 14:36:04,409 [WebServer.java:92] - 3 action
+2023-11-16 14:36:04,409 [WebServer.java:92] - 4 unlock
+2023-11-16 14:36:04,409 [WebServer.java:92] - 5 datetime
+2023-11-16 14:36:04,409 [WebServer.java:92] - 6 2023-11-16T09:30
+2023-11-16 14:36:04,409 [WebServer.java:92] - 7 areaId
+2023-11-16 14:36:04,409 [WebServer.java:92] - 8 ground_floor
+2023-11-16 14:36:04,409 [WebServer.java:122] - tokens : 
+2023-11-16 14:36:04,409 [WebServer.java:124] - area, 
+2023-11-16 14:36:04,409 [WebServer.java:124] - credential, 
+2023-11-16 14:36:04,409 [WebServer.java:124] - 11343, 
+2023-11-16 14:36:04,409 [WebServer.java:124] - action, 
+2023-11-16 14:36:04,409 [WebServer.java:124] - unlock, 
+2023-11-16 14:36:04,409 [WebServer.java:124] - datetime, 
+2023-11-16 14:36:04,409 [WebServer.java:124] - 2023-11-16T09:30, 
+2023-11-16 14:36:04,409 [WebServer.java:124] - areaId, 
+2023-11-16 14:36:04,410 [WebServer.java:124] - ground_floor, 
+2023-11-16 14:36:04,410 [WebServer.java:124] - null, 
+2023-11-16 14:36:04,410 [WebServer.java:124] - null, 
+2023-11-16 14:36:04,410 [WebServer.java:124] - null, 
+2023-11-16 14:36:04,410 [WebServer.java:124] - null, 
+2023-11-16 14:36:04,410 [WebServer.java:124] - null, 
+2023-11-16 14:36:04,410 [WebServer.java:124] - null, 
+2023-11-16 14:36:04,410 [WebServer.java:124] - null, 
+2023-11-16 14:36:04,410 [WebServer.java:124] - null, 
+2023-11-16 14:36:04,410 [WebServer.java:124] - null, 
+2023-11-16 14:36:04,410 [WebServer.java:124] - null, 
+2023-11-16 14:36:04,410 [WebServer.java:124] - null, 
+2023-11-16 14:36:04,410 [WebServer.java:126] - 
+2023-11-16 14:36:04,419 [WebServer.java:100] - created request area Request{credential=11343, action=unlock, now=2023-11-16T09:30, areaId=ground_floor, requestsDoors=}
+2023-11-16 14:37:23,989 [WebServer.java:102] - processed request area Request{credential=11343, action=unlock, now=2023-11-16T09:30, areaId=ground_floor, requestsDoors=}
+2023-11-16 14:37:23,989 [WebServer.java:105] - answer
+HTTP/1.0 200 OK
+Content-type: application/json
+Access-Control-Allow-Origin: *
+
+{"todo":"request areas not yet implemented","areaId":"ground_floor","action":"unlock","requestsDoors":[]}
+2023-11-16 14:38:21,179 [WebServer.java:36] - Server started.
+Listening for connections on port : 8080 ...
+
+2023-11-16 14:38:25,713 [WebServer.java:74] - sockedthread : GET /area?credential=11343&action=unlock&datetime=2023-11-16T09:30&areaId=basement HTTP/1.1
+2023-11-16 14:38:25,717 [WebServer.java:92] - 0 area
+2023-11-16 14:38:25,718 [WebServer.java:92] - 1 credential
+2023-11-16 14:38:25,718 [WebServer.java:92] - 2 11343
+2023-11-16 14:38:25,718 [WebServer.java:92] - 3 action
+2023-11-16 14:38:25,718 [WebServer.java:92] - 4 unlock
+2023-11-16 14:38:25,718 [WebServer.java:92] - 5 datetime
+2023-11-16 14:38:25,718 [WebServer.java:92] - 6 2023-11-16T09:30
+2023-11-16 14:38:25,718 [WebServer.java:92] - 7 areaId
+2023-11-16 14:38:25,718 [WebServer.java:92] - 8 basement
+2023-11-16 14:38:25,718 [WebServer.java:122] - tokens : 
+2023-11-16 14:38:25,719 [WebServer.java:124] - area, 
+2023-11-16 14:38:25,719 [WebServer.java:124] - credential, 
+2023-11-16 14:38:25,719 [WebServer.java:124] - 11343, 
+2023-11-16 14:38:25,719 [WebServer.java:124] - action, 
+2023-11-16 14:38:25,719 [WebServer.java:124] - unlock, 
+2023-11-16 14:38:25,719 [WebServer.java:124] - datetime, 
+2023-11-16 14:38:25,719 [WebServer.java:124] - 2023-11-16T09:30, 
+2023-11-16 14:38:25,720 [WebServer.java:124] - areaId, 
+2023-11-16 14:38:25,720 [WebServer.java:124] - basement, 
+2023-11-16 14:38:25,721 [WebServer.java:124] - null, 
+2023-11-16 14:38:25,721 [WebServer.java:124] - null, 
+2023-11-16 14:38:25,721 [WebServer.java:124] - null, 
+2023-11-16 14:38:25,721 [WebServer.java:124] - null, 
+2023-11-16 14:38:25,721 [WebServer.java:124] - null, 
+2023-11-16 14:38:25,721 [WebServer.java:124] - null, 
+2023-11-16 14:38:25,721 [WebServer.java:124] - null, 
+2023-11-16 14:38:25,721 [WebServer.java:124] - null, 
+2023-11-16 14:38:25,721 [WebServer.java:124] - null, 
+2023-11-16 14:38:25,721 [WebServer.java:124] - null, 
+2023-11-16 14:38:25,722 [WebServer.java:124] - null, 
+2023-11-16 14:38:25,722 [WebServer.java:126] - 
+2023-11-16 14:38:25,732 [WebServer.java:100] - created request area Request{credential=11343, action=unlock, now=2023-11-16T09:30, areaId=basement, requestsDoors=}
+2023-11-16 14:38:25,734 [Lock.java:21] - Door D1 has been unlocked
+2023-11-16 14:38:25,734 [Lock.java:21] - Door D2 has been unlocked
+2023-11-16 14:38:25,741 [WebServer.java:102] - processed request area Request{credential=11343, action=unlock, now=2023-11-16T09:30, areaId=basement, requestsDoors=[Request{credential=11343, userName=unknown, action=unlock, now=2023-11-16T09:30, doorID=D1, closed=true, authorized=true, reasons=[]}, Request{credential=11343, userName=unknown, action=unlock, now=2023-11-16T09:30, doorID=D2, closed=true, authorized=true, reasons=[]}]}
+2023-11-16 14:38:25,749 [WebServer.java:105] - answer
+HTTP/1.0 200 OK
+Content-type: application/json
+Access-Control-Allow-Origin: *
+
+{"todo":"request areas not yet implemented","areaId":"basement","action":"unlock","requestsDoors":[{"reasons":[],"authorized":true,"action":"unlock","closed":true,"state":"unlocked","doorId":"D1"},{"reasons":[],"authorized":true,"action":"unlock","closed":true,"state":"unlocked","doorId":"D2"}]}
+2023-11-16 14:38:28,018 [WebServer.java:74] - sockedthread : GET /area?credential=11343&action=unlock&datetime=2023-11-16T09:30&areaId=ground_floor HTTP/1.1
+2023-11-16 14:38:28,018 [WebServer.java:92] - 0 area
+2023-11-16 14:38:28,018 [WebServer.java:92] - 1 credential
+2023-11-16 14:38:28,018 [WebServer.java:92] - 2 11343
+2023-11-16 14:38:28,018 [WebServer.java:92] - 3 action
+2023-11-16 14:38:28,018 [WebServer.java:92] - 4 unlock
+2023-11-16 14:38:28,018 [WebServer.java:92] - 5 datetime
+2023-11-16 14:38:28,019 [WebServer.java:92] - 6 2023-11-16T09:30
+2023-11-16 14:38:28,019 [WebServer.java:92] - 7 areaId
+2023-11-16 14:38:28,019 [WebServer.java:92] - 8 ground_floor
+2023-11-16 14:38:28,019 [WebServer.java:122] - tokens : 
+2023-11-16 14:38:28,019 [WebServer.java:124] - area, 
+2023-11-16 14:38:28,019 [WebServer.java:124] - credential, 
+2023-11-16 14:38:28,019 [WebServer.java:124] - 11343, 
+2023-11-16 14:38:28,019 [WebServer.java:124] - action, 
+2023-11-16 14:38:28,019 [WebServer.java:124] - unlock, 
+2023-11-16 14:38:28,020 [WebServer.java:124] - datetime, 
+2023-11-16 14:38:28,020 [WebServer.java:124] - 2023-11-16T09:30, 
+2023-11-16 14:38:28,020 [WebServer.java:124] - areaId, 
+2023-11-16 14:38:28,020 [WebServer.java:124] - ground_floor, 
+2023-11-16 14:38:28,020 [WebServer.java:124] - null, 
+2023-11-16 14:38:28,020 [WebServer.java:124] - null, 
+2023-11-16 14:38:28,020 [WebServer.java:124] - null, 
+2023-11-16 14:38:28,020 [WebServer.java:124] - null, 
+2023-11-16 14:38:28,020 [WebServer.java:124] - null, 
+2023-11-16 14:38:28,020 [WebServer.java:124] - null, 
+2023-11-16 14:38:28,020 [WebServer.java:124] - null, 
+2023-11-16 14:38:28,020 [WebServer.java:124] - null, 
+2023-11-16 14:38:28,020 [WebServer.java:124] - null, 
+2023-11-16 14:38:28,021 [WebServer.java:124] - null, 
+2023-11-16 14:38:28,021 [WebServer.java:124] - null, 
+2023-11-16 14:38:28,021 [WebServer.java:126] - 
+2023-11-16 14:38:28,021 [WebServer.java:100] - created request area Request{credential=11343, action=unlock, now=2023-11-16T09:30, areaId=ground_floor, requestsDoors=}
+2023-11-16 14:38:28,021 [Lock.java:21] - Door D3 has been unlocked
+2023-11-16 14:38:28,021 [Lock.java:21] - Door D4 has been unlocked
+2023-11-16 14:38:28,021 [WebServer.java:102] - processed request area Request{credential=11343, action=unlock, now=2023-11-16T09:30, areaId=ground_floor, requestsDoors=[Request{credential=11343, userName=unknown, action=unlock, now=2023-11-16T09:30, doorID=D3, closed=true, authorized=true, reasons=[]}, Request{credential=11343, userName=unknown, action=unlock, now=2023-11-16T09:30, doorID=D4, closed=true, authorized=true, reasons=[]}]}
+2023-11-16 14:38:28,021 [WebServer.java:105] - answer
+HTTP/1.0 200 OK
+Content-type: application/json
+Access-Control-Allow-Origin: *
+
+{"todo":"request areas not yet implemented","areaId":"ground_floor","action":"unlock","requestsDoors":[{"reasons":[],"authorized":true,"action":"unlock","closed":true,"state":"unlocked","doorId":"D3"},{"reasons":[],"authorized":true,"action":"unlock","closed":true,"state":"unlocked","doorId":"D4"}]}
+2023-11-16 14:38:35,448 [WebServer.java:74] - sockedthread : GET /area?credential=11343&action=unlock&datetime=2023-11-16T09:30&areaId=floor1 HTTP/1.1
+2023-11-16 14:38:35,449 [WebServer.java:92] - 0 area
+2023-11-16 14:38:35,449 [WebServer.java:92] - 1 credential
+2023-11-16 14:38:35,449 [WebServer.java:92] - 2 11343
+2023-11-16 14:38:35,449 [WebServer.java:92] - 3 action
+2023-11-16 14:38:35,449 [WebServer.java:92] - 4 unlock
+2023-11-16 14:38:35,449 [WebServer.java:92] - 5 datetime
+2023-11-16 14:38:35,449 [WebServer.java:92] - 6 2023-11-16T09:30
+2023-11-16 14:38:35,449 [WebServer.java:92] - 7 areaId
+2023-11-16 14:38:35,449 [WebServer.java:92] - 8 floor1
+2023-11-16 14:38:35,449 [WebServer.java:122] - tokens : 
+2023-11-16 14:38:35,450 [WebServer.java:124] - area, 
+2023-11-16 14:38:35,450 [WebServer.java:124] - credential, 
+2023-11-16 14:38:35,450 [WebServer.java:124] - 11343, 
+2023-11-16 14:38:35,450 [WebServer.java:124] - action, 
+2023-11-16 14:38:35,450 [WebServer.java:124] - unlock, 
+2023-11-16 14:38:35,450 [WebServer.java:124] - datetime, 
+2023-11-16 14:38:35,450 [WebServer.java:124] - 2023-11-16T09:30, 
+2023-11-16 14:38:35,450 [WebServer.java:124] - areaId, 
+2023-11-16 14:38:35,450 [WebServer.java:124] - floor1, 
+2023-11-16 14:38:35,450 [WebServer.java:124] - null, 
+2023-11-16 14:38:35,451 [WebServer.java:124] - null, 
+2023-11-16 14:38:35,451 [WebServer.java:124] - null, 
+2023-11-16 14:38:35,451 [WebServer.java:124] - null, 
+2023-11-16 14:38:35,451 [WebServer.java:124] - null, 
+2023-11-16 14:38:35,451 [WebServer.java:124] - null, 
+2023-11-16 14:38:35,451 [WebServer.java:124] - null, 
+2023-11-16 14:38:35,451 [WebServer.java:124] - null, 
+2023-11-16 14:38:35,451 [WebServer.java:124] - null, 
+2023-11-16 14:38:35,451 [WebServer.java:124] - null, 
+2023-11-16 14:38:35,451 [WebServer.java:124] - null, 
+2023-11-16 14:38:35,451 [WebServer.java:126] - 
+2023-11-16 14:38:35,451 [WebServer.java:100] - created request area Request{credential=11343, action=unlock, now=2023-11-16T09:30, areaId=floor1, requestsDoors=}
+2023-11-16 14:38:35,451 [Lock.java:21] - Door D7 has been unlocked
+2023-11-16 14:38:35,452 [WebServer.java:102] - processed request area Request{credential=11343, action=unlock, now=2023-11-16T09:30, areaId=floor1, requestsDoors=[Request{credential=11343, userName=unknown, action=unlock, now=2023-11-16T09:30, doorID=D7, closed=true, authorized=true, reasons=[]}]}
+2023-11-16 14:38:35,452 [WebServer.java:105] - answer
+HTTP/1.0 200 OK
+Content-type: application/json
+Access-Control-Allow-Origin: *
+
+{"todo":"request areas not yet implemented","areaId":"floor1","action":"unlock","requestsDoors":[{"reasons":[],"authorized":true,"action":"unlock","closed":true,"state":"unlocked","doorId":"D7"}]}
+2023-11-16 14:38:39,169 [WebServer.java:74] - sockedthread : GET /refresh HTTP/1.1
+2023-11-16 14:38:39,169 [WebServer.java:92] - 0 refresh
+2023-11-16 14:38:39,169 [WebServer.java:122] - tokens : 
+2023-11-16 14:38:39,169 [WebServer.java:124] - refresh, 
+2023-11-16 14:38:39,169 [WebServer.java:124] - null, 
+2023-11-16 14:38:39,169 [WebServer.java:124] - null, 
+2023-11-16 14:38:39,170 [WebServer.java:124] - null, 
+2023-11-16 14:38:39,170 [WebServer.java:124] - null, 
+2023-11-16 14:38:39,170 [WebServer.java:124] - null, 
+2023-11-16 14:38:39,170 [WebServer.java:124] - null, 
+2023-11-16 14:38:39,170 [WebServer.java:124] - null, 
+2023-11-16 14:38:39,170 [WebServer.java:124] - null, 
+2023-11-16 14:38:39,170 [WebServer.java:124] - null, 
+2023-11-16 14:38:39,170 [WebServer.java:124] - null, 
+2023-11-16 14:38:39,170 [WebServer.java:124] - null, 
+2023-11-16 14:38:39,170 [WebServer.java:124] - null, 
+2023-11-16 14:38:39,170 [WebServer.java:124] - null, 
+2023-11-16 14:38:39,171 [WebServer.java:124] - null, 
+2023-11-16 14:38:39,171 [WebServer.java:124] - null, 
+2023-11-16 14:38:39,171 [WebServer.java:124] - null, 
+2023-11-16 14:38:39,172 [WebServer.java:124] - null, 
+2023-11-16 14:38:39,172 [WebServer.java:124] - null, 
+2023-11-16 14:38:39,172 [WebServer.java:124] - null, 
+2023-11-16 14:38:39,172 [WebServer.java:126] - 
+2023-11-16 14:38:39,173 [WebServer.java:100] - created request refresh RequestRefresh{[]}
+2023-11-16 14:38:39,177 [WebServer.java:102] - processed request refresh RequestRefresh{[{"closed":true,"id":"D1","state":"unlocked"}, {"closed":true,"id":"D2","state":"unlocked"}, {"closed":true,"id":"D3","state":"unlocked"}, {"closed":true,"id":"D4","state":"unlocked"}, {"closed":true,"id":"D5","state":"locked"}, {"closed":true,"id":"D6","state":"locked"}, {"closed":true,"id":"D7","state":"unlocked"}, {"closed":true,"id":"D8","state":"locked"}, {"closed":true,"id":"D9","state":"locked"}]}
+2023-11-16 14:38:39,178 [WebServer.java:105] - answer
+HTTP/1.0 200 OK
+Content-type: application/json
+Access-Control-Allow-Origin: *
+
+{"doors":[{"closed":true,"id":"D1","state":"unlocked"},{"closed":true,"id":"D2","state":"unlocked"},{"closed":true,"id":"D3","state":"unlocked"},{"closed":true,"id":"D4","state":"unlocked"},{"closed":true,"id":"D5","state":"locked"},{"closed":true,"id":"D6","state":"locked"},{"closed":true,"id":"D7","state":"unlocked"},{"closed":true,"id":"D8","state":"locked"},{"closed":true,"id":"D9","state":"locked"}]}
+2023-11-16 14:38:44,182 [WebServer.java:36] - Server started.
+Listening for connections on port : 8080 ...
+
+2023-11-16 14:38:45,809 [WebServer.java:74] - sockedthread : GET /refresh HTTP/1.1
+2023-11-16 14:38:45,815 [WebServer.java:92] - 0 refresh
+2023-11-16 14:38:45,815 [WebServer.java:122] - tokens : 
+2023-11-16 14:38:45,816 [WebServer.java:124] - refresh, 
+2023-11-16 14:38:45,816 [WebServer.java:124] - null, 
+2023-11-16 14:38:45,816 [WebServer.java:124] - null, 
+2023-11-16 14:38:45,816 [WebServer.java:124] - null, 
+2023-11-16 14:38:45,816 [WebServer.java:124] - null, 
+2023-11-16 14:38:45,816 [WebServer.java:124] - null, 
+2023-11-16 14:38:45,816 [WebServer.java:124] - null, 
+2023-11-16 14:38:45,817 [WebServer.java:124] - null, 
+2023-11-16 14:38:45,817 [WebServer.java:124] - null, 
+2023-11-16 14:38:45,817 [WebServer.java:124] - null, 
+2023-11-16 14:38:45,817 [WebServer.java:124] - null, 
+2023-11-16 14:38:45,817 [WebServer.java:124] - null, 
+2023-11-16 14:38:45,817 [WebServer.java:124] - null, 
+2023-11-16 14:38:45,817 [WebServer.java:124] - null, 
+2023-11-16 14:38:45,817 [WebServer.java:124] - null, 
+2023-11-16 14:38:45,817 [WebServer.java:124] - null, 
+2023-11-16 14:38:45,817 [WebServer.java:124] - null, 
+2023-11-16 14:38:45,817 [WebServer.java:124] - null, 
+2023-11-16 14:38:45,817 [WebServer.java:124] - null, 
+2023-11-16 14:38:45,817 [WebServer.java:124] - null, 
+2023-11-16 14:38:45,818 [WebServer.java:126] - 
+2023-11-16 14:38:45,819 [WebServer.java:100] - created request refresh RequestRefresh{[]}
+2023-11-16 14:38:45,833 [WebServer.java:102] - processed request refresh RequestRefresh{[{"closed":true,"id":"D1","state":"locked"}, {"closed":true,"id":"D2","state":"locked"}, {"closed":true,"id":"D3","state":"locked"}, {"closed":true,"id":"D4","state":"locked"}, {"closed":true,"id":"D5","state":"locked"}, {"closed":true,"id":"D6","state":"locked"}, {"closed":true,"id":"D7","state":"locked"}, {"closed":true,"id":"D8","state":"locked"}, {"closed":true,"id":"D9","state":"locked"}]}
+2023-11-16 14:38:45,834 [WebServer.java:105] - answer
+HTTP/1.0 200 OK
+Content-type: application/json
+Access-Control-Allow-Origin: *
+
+{"doors":[{"closed":true,"id":"D1","state":"locked"},{"closed":true,"id":"D2","state":"locked"},{"closed":true,"id":"D3","state":"locked"},{"closed":true,"id":"D4","state":"locked"},{"closed":true,"id":"D5","state":"locked"},{"closed":true,"id":"D6","state":"locked"},{"closed":true,"id":"D7","state":"locked"},{"closed":true,"id":"D8","state":"locked"},{"closed":true,"id":"D9","state":"locked"}]}
+2023-11-16 14:38:48,966 [WebServer.java:74] - sockedthread : GET /area?credential=11343&action=unlock&datetime=2023-11-16T09:30&areaId=ground_floor HTTP/1.1
+2023-11-16 14:38:48,967 [WebServer.java:92] - 0 area
+2023-11-16 14:38:48,967 [WebServer.java:92] - 1 credential
+2023-11-16 14:38:48,967 [WebServer.java:92] - 2 11343
+2023-11-16 14:38:48,967 [WebServer.java:92] - 3 action
+2023-11-16 14:38:48,968 [WebServer.java:92] - 4 unlock
+2023-11-16 14:38:48,968 [WebServer.java:92] - 5 datetime
+2023-11-16 14:38:48,968 [WebServer.java:92] - 6 2023-11-16T09:30
+2023-11-16 14:38:48,968 [WebServer.java:92] - 7 areaId
+2023-11-16 14:38:48,968 [WebServer.java:92] - 8 ground_floor
+2023-11-16 14:38:48,968 [WebServer.java:122] - tokens : 
+2023-11-16 14:38:48,968 [WebServer.java:124] - area, 
+2023-11-16 14:38:48,968 [WebServer.java:124] - credential, 
+2023-11-16 14:38:48,968 [WebServer.java:124] - 11343, 
+2023-11-16 14:38:48,968 [WebServer.java:124] - action, 
+2023-11-16 14:38:48,968 [WebServer.java:124] - unlock, 
+2023-11-16 14:38:48,968 [WebServer.java:124] - datetime, 
+2023-11-16 14:38:48,968 [WebServer.java:124] - 2023-11-16T09:30, 
+2023-11-16 14:38:48,968 [WebServer.java:124] - areaId, 
+2023-11-16 14:38:48,969 [WebServer.java:124] - ground_floor, 
+2023-11-16 14:38:48,969 [WebServer.java:124] - null, 
+2023-11-16 14:38:48,969 [WebServer.java:124] - null, 
+2023-11-16 14:38:48,969 [WebServer.java:124] - null, 
+2023-11-16 14:38:48,969 [WebServer.java:124] - null, 
+2023-11-16 14:38:48,969 [WebServer.java:124] - null, 
+2023-11-16 14:38:48,969 [WebServer.java:124] - null, 
+2023-11-16 14:38:48,969 [WebServer.java:124] - null, 
+2023-11-16 14:38:48,969 [WebServer.java:124] - null, 
+2023-11-16 14:38:48,970 [WebServer.java:124] - null, 
+2023-11-16 14:38:48,970 [WebServer.java:124] - null, 
+2023-11-16 14:38:48,970 [WebServer.java:124] - null, 
+2023-11-16 14:38:48,970 [WebServer.java:126] - 
+2023-11-16 14:38:48,980 [WebServer.java:100] - created request area Request{credential=11343, action=unlock, now=2023-11-16T09:30, areaId=ground_floor, requestsDoors=}
+2023-11-16 14:42:02,343 [Lock.java:21] - Door D3 has been unlocked
+2023-11-16 14:42:02,344 [Lock.java:21] - Door D4 has been unlocked
+2023-11-16 14:42:02,350 [WebServer.java:102] - processed request area Request{credential=11343, action=unlock, now=2023-11-16T09:30, areaId=ground_floor, requestsDoors=[Request{credential=11343, userName=unknown, action=unlock, now=2023-11-16T09:30, doorID=D3, closed=true, authorized=true, reasons=[]}, Request{credential=11343, userName=unknown, action=unlock, now=2023-11-16T09:30, doorID=D4, closed=true, authorized=true, reasons=[]}]}
+2023-11-16 14:42:02,351 [WebServer.java:105] - answer
+HTTP/1.0 200 OK
+Content-type: application/json
+Access-Control-Allow-Origin: *
+
+{"todo":"request areas not yet implemented","areaId":"ground_floor","action":"unlock","requestsDoors":[{"reasons":[],"authorized":true,"action":"unlock","closed":true,"state":"unlocked","doorId":"D3"},{"reasons":[],"authorized":true,"action":"unlock","closed":true,"state":"unlocked","doorId":"D4"}]}
+2023-11-16 14:42:08,600 [WebServer.java:36] - Server started.
+Listening for connections on port : 8080 ...
+
+2023-11-16 14:42:11,996 [WebServer.java:74] - sockedthread : GET /refresh HTTP/1.1
+2023-11-16 14:42:12,001 [WebServer.java:92] - 0 refresh
+2023-11-16 14:42:12,001 [WebServer.java:122] - tokens : 
+2023-11-16 14:42:12,001 [WebServer.java:124] - refresh, 
+2023-11-16 14:42:12,001 [WebServer.java:124] - null, 
+2023-11-16 14:42:12,001 [WebServer.java:124] - null, 
+2023-11-16 14:42:12,002 [WebServer.java:124] - null, 
+2023-11-16 14:42:12,002 [WebServer.java:124] - null, 
+2023-11-16 14:42:12,002 [WebServer.java:124] - null, 
+2023-11-16 14:42:12,002 [WebServer.java:124] - null, 
+2023-11-16 14:42:12,002 [WebServer.java:124] - null, 
+2023-11-16 14:42:12,002 [WebServer.java:124] - null, 
+2023-11-16 14:42:12,002 [WebServer.java:124] - null, 
+2023-11-16 14:42:12,002 [WebServer.java:124] - null, 
+2023-11-16 14:42:12,003 [WebServer.java:124] - null, 
+2023-11-16 14:42:12,003 [WebServer.java:124] - null, 
+2023-11-16 14:42:12,003 [WebServer.java:124] - null, 
+2023-11-16 14:42:12,003 [WebServer.java:124] - null, 
+2023-11-16 14:42:12,003 [WebServer.java:124] - null, 
+2023-11-16 14:42:12,004 [WebServer.java:124] - null, 
+2023-11-16 14:42:12,004 [WebServer.java:124] - null, 
+2023-11-16 14:42:12,004 [WebServer.java:124] - null, 
+2023-11-16 14:42:12,004 [WebServer.java:124] - null, 
+2023-11-16 14:42:12,004 [WebServer.java:126] - 
+2023-11-16 14:42:12,005 [WebServer.java:100] - created request refresh RequestRefresh{[]}
+2023-11-16 14:42:12,019 [WebServer.java:102] - processed request refresh RequestRefresh{[{"closed":true,"id":"D1","state":"locked"}, {"closed":true,"id":"D2","state":"locked"}, {"closed":true,"id":"D3","state":"locked"}, {"closed":true,"id":"D4","state":"locked"}, {"closed":true,"id":"D5","state":"locked"}, {"closed":true,"id":"D6","state":"locked"}, {"closed":true,"id":"D7","state":"locked"}, {"closed":true,"id":"D8","state":"locked"}, {"closed":true,"id":"D9","state":"locked"}]}
+2023-11-16 14:42:12,020 [WebServer.java:105] - answer
+HTTP/1.0 200 OK
+Content-type: application/json
+Access-Control-Allow-Origin: *
+
+{"doors":[{"closed":true,"id":"D1","state":"locked"},{"closed":true,"id":"D2","state":"locked"},{"closed":true,"id":"D3","state":"locked"},{"closed":true,"id":"D4","state":"locked"},{"closed":true,"id":"D5","state":"locked"},{"closed":true,"id":"D6","state":"locked"},{"closed":true,"id":"D7","state":"locked"},{"closed":true,"id":"D8","state":"locked"},{"closed":true,"id":"D9","state":"locked"}]}
+2023-11-16 14:42:14,465 [WebServer.java:74] - sockedthread : GET /area?credential=11343&action=unlock&datetime=2023-11-16T09:30&areaId=ground_floor HTTP/1.1
+2023-11-16 14:42:14,465 [WebServer.java:92] - 0 area
+2023-11-16 14:42:14,465 [WebServer.java:92] - 1 credential
+2023-11-16 14:42:14,466 [WebServer.java:92] - 2 11343
+2023-11-16 14:42:14,466 [WebServer.java:92] - 3 action
+2023-11-16 14:42:14,466 [WebServer.java:92] - 4 unlock
+2023-11-16 14:42:14,466 [WebServer.java:92] - 5 datetime
+2023-11-16 14:42:14,466 [WebServer.java:92] - 6 2023-11-16T09:30
+2023-11-16 14:42:14,466 [WebServer.java:92] - 7 areaId
+2023-11-16 14:42:14,466 [WebServer.java:92] - 8 ground_floor
+2023-11-16 14:42:14,466 [WebServer.java:122] - tokens : 
+2023-11-16 14:42:14,466 [WebServer.java:124] - area, 
+2023-11-16 14:42:14,466 [WebServer.java:124] - credential, 
+2023-11-16 14:42:14,466 [WebServer.java:124] - 11343, 
+2023-11-16 14:42:14,466 [WebServer.java:124] - action, 
+2023-11-16 14:42:14,466 [WebServer.java:124] - unlock, 
+2023-11-16 14:42:14,466 [WebServer.java:124] - datetime, 
+2023-11-16 14:42:14,466 [WebServer.java:124] - 2023-11-16T09:30, 
+2023-11-16 14:42:14,467 [WebServer.java:124] - areaId, 
+2023-11-16 14:42:14,467 [WebServer.java:124] - ground_floor, 
+2023-11-16 14:42:14,467 [WebServer.java:124] - null, 
+2023-11-16 14:42:14,467 [WebServer.java:124] - null, 
+2023-11-16 14:42:14,467 [WebServer.java:124] - null, 
+2023-11-16 14:42:14,467 [WebServer.java:124] - null, 
+2023-11-16 14:42:14,467 [WebServer.java:124] - null, 
+2023-11-16 14:42:14,467 [WebServer.java:124] - null, 
+2023-11-16 14:42:14,467 [WebServer.java:124] - null, 
+2023-11-16 14:42:14,467 [WebServer.java:124] - null, 
+2023-11-16 14:42:14,467 [WebServer.java:124] - null, 
+2023-11-16 14:42:14,467 [WebServer.java:124] - null, 
+2023-11-16 14:42:14,467 [WebServer.java:124] - null, 
+2023-11-16 14:42:14,467 [WebServer.java:126] - 
+2023-11-16 14:42:14,474 [WebServer.java:100] - created request area Request{credential=11343, action=unlock, now=2023-11-16T09:30, areaId=ground_floor, requestsDoors=}
+2023-11-16 14:42:14,475 [WebServer.java:102] - processed request area Request{credential=11343, action=unlock, now=2023-11-16T09:30, areaId=ground_floor, requestsDoors=}
+2023-11-16 14:42:14,475 [WebServer.java:105] - answer
+HTTP/1.0 200 OK
+Content-type: application/json
+Access-Control-Allow-Origin: *
+
+{"todo":"request areas not yet implemented","areaId":"ground_floor","action":"unlock","requestsDoors":[]}
+2023-11-16 14:42:17,049 [WebServer.java:74] - sockedthread : GET /area?credential=11343&action=unlock&datetime=2023-11-16T09:30&areaId=ground_floor HTTP/1.1
+2023-11-16 14:42:17,050 [WebServer.java:92] - 0 area
+2023-11-16 14:42:17,050 [WebServer.java:92] - 1 credential
+2023-11-16 14:42:17,050 [WebServer.java:92] - 2 11343
+2023-11-16 14:42:17,050 [WebServer.java:92] - 3 action
+2023-11-16 14:42:17,050 [WebServer.java:92] - 4 unlock
+2023-11-16 14:42:17,051 [WebServer.java:92] - 5 datetime
+2023-11-16 14:42:17,051 [WebServer.java:92] - 6 2023-11-16T09:30
+2023-11-16 14:42:17,051 [WebServer.java:92] - 7 areaId
+2023-11-16 14:42:17,051 [WebServer.java:92] - 8 ground_floor
+2023-11-16 14:42:17,051 [WebServer.java:122] - tokens : 
+2023-11-16 14:42:17,051 [WebServer.java:124] - area, 
+2023-11-16 14:42:17,051 [WebServer.java:124] - credential, 
+2023-11-16 14:42:17,051 [WebServer.java:124] - 11343, 
+2023-11-16 14:42:17,051 [WebServer.java:124] - action, 
+2023-11-16 14:42:17,051 [WebServer.java:124] - unlock, 
+2023-11-16 14:42:17,051 [WebServer.java:124] - datetime, 
+2023-11-16 14:42:17,051 [WebServer.java:124] - 2023-11-16T09:30, 
+2023-11-16 14:42:17,051 [WebServer.java:124] - areaId, 
+2023-11-16 14:42:17,052 [WebServer.java:124] - ground_floor, 
+2023-11-16 14:42:17,052 [WebServer.java:124] - null, 
+2023-11-16 14:42:17,052 [WebServer.java:124] - null, 
+2023-11-16 14:42:17,052 [WebServer.java:124] - null, 
+2023-11-16 14:42:17,052 [WebServer.java:124] - null, 
+2023-11-16 14:42:17,052 [WebServer.java:124] - null, 
+2023-11-16 14:42:17,052 [WebServer.java:124] - null, 
+2023-11-16 14:42:17,052 [WebServer.java:124] - null, 
+2023-11-16 14:42:17,052 [WebServer.java:124] - null, 
+2023-11-16 14:42:17,052 [WebServer.java:124] - null, 
+2023-11-16 14:42:17,052 [WebServer.java:124] - null, 
+2023-11-16 14:42:17,052 [WebServer.java:124] - null, 
+2023-11-16 14:42:17,052 [WebServer.java:126] - 
+2023-11-16 14:42:17,052 [WebServer.java:100] - created request area Request{credential=11343, action=unlock, now=2023-11-16T09:30, areaId=ground_floor, requestsDoors=}
+2023-11-16 14:42:17,053 [WebServer.java:102] - processed request area Request{credential=11343, action=unlock, now=2023-11-16T09:30, areaId=ground_floor, requestsDoors=}
+2023-11-16 14:42:17,053 [WebServer.java:105] - answer
+HTTP/1.0 200 OK
+Content-type: application/json
+Access-Control-Allow-Origin: *
+
+{"todo":"request areas not yet implemented","areaId":"ground_floor","action":"unlock","requestsDoors":[]}
+2023-11-16 14:42:19,680 [WebServer.java:74] - sockedthread : GET /area?credential=11343&action=unlock&datetime=2023-11-16T09:30&areaId=parking HTTP/1.1
+2023-11-16 14:42:19,680 [WebServer.java:92] - 0 area
+2023-11-16 14:42:19,680 [WebServer.java:92] - 1 credential
+2023-11-16 14:42:19,680 [WebServer.java:92] - 2 11343
+2023-11-16 14:42:19,680 [WebServer.java:92] - 3 action
+2023-11-16 14:42:19,681 [WebServer.java:92] - 4 unlock
+2023-11-16 14:42:19,681 [WebServer.java:92] - 5 datetime
+2023-11-16 14:42:19,681 [WebServer.java:92] - 6 2023-11-16T09:30
+2023-11-16 14:42:19,681 [WebServer.java:92] - 7 areaId
+2023-11-16 14:42:19,681 [WebServer.java:92] - 8 parking
+2023-11-16 14:42:19,681 [WebServer.java:122] - tokens : 
+2023-11-16 14:42:19,681 [WebServer.java:124] - area, 
+2023-11-16 14:42:19,681 [WebServer.java:124] - credential, 
+2023-11-16 14:42:19,681 [WebServer.java:124] - 11343, 
+2023-11-16 14:42:19,681 [WebServer.java:124] - action, 
+2023-11-16 14:42:19,681 [WebServer.java:124] - unlock, 
+2023-11-16 14:42:19,682 [WebServer.java:124] - datetime, 
+2023-11-16 14:42:19,682 [WebServer.java:124] - 2023-11-16T09:30, 
+2023-11-16 14:42:19,682 [WebServer.java:124] - areaId, 
+2023-11-16 14:42:19,682 [WebServer.java:124] - parking, 
+2023-11-16 14:42:19,682 [WebServer.java:124] - null, 
+2023-11-16 14:42:19,682 [WebServer.java:124] - null, 
+2023-11-16 14:42:19,682 [WebServer.java:124] - null, 
+2023-11-16 14:42:19,682 [WebServer.java:124] - null, 
+2023-11-16 14:42:19,682 [WebServer.java:124] - null, 
+2023-11-16 14:42:19,682 [WebServer.java:124] - null, 
+2023-11-16 14:42:19,682 [WebServer.java:124] - null, 
+2023-11-16 14:42:19,682 [WebServer.java:124] - null, 
+2023-11-16 14:42:19,682 [WebServer.java:124] - null, 
+2023-11-16 14:42:19,682 [WebServer.java:124] - null, 
+2023-11-16 14:42:19,682 [WebServer.java:124] - null, 
+2023-11-16 14:42:19,683 [WebServer.java:126] - 
+2023-11-16 14:42:19,683 [WebServer.java:100] - created request area Request{credential=11343, action=unlock, now=2023-11-16T09:30, areaId=parking, requestsDoors=}
+2023-11-16 14:42:19,685 [Lock.java:21] - Door D1 has been unlocked
+2023-11-16 14:42:19,685 [Lock.java:21] - Door D2 has been unlocked
+2023-11-16 14:42:19,690 [WebServer.java:102] - processed request area Request{credential=11343, action=unlock, now=2023-11-16T09:30, areaId=parking, requestsDoors=[Request{credential=11343, userName=unknown, action=unlock, now=2023-11-16T09:30, doorID=D1, closed=true, authorized=true, reasons=[]}, Request{credential=11343, userName=unknown, action=unlock, now=2023-11-16T09:30, doorID=D2, closed=true, authorized=true, reasons=[]}]}
+2023-11-16 14:42:19,691 [WebServer.java:105] - answer
+HTTP/1.0 200 OK
+Content-type: application/json
+Access-Control-Allow-Origin: *
+
+{"todo":"request areas not yet implemented","areaId":"parking","action":"unlock","requestsDoors":[{"reasons":[],"authorized":true,"action":"unlock","closed":true,"state":"unlocked","doorId":"D1"},{"reasons":[],"authorized":true,"action":"unlock","closed":true,"state":"unlocked","doorId":"D2"}]}
+2023-11-16 14:42:21,495 [WebServer.java:74] - sockedthread : GET /area?credential=11343&action=unlock&datetime=2023-11-16T09:30&areaId=hall HTTP/1.1
+2023-11-16 14:42:21,495 [WebServer.java:92] - 0 area
+2023-11-16 14:42:21,495 [WebServer.java:92] - 1 credential
+2023-11-16 14:42:21,495 [WebServer.java:92] - 2 11343
+2023-11-16 14:42:21,495 [WebServer.java:92] - 3 action
+2023-11-16 14:42:21,495 [WebServer.java:92] - 4 unlock
+2023-11-16 14:42:21,496 [WebServer.java:92] - 5 datetime
+2023-11-16 14:42:21,496 [WebServer.java:92] - 6 2023-11-16T09:30
+2023-11-16 14:42:21,496 [WebServer.java:92] - 7 areaId
+2023-11-16 14:42:21,496 [WebServer.java:92] - 8 hall
+2023-11-16 14:42:21,496 [WebServer.java:122] - tokens : 
+2023-11-16 14:42:21,496 [WebServer.java:124] - area, 
+2023-11-16 14:42:21,496 [WebServer.java:124] - credential, 
+2023-11-16 14:42:21,496 [WebServer.java:124] - 11343, 
+2023-11-16 14:42:21,496 [WebServer.java:124] - action, 
+2023-11-16 14:42:21,496 [WebServer.java:124] - unlock, 
+2023-11-16 14:42:21,496 [WebServer.java:124] - datetime, 
+2023-11-16 14:42:21,496 [WebServer.java:124] - 2023-11-16T09:30, 
+2023-11-16 14:42:21,496 [WebServer.java:124] - areaId, 
+2023-11-16 14:42:21,496 [WebServer.java:124] - hall, 
+2023-11-16 14:42:21,496 [WebServer.java:124] - null, 
+2023-11-16 14:42:21,496 [WebServer.java:124] - null, 
+2023-11-16 14:42:21,497 [WebServer.java:124] - null, 
+2023-11-16 14:42:21,497 [WebServer.java:124] - null, 
+2023-11-16 14:42:21,497 [WebServer.java:124] - null, 
+2023-11-16 14:42:21,497 [WebServer.java:124] - null, 
+2023-11-16 14:42:21,497 [WebServer.java:124] - null, 
+2023-11-16 14:42:21,497 [WebServer.java:124] - null, 
+2023-11-16 14:42:21,497 [WebServer.java:124] - null, 
+2023-11-16 14:42:21,497 [WebServer.java:124] - null, 
+2023-11-16 14:42:21,497 [WebServer.java:124] - null, 
+2023-11-16 14:42:21,497 [WebServer.java:126] - 
+2023-11-16 14:42:21,497 [WebServer.java:100] - created request area Request{credential=11343, action=unlock, now=2023-11-16T09:30, areaId=hall, requestsDoors=}
+2023-11-16 14:42:21,497 [Lock.java:21] - Door D3 has been unlocked
+2023-11-16 14:42:21,497 [Lock.java:21] - Door D4 has been unlocked
+2023-11-16 14:42:21,498 [WebServer.java:102] - processed request area Request{credential=11343, action=unlock, now=2023-11-16T09:30, areaId=hall, requestsDoors=[Request{credential=11343, userName=unknown, action=unlock, now=2023-11-16T09:30, doorID=D3, closed=true, authorized=true, reasons=[]}, Request{credential=11343, userName=unknown, action=unlock, now=2023-11-16T09:30, doorID=D4, closed=true, authorized=true, reasons=[]}]}
+2023-11-16 14:42:21,498 [WebServer.java:105] - answer
+HTTP/1.0 200 OK
+Content-type: application/json
+Access-Control-Allow-Origin: *
+
+{"todo":"request areas not yet implemented","areaId":"hall","action":"unlock","requestsDoors":[{"reasons":[],"authorized":true,"action":"unlock","closed":true,"state":"unlocked","doorId":"D3"},{"reasons":[],"authorized":true,"action":"unlock","closed":true,"state":"unlocked","doorId":"D4"}]}
+2023-11-16 14:42:23,439 [WebServer.java:74] - sockedthread : GET /area?credential=11343&action=unlock&datetime=2023-11-16T09:30&areaId=basement HTTP/1.1
+2023-11-16 14:42:23,439 [WebServer.java:92] - 0 area
+2023-11-16 14:42:23,439 [WebServer.java:92] - 1 credential
+2023-11-16 14:42:23,439 [WebServer.java:92] - 2 11343
+2023-11-16 14:42:23,439 [WebServer.java:92] - 3 action
+2023-11-16 14:42:23,439 [WebServer.java:92] - 4 unlock
+2023-11-16 14:42:23,439 [WebServer.java:92] - 5 datetime
+2023-11-16 14:42:23,440 [WebServer.java:92] - 6 2023-11-16T09:30
+2023-11-16 14:42:23,440 [WebServer.java:92] - 7 areaId
+2023-11-16 14:42:23,440 [WebServer.java:92] - 8 basement
+2023-11-16 14:42:23,440 [WebServer.java:122] - tokens : 
+2023-11-16 14:42:23,440 [WebServer.java:124] - area, 
+2023-11-16 14:42:23,440 [WebServer.java:124] - credential, 
+2023-11-16 14:42:23,440 [WebServer.java:124] - 11343, 
+2023-11-16 14:42:23,440 [WebServer.java:124] - action, 
+2023-11-16 14:42:23,440 [WebServer.java:124] - unlock, 
+2023-11-16 14:42:23,440 [WebServer.java:124] - datetime, 
+2023-11-16 14:42:23,440 [WebServer.java:124] - 2023-11-16T09:30, 
+2023-11-16 14:42:23,440 [WebServer.java:124] - areaId, 
+2023-11-16 14:42:23,440 [WebServer.java:124] - basement, 
+2023-11-16 14:42:23,440 [WebServer.java:124] - null, 
+2023-11-16 14:42:23,440 [WebServer.java:124] - null, 
+2023-11-16 14:42:23,441 [WebServer.java:124] - null, 
+2023-11-16 14:42:23,441 [WebServer.java:124] - null, 
+2023-11-16 14:42:23,441 [WebServer.java:124] - null, 
+2023-11-16 14:42:23,441 [WebServer.java:124] - null, 
+2023-11-16 14:42:23,441 [WebServer.java:124] - null, 
+2023-11-16 14:42:23,441 [WebServer.java:124] - null, 
+2023-11-16 14:42:23,441 [WebServer.java:124] - null, 
+2023-11-16 14:42:23,441 [WebServer.java:124] - null, 
+2023-11-16 14:42:23,441 [WebServer.java:124] - null, 
+2023-11-16 14:42:23,441 [WebServer.java:126] - 
+2023-11-16 14:42:23,441 [WebServer.java:100] - created request area Request{credential=11343, action=unlock, now=2023-11-16T09:30, areaId=basement, requestsDoors=}
+2023-11-16 14:42:23,441 [WebServer.java:102] - processed request area Request{credential=11343, action=unlock, now=2023-11-16T09:30, areaId=basement, requestsDoors=}
+2023-11-16 14:42:23,441 [WebServer.java:105] - answer
+HTTP/1.0 200 OK
+Content-type: application/json
+Access-Control-Allow-Origin: *
+
+{"todo":"request areas not yet implemented","areaId":"basement","action":"unlock","requestsDoors":[]}
+2023-11-16 14:42:24,049 [WebServer.java:74] - sockedthread : GET /area?credential=11343&action=unlock&datetime=2023-11-16T09:30&areaId=basement HTTP/1.1
+2023-11-16 14:42:24,049 [WebServer.java:92] - 0 area
+2023-11-16 14:42:24,049 [WebServer.java:92] - 1 credential
+2023-11-16 14:42:24,049 [WebServer.java:92] - 2 11343
+2023-11-16 14:42:24,050 [WebServer.java:92] - 3 action
+2023-11-16 14:42:24,050 [WebServer.java:92] - 4 unlock
+2023-11-16 14:42:24,050 [WebServer.java:92] - 5 datetime
+2023-11-16 14:42:24,050 [WebServer.java:92] - 6 2023-11-16T09:30
+2023-11-16 14:42:24,050 [WebServer.java:92] - 7 areaId
+2023-11-16 14:42:24,050 [WebServer.java:92] - 8 basement
+2023-11-16 14:42:24,050 [WebServer.java:122] - tokens : 
+2023-11-16 14:42:24,050 [WebServer.java:124] - area, 
+2023-11-16 14:42:24,050 [WebServer.java:124] - credential, 
+2023-11-16 14:42:24,050 [WebServer.java:124] - 11343, 
+2023-11-16 14:42:24,050 [WebServer.java:124] - action, 
+2023-11-16 14:42:24,050 [WebServer.java:124] - unlock, 
+2023-11-16 14:42:24,050 [WebServer.java:124] - datetime, 
+2023-11-16 14:42:24,050 [WebServer.java:124] - 2023-11-16T09:30, 
+2023-11-16 14:42:24,050 [WebServer.java:124] - areaId, 
+2023-11-16 14:42:24,050 [WebServer.java:124] - basement, 
+2023-11-16 14:42:24,050 [WebServer.java:124] - null, 
+2023-11-16 14:42:24,051 [WebServer.java:124] - null, 
+2023-11-16 14:42:24,051 [WebServer.java:124] - null, 
+2023-11-16 14:42:24,051 [WebServer.java:124] - null, 
+2023-11-16 14:42:24,051 [WebServer.java:124] - null, 
+2023-11-16 14:42:24,051 [WebServer.java:124] - null, 
+2023-11-16 14:42:24,051 [WebServer.java:124] - null, 
+2023-11-16 14:42:24,051 [WebServer.java:124] - null, 
+2023-11-16 14:42:24,052 [WebServer.java:124] - null, 
+2023-11-16 14:42:24,052 [WebServer.java:124] - null, 
+2023-11-16 14:42:24,052 [WebServer.java:124] - null, 
+2023-11-16 14:42:24,052 [WebServer.java:126] - 
+2023-11-16 14:42:24,052 [WebServer.java:100] - created request area Request{credential=11343, action=unlock, now=2023-11-16T09:30, areaId=basement, requestsDoors=}
+2023-11-16 14:42:24,053 [WebServer.java:102] - processed request area Request{credential=11343, action=unlock, now=2023-11-16T09:30, areaId=basement, requestsDoors=}
+2023-11-16 14:42:24,053 [WebServer.java:105] - answer
+HTTP/1.0 200 OK
+Content-type: application/json
+Access-Control-Allow-Origin: *
+
+{"todo":"request areas not yet implemented","areaId":"basement","action":"unlock","requestsDoors":[]}
+2023-11-16 14:42:25,772 [WebServer.java:74] - sockedthread : GET /area?credential=11343&action=lock&datetime=2023-11-16T09:30&areaId=basement HTTP/1.1
+2023-11-16 14:42:25,772 [WebServer.java:92] - 0 area
+2023-11-16 14:42:25,772 [WebServer.java:92] - 1 credential
+2023-11-16 14:42:25,772 [WebServer.java:92] - 2 11343
+2023-11-16 14:42:25,772 [WebServer.java:92] - 3 action
+2023-11-16 14:42:25,772 [WebServer.java:92] - 4 lock
+2023-11-16 14:42:25,772 [WebServer.java:92] - 5 datetime
+2023-11-16 14:42:25,772 [WebServer.java:92] - 6 2023-11-16T09:30
+2023-11-16 14:42:25,772 [WebServer.java:92] - 7 areaId
+2023-11-16 14:42:25,772 [WebServer.java:92] - 8 basement
+2023-11-16 14:42:25,772 [WebServer.java:122] - tokens : 
+2023-11-16 14:42:25,772 [WebServer.java:124] - area, 
+2023-11-16 14:42:25,773 [WebServer.java:124] - credential, 
+2023-11-16 14:42:25,773 [WebServer.java:124] - 11343, 
+2023-11-16 14:42:25,773 [WebServer.java:124] - action, 
+2023-11-16 14:42:25,773 [WebServer.java:124] - lock, 
+2023-11-16 14:42:25,773 [WebServer.java:124] - datetime, 
+2023-11-16 14:42:25,773 [WebServer.java:124] - 2023-11-16T09:30, 
+2023-11-16 14:42:25,773 [WebServer.java:124] - areaId, 
+2023-11-16 14:42:25,773 [WebServer.java:124] - basement, 
+2023-11-16 14:42:25,773 [WebServer.java:124] - null, 
+2023-11-16 14:42:25,773 [WebServer.java:124] - null, 
+2023-11-16 14:42:25,773 [WebServer.java:124] - null, 
+2023-11-16 14:42:25,773 [WebServer.java:124] - null, 
+2023-11-16 14:42:25,773 [WebServer.java:124] - null, 
+2023-11-16 14:42:25,773 [WebServer.java:124] - null, 
+2023-11-16 14:42:25,773 [WebServer.java:124] - null, 
+2023-11-16 14:42:25,773 [WebServer.java:124] - null, 
+2023-11-16 14:42:25,773 [WebServer.java:124] - null, 
+2023-11-16 14:42:25,774 [WebServer.java:124] - null, 
+2023-11-16 14:42:25,774 [WebServer.java:124] - null, 
+2023-11-16 14:42:25,774 [WebServer.java:126] - 
+2023-11-16 14:42:25,774 [WebServer.java:100] - created request area Request{credential=11343, action=lock, now=2023-11-16T09:30, areaId=basement, requestsDoors=}
+2023-11-16 14:42:25,774 [WebServer.java:102] - processed request area Request{credential=11343, action=lock, now=2023-11-16T09:30, areaId=basement, requestsDoors=}
+2023-11-16 14:42:25,774 [WebServer.java:105] - answer
+HTTP/1.0 200 OK
+Content-type: application/json
+Access-Control-Allow-Origin: *
+
+{"todo":"request areas not yet implemented","areaId":"basement","action":"lock","requestsDoors":[]}
+2023-11-16 14:42:34,024 [WebServer.java:36] - Server started.
+Listening for connections on port : 8080 ...
+
+2023-11-16 14:42:35,837 [WebServer.java:74] - sockedthread : GET /refresh HTTP/1.1
+2023-11-16 14:42:35,842 [WebServer.java:92] - 0 refresh
+2023-11-16 14:42:35,842 [WebServer.java:122] - tokens : 
+2023-11-16 14:42:35,843 [WebServer.java:124] - refresh, 
+2023-11-16 14:42:35,843 [WebServer.java:124] - null, 
+2023-11-16 14:42:35,843 [WebServer.java:124] - null, 
+2023-11-16 14:42:35,843 [WebServer.java:124] - null, 
+2023-11-16 14:42:35,843 [WebServer.java:124] - null, 
+2023-11-16 14:42:35,843 [WebServer.java:124] - null, 
+2023-11-16 14:42:35,843 [WebServer.java:124] - null, 
+2023-11-16 14:42:35,843 [WebServer.java:124] - null, 
+2023-11-16 14:42:35,844 [WebServer.java:124] - null, 
+2023-11-16 14:42:35,844 [WebServer.java:124] - null, 
+2023-11-16 14:42:35,844 [WebServer.java:124] - null, 
+2023-11-16 14:42:35,844 [WebServer.java:124] - null, 
+2023-11-16 14:42:35,844 [WebServer.java:124] - null, 
+2023-11-16 14:42:35,845 [WebServer.java:124] - null, 
+2023-11-16 14:42:35,845 [WebServer.java:124] - null, 
+2023-11-16 14:42:35,845 [WebServer.java:124] - null, 
+2023-11-16 14:42:35,846 [WebServer.java:124] - null, 
+2023-11-16 14:42:35,846 [WebServer.java:124] - null, 
+2023-11-16 14:42:35,846 [WebServer.java:124] - null, 
+2023-11-16 14:42:35,846 [WebServer.java:124] - null, 
+2023-11-16 14:42:35,846 [WebServer.java:126] - 
+2023-11-16 14:42:35,847 [WebServer.java:100] - created request refresh RequestRefresh{[]}
+2023-11-16 14:42:35,863 [WebServer.java:102] - processed request refresh RequestRefresh{[{"closed":true,"id":"D1","state":"locked"}, {"closed":true,"id":"D2","state":"locked"}, {"closed":true,"id":"D3","state":"locked"}, {"closed":true,"id":"D4","state":"locked"}, {"closed":true,"id":"D5","state":"locked"}, {"closed":true,"id":"D6","state":"locked"}, {"closed":true,"id":"D7","state":"locked"}, {"closed":true,"id":"D8","state":"locked"}, {"closed":true,"id":"D9","state":"locked"}]}
+2023-11-16 14:42:35,864 [WebServer.java:105] - answer
+HTTP/1.0 200 OK
+Content-type: application/json
+Access-Control-Allow-Origin: *
+
+{"doors":[{"closed":true,"id":"D1","state":"locked"},{"closed":true,"id":"D2","state":"locked"},{"closed":true,"id":"D3","state":"locked"},{"closed":true,"id":"D4","state":"locked"},{"closed":true,"id":"D5","state":"locked"},{"closed":true,"id":"D6","state":"locked"},{"closed":true,"id":"D7","state":"locked"},{"closed":true,"id":"D8","state":"locked"},{"closed":true,"id":"D9","state":"locked"}]}
+2023-11-16 14:42:37,513 [WebServer.java:74] - sockedthread : GET /area?credential=11343&action=lock&datetime=2023-11-16T09:30&areaId=ground_floor HTTP/1.1
+2023-11-16 14:42:37,513 [WebServer.java:92] - 0 area
+2023-11-16 14:42:37,514 [WebServer.java:92] - 1 credential
+2023-11-16 14:42:37,514 [WebServer.java:92] - 2 11343
+2023-11-16 14:42:37,514 [WebServer.java:92] - 3 action
+2023-11-16 14:42:37,514 [WebServer.java:92] - 4 lock
+2023-11-16 14:42:37,515 [WebServer.java:92] - 5 datetime
+2023-11-16 14:42:37,515 [WebServer.java:92] - 6 2023-11-16T09:30
+2023-11-16 14:42:37,515 [WebServer.java:92] - 7 areaId
+2023-11-16 14:42:37,515 [WebServer.java:92] - 8 ground_floor
+2023-11-16 14:42:37,515 [WebServer.java:122] - tokens : 
+2023-11-16 14:42:37,515 [WebServer.java:124] - area, 
+2023-11-16 14:42:37,515 [WebServer.java:124] - credential, 
+2023-11-16 14:42:37,515 [WebServer.java:124] - 11343, 
+2023-11-16 14:42:37,515 [WebServer.java:124] - action, 
+2023-11-16 14:42:37,515 [WebServer.java:124] - lock, 
+2023-11-16 14:42:37,515 [WebServer.java:124] - datetime, 
+2023-11-16 14:42:37,515 [WebServer.java:124] - 2023-11-16T09:30, 
+2023-11-16 14:42:37,515 [WebServer.java:124] - areaId, 
+2023-11-16 14:42:37,515 [WebServer.java:124] - ground_floor, 
+2023-11-16 14:42:37,515 [WebServer.java:124] - null, 
+2023-11-16 14:42:37,516 [WebServer.java:124] - null, 
+2023-11-16 14:42:37,516 [WebServer.java:124] - null, 
+2023-11-16 14:42:37,516 [WebServer.java:124] - null, 
+2023-11-16 14:42:37,516 [WebServer.java:124] - null, 
+2023-11-16 14:42:37,516 [WebServer.java:124] - null, 
+2023-11-16 14:42:37,516 [WebServer.java:124] - null, 
+2023-11-16 14:42:37,516 [WebServer.java:124] - null, 
+2023-11-16 14:42:37,516 [WebServer.java:124] - null, 
+2023-11-16 14:42:37,516 [WebServer.java:124] - null, 
+2023-11-16 14:42:37,516 [WebServer.java:124] - null, 
+2023-11-16 14:42:37,516 [WebServer.java:126] - 
+2023-11-16 14:42:37,527 [WebServer.java:100] - created request area Request{credential=11343, action=lock, now=2023-11-16T09:30, areaId=ground_floor, requestsDoors=}
+2023-11-16 14:44:13,784 [WebServer.java:102] - processed request area Request{credential=11343, action=lock, now=2023-11-16T09:30, areaId=ground_floor, requestsDoors=}
+2023-11-16 14:44:13,785 [WebServer.java:105] - answer
+HTTP/1.0 200 OK
+Content-type: application/json
+Access-Control-Allow-Origin: *
+
+{"todo":"request areas not yet implemented","areaId":"ground_floor","action":"lock","requestsDoors":[]}
+2023-11-16 14:45:50,052 [WebServer.java:36] - Server started.
+Listening for connections on port : 8080 ...
+
+2023-11-16 14:45:51,154 [WebServer.java:74] - sockedthread : GET /refresh HTTP/1.1
+2023-11-16 14:45:51,159 [WebServer.java:92] - 0 refresh
+2023-11-16 14:45:51,159 [WebServer.java:122] - tokens : 
+2023-11-16 14:45:51,160 [WebServer.java:124] - refresh, 
+2023-11-16 14:45:51,160 [WebServer.java:124] - null, 
+2023-11-16 14:45:51,160 [WebServer.java:124] - null, 
+2023-11-16 14:45:51,160 [WebServer.java:124] - null, 
+2023-11-16 14:45:51,160 [WebServer.java:124] - null, 
+2023-11-16 14:45:51,160 [WebServer.java:124] - null, 
+2023-11-16 14:45:51,160 [WebServer.java:124] - null, 
+2023-11-16 14:45:51,161 [WebServer.java:124] - null, 
+2023-11-16 14:45:51,161 [WebServer.java:124] - null, 
+2023-11-16 14:45:51,161 [WebServer.java:124] - null, 
+2023-11-16 14:45:51,161 [WebServer.java:124] - null, 
+2023-11-16 14:45:51,161 [WebServer.java:124] - null, 
+2023-11-16 14:45:51,161 [WebServer.java:124] - null, 
+2023-11-16 14:45:51,161 [WebServer.java:124] - null, 
+2023-11-16 14:45:51,161 [WebServer.java:124] - null, 
+2023-11-16 14:45:51,162 [WebServer.java:124] - null, 
+2023-11-16 14:45:51,162 [WebServer.java:124] - null, 
+2023-11-16 14:45:51,162 [WebServer.java:124] - null, 
+2023-11-16 14:45:51,162 [WebServer.java:124] - null, 
+2023-11-16 14:45:51,162 [WebServer.java:124] - null, 
+2023-11-16 14:45:51,162 [WebServer.java:126] - 
+2023-11-16 14:45:51,163 [WebServer.java:100] - created request refresh RequestRefresh{[]}
+2023-11-16 14:45:51,178 [WebServer.java:102] - processed request refresh RequestRefresh{[{"closed":true,"id":"D1","state":"locked"}, {"closed":true,"id":"D2","state":"locked"}, {"closed":true,"id":"D3","state":"locked"}, {"closed":true,"id":"D4","state":"locked"}, {"closed":true,"id":"D5","state":"locked"}, {"closed":true,"id":"D6","state":"locked"}, {"closed":true,"id":"D7","state":"locked"}, {"closed":true,"id":"D8","state":"locked"}, {"closed":true,"id":"D9","state":"locked"}]}
+2023-11-16 14:45:51,178 [WebServer.java:105] - answer
+HTTP/1.0 200 OK
+Content-type: application/json
+Access-Control-Allow-Origin: *
+
+{"doors":[{"closed":true,"id":"D1","state":"locked"},{"closed":true,"id":"D2","state":"locked"},{"closed":true,"id":"D3","state":"locked"},{"closed":true,"id":"D4","state":"locked"},{"closed":true,"id":"D5","state":"locked"},{"closed":true,"id":"D6","state":"locked"},{"closed":true,"id":"D7","state":"locked"},{"closed":true,"id":"D8","state":"locked"},{"closed":true,"id":"D9","state":"locked"}]}
+2023-11-16 14:45:53,875 [WebServer.java:74] - sockedthread : GET /area?credential=11343&action=unlock&datetime=2023-11-16T09:30&areaId=ground_floor HTTP/1.1
+2023-11-16 14:45:53,875 [WebServer.java:92] - 0 area
+2023-11-16 14:45:53,875 [WebServer.java:92] - 1 credential
+2023-11-16 14:45:53,876 [WebServer.java:92] - 2 11343
+2023-11-16 14:45:53,876 [WebServer.java:92] - 3 action
+2023-11-16 14:45:53,876 [WebServer.java:92] - 4 unlock
+2023-11-16 14:45:53,876 [WebServer.java:92] - 5 datetime
+2023-11-16 14:45:53,876 [WebServer.java:92] - 6 2023-11-16T09:30
+2023-11-16 14:45:53,876 [WebServer.java:92] - 7 areaId
+2023-11-16 14:45:53,877 [WebServer.java:92] - 8 ground_floor
+2023-11-16 14:45:53,877 [WebServer.java:122] - tokens : 
+2023-11-16 14:45:53,877 [WebServer.java:124] - area, 
+2023-11-16 14:45:53,877 [WebServer.java:124] - credential, 
+2023-11-16 14:45:53,877 [WebServer.java:124] - 11343, 
+2023-11-16 14:45:53,877 [WebServer.java:124] - action, 
+2023-11-16 14:45:53,877 [WebServer.java:124] - unlock, 
+2023-11-16 14:45:53,877 [WebServer.java:124] - datetime, 
+2023-11-16 14:45:53,877 [WebServer.java:124] - 2023-11-16T09:30, 
+2023-11-16 14:45:53,877 [WebServer.java:124] - areaId, 
+2023-11-16 14:45:53,877 [WebServer.java:124] - ground_floor, 
+2023-11-16 14:45:53,877 [WebServer.java:124] - null, 
+2023-11-16 14:45:53,877 [WebServer.java:124] - null, 
+2023-11-16 14:45:53,877 [WebServer.java:124] - null, 
+2023-11-16 14:45:53,877 [WebServer.java:124] - null, 
+2023-11-16 14:45:53,877 [WebServer.java:124] - null, 
+2023-11-16 14:45:53,878 [WebServer.java:124] - null, 
+2023-11-16 14:45:53,878 [WebServer.java:124] - null, 
+2023-11-16 14:45:53,878 [WebServer.java:124] - null, 
+2023-11-16 14:45:53,878 [WebServer.java:124] - null, 
+2023-11-16 14:45:53,878 [WebServer.java:124] - null, 
+2023-11-16 14:45:53,878 [WebServer.java:124] - null, 
+2023-11-16 14:45:53,878 [WebServer.java:126] - 
+2023-11-16 14:45:53,885 [WebServer.java:100] - created request area Request{credential=11343, action=unlock, now=2023-11-16T09:30, areaId=ground_floor, requestsDoors=}
+2023-11-16 14:45:53,888 [Lock.java:21] - Door D5 has been unlocked
+2023-11-16 14:45:53,888 [Lock.java:21] - Door D6 has been unlocked
+2023-11-16 14:45:53,888 [Lock.java:21] - Door D3 has been unlocked
+2023-11-16 14:45:53,888 [Lock.java:21] - Door D4 has been unlocked
+2023-11-16 14:45:53,893 [WebServer.java:102] - processed request area Request{credential=11343, action=unlock, now=2023-11-16T09:30, areaId=ground_floor, requestsDoors=[Request{credential=11343, userName=unknown, action=unlock, now=2023-11-16T09:30, doorID=D5, closed=true, authorized=true, reasons=[]}, Request{credential=11343, userName=unknown, action=unlock, now=2023-11-16T09:30, doorID=D6, closed=true, authorized=true, reasons=[]}, Request{credential=11343, userName=unknown, action=unlock, now=2023-11-16T09:30, doorID=D3, closed=true, authorized=true, reasons=[]}, Request{credential=11343, userName=unknown, action=unlock, now=2023-11-16T09:30, doorID=D4, closed=true, authorized=true, reasons=[]}]}
+2023-11-16 14:45:53,894 [WebServer.java:105] - answer
+HTTP/1.0 200 OK
+Content-type: application/json
+Access-Control-Allow-Origin: *
+
+{"todo":"request areas not yet implemented","areaId":"ground_floor","action":"unlock","requestsDoors":[{"reasons":[],"authorized":true,"action":"unlock","closed":true,"state":"unlocked","doorId":"D5"},{"reasons":[],"authorized":true,"action":"unlock","closed":true,"state":"unlocked","doorId":"D6"},{"reasons":[],"authorized":true,"action":"unlock","closed":true,"state":"unlocked","doorId":"D3"},{"reasons":[],"authorized":true,"action":"unlock","closed":true,"state":"unlocked","doorId":"D4"}]}
+2023-11-16 14:45:58,279 [WebServer.java:74] - sockedthread : GET /area?credential=11343&action=lock&datetime=2023-11-16T09:30&areaId=ground_floor HTTP/1.1
+2023-11-16 14:45:58,279 [WebServer.java:92] - 0 area
+2023-11-16 14:45:58,279 [WebServer.java:92] - 1 credential
+2023-11-16 14:45:58,279 [WebServer.java:92] - 2 11343
+2023-11-16 14:45:58,280 [WebServer.java:92] - 3 action
+2023-11-16 14:45:58,280 [WebServer.java:92] - 4 lock
+2023-11-16 14:45:58,280 [WebServer.java:92] - 5 datetime
+2023-11-16 14:45:58,280 [WebServer.java:92] - 6 2023-11-16T09:30
+2023-11-16 14:45:58,280 [WebServer.java:92] - 7 areaId
+2023-11-16 14:45:58,280 [WebServer.java:92] - 8 ground_floor
+2023-11-16 14:45:58,280 [WebServer.java:122] - tokens : 
+2023-11-16 14:45:58,281 [WebServer.java:124] - area, 
+2023-11-16 14:45:58,281 [WebServer.java:124] - credential, 
+2023-11-16 14:45:58,281 [WebServer.java:124] - 11343, 
+2023-11-16 14:45:58,281 [WebServer.java:124] - action, 
+2023-11-16 14:45:58,281 [WebServer.java:124] - lock, 
+2023-11-16 14:45:58,281 [WebServer.java:124] - datetime, 
+2023-11-16 14:45:58,281 [WebServer.java:124] - 2023-11-16T09:30, 
+2023-11-16 14:45:58,281 [WebServer.java:124] - areaId, 
+2023-11-16 14:45:58,281 [WebServer.java:124] - ground_floor, 
+2023-11-16 14:45:58,282 [WebServer.java:124] - null, 
+2023-11-16 14:45:58,282 [WebServer.java:124] - null, 
+2023-11-16 14:45:58,282 [WebServer.java:124] - null, 
+2023-11-16 14:45:58,282 [WebServer.java:124] - null, 
+2023-11-16 14:45:58,283 [WebServer.java:124] - null, 
+2023-11-16 14:45:58,283 [WebServer.java:124] - null, 
+2023-11-16 14:45:58,283 [WebServer.java:124] - null, 
+2023-11-16 14:45:58,283 [WebServer.java:124] - null, 
+2023-11-16 14:45:58,283 [WebServer.java:124] - null, 
+2023-11-16 14:45:58,283 [WebServer.java:124] - null, 
+2023-11-16 14:45:58,283 [WebServer.java:124] - null, 
+2023-11-16 14:45:58,283 [WebServer.java:126] - 
+2023-11-16 14:45:58,283 [WebServer.java:100] - created request area Request{credential=11343, action=lock, now=2023-11-16T09:30, areaId=ground_floor, requestsDoors=}
+2023-11-16 14:45:58,284 [Unlock.java:17] - Door D5 has been locked
+2023-11-16 14:45:58,284 [Unlock.java:17] - Door D6 has been locked
+2023-11-16 14:45:58,284 [Unlock.java:17] - Door D3 has been locked
+2023-11-16 14:45:58,284 [Unlock.java:17] - Door D4 has been locked
+2023-11-16 14:45:58,284 [WebServer.java:102] - processed request area Request{credential=11343, action=lock, now=2023-11-16T09:30, areaId=ground_floor, requestsDoors=[Request{credential=11343, userName=unknown, action=lock, now=2023-11-16T09:30, doorID=D5, closed=true, authorized=true, reasons=[]}, Request{credential=11343, userName=unknown, action=lock, now=2023-11-16T09:30, doorID=D6, closed=true, authorized=true, reasons=[]}, Request{credential=11343, userName=unknown, action=lock, now=2023-11-16T09:30, doorID=D3, closed=true, authorized=true, reasons=[]}, Request{credential=11343, userName=unknown, action=lock, now=2023-11-16T09:30, doorID=D4, closed=true, authorized=true, reasons=[]}]}
+2023-11-16 14:45:58,285 [WebServer.java:105] - answer
+HTTP/1.0 200 OK
+Content-type: application/json
+Access-Control-Allow-Origin: *
+
+{"todo":"request areas not yet implemented","areaId":"ground_floor","action":"lock","requestsDoors":[{"reasons":[],"authorized":true,"action":"lock","closed":true,"state":"locked","doorId":"D5"},{"reasons":[],"authorized":true,"action":"lock","closed":true,"state":"locked","doorId":"D6"},{"reasons":[],"authorized":true,"action":"lock","closed":true,"state":"locked","doorId":"D3"},{"reasons":[],"authorized":true,"action":"lock","closed":true,"state":"locked","doorId":"D4"}]}
+2023-11-16 14:46:00,429 [WebServer.java:74] - sockedthread : GET /area?credential=11343&action=unlock&datetime=2023-11-16T09:30&areaId=basement HTTP/1.1
+2023-11-16 14:46:00,429 [WebServer.java:92] - 0 area
+2023-11-16 14:46:00,429 [WebServer.java:92] - 1 credential
+2023-11-16 14:46:00,429 [WebServer.java:92] - 2 11343
+2023-11-16 14:46:00,430 [WebServer.java:92] - 3 action
+2023-11-16 14:46:00,430 [WebServer.java:92] - 4 unlock
+2023-11-16 14:46:00,430 [WebServer.java:92] - 5 datetime
+2023-11-16 14:46:00,430 [WebServer.java:92] - 6 2023-11-16T09:30
+2023-11-16 14:46:00,430 [WebServer.java:92] - 7 areaId
+2023-11-16 14:46:00,430 [WebServer.java:92] - 8 basement
+2023-11-16 14:46:00,430 [WebServer.java:122] - tokens : 
+2023-11-16 14:46:00,430 [WebServer.java:124] - area, 
+2023-11-16 14:46:00,430 [WebServer.java:124] - credential, 
+2023-11-16 14:46:00,430 [WebServer.java:124] - 11343, 
+2023-11-16 14:46:00,430 [WebServer.java:124] - action, 
+2023-11-16 14:46:00,430 [WebServer.java:124] - unlock, 
+2023-11-16 14:46:00,430 [WebServer.java:124] - datetime, 
+2023-11-16 14:46:00,430 [WebServer.java:124] - 2023-11-16T09:30, 
+2023-11-16 14:46:00,430 [WebServer.java:124] - areaId, 
+2023-11-16 14:46:00,431 [WebServer.java:124] - basement, 
+2023-11-16 14:46:00,431 [WebServer.java:124] - null, 
+2023-11-16 14:46:00,431 [WebServer.java:124] - null, 
+2023-11-16 14:46:00,431 [WebServer.java:124] - null, 
+2023-11-16 14:46:00,431 [WebServer.java:124] - null, 
+2023-11-16 14:46:00,432 [WebServer.java:124] - null, 
+2023-11-16 14:46:00,432 [WebServer.java:124] - null, 
+2023-11-16 14:46:00,432 [WebServer.java:124] - null, 
+2023-11-16 14:46:00,432 [WebServer.java:124] - null, 
+2023-11-16 14:46:00,432 [WebServer.java:124] - null, 
+2023-11-16 14:46:00,432 [WebServer.java:124] - null, 
+2023-11-16 14:46:00,432 [WebServer.java:124] - null, 
+2023-11-16 14:46:00,432 [WebServer.java:126] - 
+2023-11-16 14:46:00,432 [WebServer.java:100] - created request area Request{credential=11343, action=unlock, now=2023-11-16T09:30, areaId=basement, requestsDoors=}
+2023-11-16 14:46:00,432 [Lock.java:21] - Door D1 has been unlocked
+2023-11-16 14:46:00,432 [Lock.java:21] - Door D2 has been unlocked
+2023-11-16 14:46:00,433 [WebServer.java:102] - processed request area Request{credential=11343, action=unlock, now=2023-11-16T09:30, areaId=basement, requestsDoors=[Request{credential=11343, userName=unknown, action=unlock, now=2023-11-16T09:30, doorID=D1, closed=true, authorized=true, reasons=[]}, Request{credential=11343, userName=unknown, action=unlock, now=2023-11-16T09:30, doorID=D2, closed=true, authorized=true, reasons=[]}]}
+2023-11-16 14:46:00,433 [WebServer.java:105] - answer
+HTTP/1.0 200 OK
+Content-type: application/json
+Access-Control-Allow-Origin: *
+
+{"todo":"request areas not yet implemented","areaId":"basement","action":"unlock","requestsDoors":[{"reasons":[],"authorized":true,"action":"unlock","closed":true,"state":"unlocked","doorId":"D1"},{"reasons":[],"authorized":true,"action":"unlock","closed":true,"state":"unlocked","doorId":"D2"}]}
+2023-11-16 14:46:05,969 [WebServer.java:74] - sockedthread : GET /area?credential=11343&action=lock&datetime=2023-11-16T09:30&areaId=basement HTTP/1.1
+2023-11-16 14:46:05,969 [WebServer.java:92] - 0 area
+2023-11-16 14:46:05,969 [WebServer.java:92] - 1 credential
+2023-11-16 14:46:05,969 [WebServer.java:92] - 2 11343
+2023-11-16 14:46:05,969 [WebServer.java:92] - 3 action
+2023-11-16 14:46:05,969 [WebServer.java:92] - 4 lock
+2023-11-16 14:46:05,969 [WebServer.java:92] - 5 datetime
+2023-11-16 14:46:05,970 [WebServer.java:92] - 6 2023-11-16T09:30
+2023-11-16 14:46:05,970 [WebServer.java:92] - 7 areaId
+2023-11-16 14:46:05,970 [WebServer.java:92] - 8 basement
+2023-11-16 14:46:05,970 [WebServer.java:122] - tokens : 
+2023-11-16 14:46:05,970 [WebServer.java:124] - area, 
+2023-11-16 14:46:05,970 [WebServer.java:124] - credential, 
+2023-11-16 14:46:05,970 [WebServer.java:124] - 11343, 
+2023-11-16 14:46:05,970 [WebServer.java:124] - action, 
+2023-11-16 14:46:05,970 [WebServer.java:124] - lock, 
+2023-11-16 14:46:05,970 [WebServer.java:124] - datetime, 
+2023-11-16 14:46:05,970 [WebServer.java:124] - 2023-11-16T09:30, 
+2023-11-16 14:46:05,970 [WebServer.java:124] - areaId, 
+2023-11-16 14:46:05,971 [WebServer.java:124] - basement, 
+2023-11-16 14:46:05,971 [WebServer.java:124] - null, 
+2023-11-16 14:46:05,971 [WebServer.java:124] - null, 
+2023-11-16 14:46:05,971 [WebServer.java:124] - null, 
+2023-11-16 14:46:05,971 [WebServer.java:124] - null, 
+2023-11-16 14:46:05,971 [WebServer.java:124] - null, 
+2023-11-16 14:46:05,971 [WebServer.java:124] - null, 
+2023-11-16 14:46:05,971 [WebServer.java:124] - null, 
+2023-11-16 14:46:05,971 [WebServer.java:124] - null, 
+2023-11-16 14:46:05,971 [WebServer.java:124] - null, 
+2023-11-16 14:46:05,971 [WebServer.java:124] - null, 
+2023-11-16 14:46:05,971 [WebServer.java:124] - null, 
+2023-11-16 14:46:05,971 [WebServer.java:126] - 
+2023-11-16 14:46:05,972 [WebServer.java:100] - created request area Request{credential=11343, action=lock, now=2023-11-16T09:30, areaId=basement, requestsDoors=}
+2023-11-16 14:46:05,972 [Unlock.java:17] - Door D1 has been locked
+2023-11-16 14:46:05,972 [Unlock.java:17] - Door D2 has been locked
+2023-11-16 14:46:05,972 [WebServer.java:102] - processed request area Request{credential=11343, action=lock, now=2023-11-16T09:30, areaId=basement, requestsDoors=[Request{credential=11343, userName=unknown, action=lock, now=2023-11-16T09:30, doorID=D1, closed=true, authorized=true, reasons=[]}, Request{credential=11343, userName=unknown, action=lock, now=2023-11-16T09:30, doorID=D2, closed=true, authorized=true, reasons=[]}]}
+2023-11-16 14:46:05,972 [WebServer.java:105] - answer
+HTTP/1.0 200 OK
+Content-type: application/json
+Access-Control-Allow-Origin: *
+
+{"todo":"request areas not yet implemented","areaId":"basement","action":"lock","requestsDoors":[{"reasons":[],"authorized":true,"action":"lock","closed":true,"state":"locked","doorId":"D1"},{"reasons":[],"authorized":true,"action":"lock","closed":true,"state":"locked","doorId":"D2"}]}
+2023-11-16 14:46:10,583 [WebServer.java:74] - sockedthread : GET /area?credential=43295&action=unlock&datetime=2023-11-16T09:30&areaId=ground_floor HTTP/1.1
+2023-11-16 14:46:10,584 [WebServer.java:92] - 0 area
+2023-11-16 14:46:10,584 [WebServer.java:92] - 1 credential
+2023-11-16 14:46:10,584 [WebServer.java:92] - 2 43295
+2023-11-16 14:46:10,584 [WebServer.java:92] - 3 action
+2023-11-16 14:46:10,584 [WebServer.java:92] - 4 unlock
+2023-11-16 14:46:10,584 [WebServer.java:92] - 5 datetime
+2023-11-16 14:46:10,584 [WebServer.java:92] - 6 2023-11-16T09:30
+2023-11-16 14:46:10,584 [WebServer.java:92] - 7 areaId
+2023-11-16 14:46:10,584 [WebServer.java:92] - 8 ground_floor
+2023-11-16 14:46:10,584 [WebServer.java:122] - tokens : 
+2023-11-16 14:46:10,585 [WebServer.java:124] - area, 
+2023-11-16 14:46:10,585 [WebServer.java:124] - credential, 
+2023-11-16 14:46:10,585 [WebServer.java:124] - 43295, 
+2023-11-16 14:46:10,585 [WebServer.java:124] - action, 
+2023-11-16 14:46:10,585 [WebServer.java:124] - unlock, 
+2023-11-16 14:46:10,585 [WebServer.java:124] - datetime, 
+2023-11-16 14:46:10,585 [WebServer.java:124] - 2023-11-16T09:30, 
+2023-11-16 14:46:10,585 [WebServer.java:124] - areaId, 
+2023-11-16 14:46:10,585 [WebServer.java:124] - ground_floor, 
+2023-11-16 14:46:10,585 [WebServer.java:124] - null, 
+2023-11-16 14:46:10,585 [WebServer.java:124] - null, 
+2023-11-16 14:46:10,585 [WebServer.java:124] - null, 
+2023-11-16 14:46:10,585 [WebServer.java:124] - null, 
+2023-11-16 14:46:10,585 [WebServer.java:124] - null, 
+2023-11-16 14:46:10,585 [WebServer.java:124] - null, 
+2023-11-16 14:46:10,585 [WebServer.java:124] - null, 
+2023-11-16 14:46:10,586 [WebServer.java:124] - null, 
+2023-11-16 14:46:10,586 [WebServer.java:124] - null, 
+2023-11-16 14:46:10,586 [WebServer.java:124] - null, 
+2023-11-16 14:46:10,586 [WebServer.java:124] - null, 
+2023-11-16 14:46:10,586 [WebServer.java:126] - 
+2023-11-16 14:46:10,586 [WebServer.java:100] - created request area Request{credential=43295, action=unlock, now=2023-11-16T09:30, areaId=ground_floor, requestsDoors=}
+2023-11-16 14:46:10,586 [Door.java:49] - not authorized
+2023-11-16 14:46:10,586 [Door.java:49] - not authorized
+2023-11-16 14:46:10,586 [Door.java:49] - not authorized
+2023-11-16 14:46:10,586 [Door.java:49] - not authorized
+2023-11-16 14:46:10,586 [WebServer.java:102] - processed request area Request{credential=43295, action=unlock, now=2023-11-16T09:30, areaId=ground_floor, requestsDoors=[Request{credential=43295, userName=unknown, action=unlock, now=2023-11-16T09:30, doorID=D5, closed=true, authorized=false, reasons=[You can't do this action: unlock]}, Request{credential=43295, userName=unknown, action=unlock, now=2023-11-16T09:30, doorID=D6, closed=true, authorized=false, reasons=[You can't do this action: unlock]}, Request{credential=43295, userName=unknown, action=unlock, now=2023-11-16T09:30, doorID=D3, closed=true, authorized=false, reasons=[You can't do this action: unlock]}, Request{credential=43295, userName=unknown, action=unlock, now=2023-11-16T09:30, doorID=D4, closed=true, authorized=false, reasons=[You can't do this action: unlock]}]}
+2023-11-16 14:46:10,587 [WebServer.java:105] - answer
+HTTP/1.0 200 OK
+Content-type: application/json
+Access-Control-Allow-Origin: *
+
+{"todo":"request areas not yet implemented","areaId":"ground_floor","action":"unlock","requestsDoors":[{"reasons":["You can't do this action: unlock"],"authorized":false,"action":"unlock","closed":true,"state":"locked","doorId":"D5"},{"reasons":["You can't do this action: unlock"],"authorized":false,"action":"unlock","closed":true,"state":"locked","doorId":"D6"},{"reasons":["You can't do this action: unlock"],"authorized":false,"action":"unlock","closed":true,"state":"locked","doorId":"D3"},{"reasons":["You can't do this action: unlock"],"authorized":false,"action":"unlock","closed":true,"state":"locked","doorId":"D4"}]}
+2023-11-16 14:46:31,554 [WebServer.java:74] - sockedthread : GET /reader?credential=43295&action=unlock&datetime=2023-11-16T09:30&doorId=D6 HTTP/1.1
+2023-11-16 14:46:31,554 [WebServer.java:92] - 0 reader
+2023-11-16 14:46:31,555 [WebServer.java:92] - 1 credential
+2023-11-16 14:46:31,555 [WebServer.java:92] - 2 43295
+2023-11-16 14:46:31,555 [WebServer.java:92] - 3 action
+2023-11-16 14:46:31,555 [WebServer.java:92] - 4 unlock
+2023-11-16 14:46:31,555 [WebServer.java:92] - 5 datetime
+2023-11-16 14:46:31,555 [WebServer.java:92] - 6 2023-11-16T09:30
+2023-11-16 14:46:31,555 [WebServer.java:92] - 7 doorId
+2023-11-16 14:46:31,555 [WebServer.java:92] - 8 D6
+2023-11-16 14:46:31,555 [WebServer.java:122] - tokens : 
+2023-11-16 14:46:31,555 [WebServer.java:124] - reader, 
+2023-11-16 14:46:31,555 [WebServer.java:124] - credential, 
+2023-11-16 14:46:31,556 [WebServer.java:124] - 43295, 
+2023-11-16 14:46:31,556 [WebServer.java:124] - action, 
+2023-11-16 14:46:31,556 [WebServer.java:124] - unlock, 
+2023-11-16 14:46:31,557 [WebServer.java:124] - datetime, 
+2023-11-16 14:46:31,557 [WebServer.java:124] - 2023-11-16T09:30, 
+2023-11-16 14:46:31,557 [WebServer.java:124] - doorId, 
+2023-11-16 14:46:31,557 [WebServer.java:124] - D6, 
+2023-11-16 14:46:31,557 [WebServer.java:124] - null, 
+2023-11-16 14:46:31,557 [WebServer.java:124] - null, 
+2023-11-16 14:46:31,557 [WebServer.java:124] - null, 
+2023-11-16 14:46:31,557 [WebServer.java:124] - null, 
+2023-11-16 14:46:31,557 [WebServer.java:124] - null, 
+2023-11-16 14:46:31,557 [WebServer.java:124] - null, 
+2023-11-16 14:46:31,557 [WebServer.java:124] - null, 
+2023-11-16 14:46:31,557 [WebServer.java:124] - null, 
+2023-11-16 14:46:31,557 [WebServer.java:124] - null, 
+2023-11-16 14:46:31,557 [WebServer.java:124] - null, 
+2023-11-16 14:46:31,557 [WebServer.java:124] - null, 
+2023-11-16 14:46:31,557 [WebServer.java:126] - 
+2023-11-16 14:46:31,558 [WebServer.java:100] - created request reader Request{credential=43295, userName=unknown, action=unlock, now=2023-11-16T09:30, doorID=D6, closed=false, authorized=false, reasons=[]}
+2023-11-16 14:46:31,558 [Door.java:49] - not authorized
+2023-11-16 14:46:31,558 [WebServer.java:102] - processed request reader Request{credential=43295, userName=unknown, action=unlock, now=2023-11-16T09:30, doorID=D6, closed=true, authorized=false, reasons=[You can't do this action: unlock]}
+2023-11-16 14:46:31,558 [WebServer.java:105] - answer
+HTTP/1.0 200 OK
+Content-type: application/json
+Access-Control-Allow-Origin: *
+
+{"reasons":["You can't do this action: unlock"],"authorized":false,"action":"unlock","closed":true,"state":"locked","doorId":"D6"}
+2023-11-16 14:46:50,969 [WebServer.java:74] - sockedthread : GET /reader?credential=43295&action=unlock_shortly&datetime=2023-11-16T09:30&doorId=D6 HTTP/1.1
+2023-11-16 14:46:50,969 [WebServer.java:92] - 0 reader
+2023-11-16 14:46:50,969 [WebServer.java:92] - 1 credential
+2023-11-16 14:46:50,969 [WebServer.java:92] - 2 43295
+2023-11-16 14:46:50,970 [WebServer.java:92] - 3 action
+2023-11-16 14:46:50,970 [WebServer.java:92] - 4 unlock_shortly
+2023-11-16 14:46:50,970 [WebServer.java:92] - 5 datetime
+2023-11-16 14:46:50,970 [WebServer.java:92] - 6 2023-11-16T09:30
+2023-11-16 14:46:50,970 [WebServer.java:92] - 7 doorId
+2023-11-16 14:46:50,970 [WebServer.java:92] - 8 D6
+2023-11-16 14:46:50,970 [WebServer.java:122] - tokens : 
+2023-11-16 14:46:50,970 [WebServer.java:124] - reader, 
+2023-11-16 14:46:50,970 [WebServer.java:124] - credential, 
+2023-11-16 14:46:50,970 [WebServer.java:124] - 43295, 
+2023-11-16 14:46:50,970 [WebServer.java:124] - action, 
+2023-11-16 14:46:50,970 [WebServer.java:124] - unlock_shortly, 
+2023-11-16 14:46:50,971 [WebServer.java:124] - datetime, 
+2023-11-16 14:46:50,971 [WebServer.java:124] - 2023-11-16T09:30, 
+2023-11-16 14:46:50,971 [WebServer.java:124] - doorId, 
+2023-11-16 14:46:50,971 [WebServer.java:124] - D6, 
+2023-11-16 14:46:50,971 [WebServer.java:124] - null, 
+2023-11-16 14:46:50,971 [WebServer.java:124] - null, 
+2023-11-16 14:46:50,971 [WebServer.java:124] - null, 
+2023-11-16 14:46:50,971 [WebServer.java:124] - null, 
+2023-11-16 14:46:50,971 [WebServer.java:124] - null, 
+2023-11-16 14:46:50,971 [WebServer.java:124] - null, 
+2023-11-16 14:46:50,971 [WebServer.java:124] - null, 
+2023-11-16 14:46:50,971 [WebServer.java:124] - null, 
+2023-11-16 14:46:50,971 [WebServer.java:124] - null, 
+2023-11-16 14:46:50,971 [WebServer.java:124] - null, 
+2023-11-16 14:46:50,972 [WebServer.java:124] - null, 
+2023-11-16 14:46:50,972 [WebServer.java:126] - 
+2023-11-16 14:46:50,972 [WebServer.java:100] - created request reader Request{credential=43295, userName=unknown, action=unlock_shortly, now=2023-11-16T09:30, doorID=D6, closed=false, authorized=false, reasons=[]}
+2023-11-16 14:46:50,976 [WebServer.java:102] - processed request reader Request{credential=43295, userName=unknown, action=unlock_shortly, now=2023-11-16T09:30, doorID=D6, closed=true, authorized=true, reasons=[]}
+2023-11-16 14:46:50,977 [WebServer.java:105] - answer
+HTTP/1.0 200 OK
+Content-type: application/json
+Access-Control-Allow-Origin: *
+
+{"reasons":[],"authorized":true,"action":"unlock_shortly","closed":true,"state":"unlocked_shortly","doorId":"D6"}
+2023-11-16 14:46:53,211 [WebServer.java:74] - sockedthread : GET /reader?credential=43295&action=unlock_shortly&datetime=2023-11-16T09:30&doorId=D6 HTTP/1.1
+2023-11-16 14:46:53,212 [WebServer.java:92] - 0 reader
+2023-11-16 14:46:53,212 [WebServer.java:92] - 1 credential
+2023-11-16 14:46:53,212 [WebServer.java:92] - 2 43295
+2023-11-16 14:46:53,212 [WebServer.java:92] - 3 action
+2023-11-16 14:46:53,212 [WebServer.java:92] - 4 unlock_shortly
+2023-11-16 14:46:53,212 [WebServer.java:92] - 5 datetime
+2023-11-16 14:46:53,212 [WebServer.java:92] - 6 2023-11-16T09:30
+2023-11-16 14:46:53,212 [WebServer.java:92] - 7 doorId
+2023-11-16 14:46:53,212 [WebServer.java:92] - 8 D6
+2023-11-16 14:46:53,212 [WebServer.java:122] - tokens : 
+2023-11-16 14:46:53,212 [WebServer.java:124] - reader, 
+2023-11-16 14:46:53,212 [WebServer.java:124] - credential, 
+2023-11-16 14:46:53,212 [WebServer.java:124] - 43295, 
+2023-11-16 14:46:53,212 [WebServer.java:124] - action, 
+2023-11-16 14:46:53,212 [WebServer.java:124] - unlock_shortly, 
+2023-11-16 14:46:53,213 [WebServer.java:124] - datetime, 
+2023-11-16 14:46:53,213 [WebServer.java:124] - 2023-11-16T09:30, 
+2023-11-16 14:46:53,213 [WebServer.java:124] - doorId, 
+2023-11-16 14:46:53,213 [WebServer.java:124] - D6, 
+2023-11-16 14:46:53,213 [WebServer.java:124] - null, 
+2023-11-16 14:46:53,213 [WebServer.java:124] - null, 
+2023-11-16 14:46:53,213 [WebServer.java:124] - null, 
+2023-11-16 14:46:53,213 [WebServer.java:124] - null, 
+2023-11-16 14:46:53,213 [WebServer.java:124] - null, 
+2023-11-16 14:46:53,213 [WebServer.java:124] - null, 
+2023-11-16 14:46:53,213 [WebServer.java:124] - null, 
+2023-11-16 14:46:53,213 [WebServer.java:124] - null, 
+2023-11-16 14:46:53,213 [WebServer.java:124] - null, 
+2023-11-16 14:46:53,213 [WebServer.java:124] - null, 
+2023-11-16 14:46:53,213 [WebServer.java:124] - null, 
+2023-11-16 14:46:53,213 [WebServer.java:126] - 
+2023-11-16 14:46:53,214 [WebServer.java:100] - created request reader Request{credential=43295, userName=unknown, action=unlock_shortly, now=2023-11-16T09:30, doorID=D6, closed=false, authorized=false, reasons=[]}
+2023-11-16 14:46:53,214 [WebServer.java:102] - processed request reader Request{credential=43295, userName=unknown, action=unlock_shortly, now=2023-11-16T09:30, doorID=D6, closed=true, authorized=true, reasons=[]}
+2023-11-16 14:46:53,214 [WebServer.java:105] - answer
+HTTP/1.0 200 OK
+Content-type: application/json
+Access-Control-Allow-Origin: *
+
+{"reasons":[],"authorized":true,"action":"unlock_shortly","closed":true,"state":"unlocked_shortly","doorId":"D6"}
+2023-11-16 14:47:03,200 [WebServer.java:74] - sockedthread : GET /reader?credential=43295&action=open&datetime=2023-11-16T09:30&doorId=D6 HTTP/1.1
+2023-11-16 14:47:03,200 [WebServer.java:92] - 0 reader
+2023-11-16 14:47:03,201 [WebServer.java:92] - 1 credential
+2023-11-16 14:47:03,201 [WebServer.java:92] - 2 43295
+2023-11-16 14:47:03,201 [WebServer.java:92] - 3 action
+2023-11-16 14:47:03,201 [WebServer.java:92] - 4 open
+2023-11-16 14:47:03,201 [WebServer.java:92] - 5 datetime
+2023-11-16 14:47:03,201 [WebServer.java:92] - 6 2023-11-16T09:30
+2023-11-16 14:47:03,201 [WebServer.java:92] - 7 doorId
+2023-11-16 14:47:03,201 [WebServer.java:92] - 8 D6
+2023-11-16 14:47:03,201 [WebServer.java:122] - tokens : 
+2023-11-16 14:47:03,201 [WebServer.java:124] - reader, 
+2023-11-16 14:47:03,201 [WebServer.java:124] - credential, 
+2023-11-16 14:47:03,201 [WebServer.java:124] - 43295, 
+2023-11-16 14:47:03,201 [WebServer.java:124] - action, 
+2023-11-16 14:47:03,201 [WebServer.java:124] - open, 
+2023-11-16 14:47:03,201 [WebServer.java:124] - datetime, 
+2023-11-16 14:47:03,201 [WebServer.java:124] - 2023-11-16T09:30, 
+2023-11-16 14:47:03,202 [WebServer.java:124] - doorId, 
+2023-11-16 14:47:03,202 [WebServer.java:124] - D6, 
+2023-11-16 14:47:03,202 [WebServer.java:124] - null, 
+2023-11-16 14:47:03,202 [WebServer.java:124] - null, 
+2023-11-16 14:47:03,202 [WebServer.java:124] - null, 
+2023-11-16 14:47:03,202 [WebServer.java:124] - null, 
+2023-11-16 14:47:03,202 [WebServer.java:124] - null, 
+2023-11-16 14:47:03,202 [WebServer.java:124] - null, 
+2023-11-16 14:47:03,202 [WebServer.java:124] - null, 
+2023-11-16 14:47:03,202 [WebServer.java:124] - null, 
+2023-11-16 14:47:03,202 [WebServer.java:124] - null, 
+2023-11-16 14:47:03,202 [WebServer.java:124] - null, 
+2023-11-16 14:47:03,202 [WebServer.java:124] - null, 
+2023-11-16 14:47:03,202 [WebServer.java:126] - 
+2023-11-16 14:47:03,202 [WebServer.java:100] - created request reader Request{credential=43295, userName=unknown, action=open, now=2023-11-16T09:30, doorID=D6, closed=false, authorized=false, reasons=[]}
+2023-11-16 14:47:03,203 [Lock.java:23] - Can't open door D6 because it's locked
+2023-11-16 14:47:03,203 [WebServer.java:102] - processed request reader Request{credential=43295, userName=unknown, action=open, now=2023-11-16T09:30, doorID=D6, closed=true, authorized=true, reasons=[]}
+2023-11-16 14:47:03,203 [WebServer.java:105] - answer
+HTTP/1.0 200 OK
+Content-type: application/json
+Access-Control-Allow-Origin: *
+
+{"reasons":[],"authorized":true,"action":"open","closed":true,"state":"locked","doorId":"D6"}
+2023-11-16 14:47:07,357 [WebServer.java:74] - sockedthread : GET /reader?credential=43295&action=unlock_shortly&datetime=2023-11-16T09:30&doorId=D6 HTTP/1.1
+2023-11-16 14:47:07,358 [WebServer.java:92] - 0 reader
+2023-11-16 14:47:07,358 [WebServer.java:92] - 1 credential
+2023-11-16 14:47:07,358 [WebServer.java:92] - 2 43295
+2023-11-16 14:47:07,358 [WebServer.java:92] - 3 action
+2023-11-16 14:47:07,358 [WebServer.java:92] - 4 unlock_shortly
+2023-11-16 14:47:07,358 [WebServer.java:92] - 5 datetime
+2023-11-16 14:47:07,358 [WebServer.java:92] - 6 2023-11-16T09:30
+2023-11-16 14:47:07,358 [WebServer.java:92] - 7 doorId
+2023-11-16 14:47:07,358 [WebServer.java:92] - 8 D6
+2023-11-16 14:47:07,358 [WebServer.java:122] - tokens : 
+2023-11-16 14:47:07,358 [WebServer.java:124] - reader, 
+2023-11-16 14:47:07,358 [WebServer.java:124] - credential, 
+2023-11-16 14:47:07,358 [WebServer.java:124] - 43295, 
+2023-11-16 14:47:07,359 [WebServer.java:124] - action, 
+2023-11-16 14:47:07,359 [WebServer.java:124] - unlock_shortly, 
+2023-11-16 14:47:07,359 [WebServer.java:124] - datetime, 
+2023-11-16 14:47:07,359 [WebServer.java:124] - 2023-11-16T09:30, 
+2023-11-16 14:47:07,359 [WebServer.java:124] - doorId, 
+2023-11-16 14:47:07,359 [WebServer.java:124] - D6, 
+2023-11-16 14:47:07,359 [WebServer.java:124] - null, 
+2023-11-16 14:47:07,359 [WebServer.java:124] - null, 
+2023-11-16 14:47:07,359 [WebServer.java:124] - null, 
+2023-11-16 14:47:07,359 [WebServer.java:124] - null, 
+2023-11-16 14:47:07,359 [WebServer.java:124] - null, 
+2023-11-16 14:47:07,359 [WebServer.java:124] - null, 
+2023-11-16 14:47:07,359 [WebServer.java:124] - null, 
+2023-11-16 14:47:07,359 [WebServer.java:124] - null, 
+2023-11-16 14:47:07,359 [WebServer.java:124] - null, 
+2023-11-16 14:47:07,359 [WebServer.java:124] - null, 
+2023-11-16 14:47:07,359 [WebServer.java:124] - null, 
+2023-11-16 14:47:07,359 [WebServer.java:126] - 
+2023-11-16 14:47:07,360 [WebServer.java:100] - created request reader Request{credential=43295, userName=unknown, action=unlock_shortly, now=2023-11-16T09:30, doorID=D6, closed=false, authorized=false, reasons=[]}
+2023-11-16 14:47:07,360 [WebServer.java:102] - processed request reader Request{credential=43295, userName=unknown, action=unlock_shortly, now=2023-11-16T09:30, doorID=D6, closed=true, authorized=true, reasons=[]}
+2023-11-16 14:47:07,360 [WebServer.java:105] - answer
+HTTP/1.0 200 OK
+Content-type: application/json
+Access-Control-Allow-Origin: *
+
+{"reasons":[],"authorized":true,"action":"unlock_shortly","closed":true,"state":"unlocked_shortly","doorId":"D6"}
+2023-11-16 14:47:09,163 [WebServer.java:74] - sockedthread : GET /reader?credential=43295&action=open&datetime=2023-11-16T09:30&doorId=D6 HTTP/1.1
+2023-11-16 14:47:09,163 [WebServer.java:92] - 0 reader
+2023-11-16 14:47:09,163 [WebServer.java:92] - 1 credential
+2023-11-16 14:47:09,163 [WebServer.java:92] - 2 43295
+2023-11-16 14:47:09,163 [WebServer.java:92] - 3 action
+2023-11-16 14:47:09,163 [WebServer.java:92] - 4 open
+2023-11-16 14:47:09,163 [WebServer.java:92] - 5 datetime
+2023-11-16 14:47:09,163 [WebServer.java:92] - 6 2023-11-16T09:30
+2023-11-16 14:47:09,164 [WebServer.java:92] - 7 doorId
+2023-11-16 14:47:09,164 [WebServer.java:92] - 8 D6
+2023-11-16 14:47:09,164 [WebServer.java:122] - tokens : 
+2023-11-16 14:47:09,164 [WebServer.java:124] - reader, 
+2023-11-16 14:47:09,164 [WebServer.java:124] - credential, 
+2023-11-16 14:47:09,164 [WebServer.java:124] - 43295, 
+2023-11-16 14:47:09,164 [WebServer.java:124] - action, 
+2023-11-16 14:47:09,164 [WebServer.java:124] - open, 
+2023-11-16 14:47:09,164 [WebServer.java:124] - datetime, 
+2023-11-16 14:47:09,164 [WebServer.java:124] - 2023-11-16T09:30, 
+2023-11-16 14:47:09,164 [WebServer.java:124] - doorId, 
+2023-11-16 14:47:09,164 [WebServer.java:124] - D6, 
+2023-11-16 14:47:09,164 [WebServer.java:124] - null, 
+2023-11-16 14:47:09,164 [WebServer.java:124] - null, 
+2023-11-16 14:47:09,164 [WebServer.java:124] - null, 
+2023-11-16 14:47:09,164 [WebServer.java:124] - null, 
+2023-11-16 14:47:09,164 [WebServer.java:124] - null, 
+2023-11-16 14:47:09,165 [WebServer.java:124] - null, 
+2023-11-16 14:47:09,165 [WebServer.java:124] - null, 
+2023-11-16 14:47:09,165 [WebServer.java:124] - null, 
+2023-11-16 14:47:09,165 [WebServer.java:124] - null, 
+2023-11-16 14:47:09,165 [WebServer.java:124] - null, 
+2023-11-16 14:47:09,165 [WebServer.java:124] - null, 
+2023-11-16 14:47:09,165 [WebServer.java:126] - 
+2023-11-16 14:47:09,165 [WebServer.java:100] - created request reader Request{credential=43295, userName=unknown, action=open, now=2023-11-16T09:30, doorID=D6, closed=false, authorized=false, reasons=[]}
+2023-11-16 14:47:09,165 [WebServer.java:102] - processed request reader Request{credential=43295, userName=unknown, action=open, now=2023-11-16T09:30, doorID=D6, closed=false, authorized=true, reasons=[]}
+2023-11-16 14:47:09,165 [WebServer.java:105] - answer
+HTTP/1.0 200 OK
+Content-type: application/json
+Access-Control-Allow-Origin: *
+
+{"reasons":[],"authorized":true,"action":"open","closed":false,"state":"unlocked_shortly","doorId":"D6"}
+2023-11-16 14:47:10,826 [WebServer.java:74] - sockedthread : GET /reader?credential=43295&action=close&datetime=2023-11-16T09:30&doorId=D6 HTTP/1.1
+2023-11-16 14:47:10,826 [WebServer.java:92] - 0 reader
+2023-11-16 14:47:10,826 [WebServer.java:92] - 1 credential
+2023-11-16 14:47:10,826 [WebServer.java:92] - 2 43295
+2023-11-16 14:47:10,826 [WebServer.java:92] - 3 action
+2023-11-16 14:47:10,826 [WebServer.java:92] - 4 close
+2023-11-16 14:47:10,827 [WebServer.java:92] - 5 datetime
+2023-11-16 14:47:10,827 [WebServer.java:92] - 6 2023-11-16T09:30
+2023-11-16 14:47:10,827 [WebServer.java:92] - 7 doorId
+2023-11-16 14:47:10,827 [WebServer.java:92] - 8 D6
+2023-11-16 14:47:10,827 [WebServer.java:122] - tokens : 
+2023-11-16 14:47:10,827 [WebServer.java:124] - reader, 
+2023-11-16 14:47:10,827 [WebServer.java:124] - credential, 
+2023-11-16 14:47:10,827 [WebServer.java:124] - 43295, 
+2023-11-16 14:47:10,827 [WebServer.java:124] - action, 
+2023-11-16 14:47:10,827 [WebServer.java:124] - close, 
+2023-11-16 14:47:10,827 [WebServer.java:124] - datetime, 
+2023-11-16 14:47:10,827 [WebServer.java:124] - 2023-11-16T09:30, 
+2023-11-16 14:47:10,827 [WebServer.java:124] - doorId, 
+2023-11-16 14:47:10,827 [WebServer.java:124] - D6, 
+2023-11-16 14:47:10,827 [WebServer.java:124] - null, 
+2023-11-16 14:47:10,827 [WebServer.java:124] - null, 
+2023-11-16 14:47:10,827 [WebServer.java:124] - null, 
+2023-11-16 14:47:10,827 [WebServer.java:124] - null, 
+2023-11-16 14:47:10,827 [WebServer.java:124] - null, 
+2023-11-16 14:47:10,827 [WebServer.java:124] - null, 
+2023-11-16 14:47:10,827 [WebServer.java:124] - null, 
+2023-11-16 14:47:10,827 [WebServer.java:124] - null, 
+2023-11-16 14:47:10,827 [WebServer.java:124] - null, 
+2023-11-16 14:47:10,828 [WebServer.java:124] - null, 
+2023-11-16 14:47:10,828 [WebServer.java:124] - null, 
+2023-11-16 14:47:10,828 [WebServer.java:126] - 
+2023-11-16 14:47:10,828 [WebServer.java:100] - created request reader Request{credential=43295, userName=unknown, action=close, now=2023-11-16T09:30, doorID=D6, closed=false, authorized=false, reasons=[]}
+2023-11-16 14:47:10,828 [WebServer.java:102] - processed request reader Request{credential=43295, userName=unknown, action=close, now=2023-11-16T09:30, doorID=D6, closed=true, authorized=true, reasons=[]}
+2023-11-16 14:47:10,828 [WebServer.java:105] - answer
+HTTP/1.0 200 OK
+Content-type: application/json
+Access-Control-Allow-Origin: *
+
+{"reasons":[],"authorized":true,"action":"close","closed":true,"state":"unlocked_shortly","doorId":"D6"}
+2023-11-16 14:47:18,014 [WebServer.java:74] - sockedthread : GET /reader?credential=43295&action=unlock_shortly&datetime=2023-11-16T09:30&doorId=D2 HTTP/1.1
+2023-11-16 14:47:18,015 [WebServer.java:92] - 0 reader
+2023-11-16 14:47:18,015 [WebServer.java:92] - 1 credential
+2023-11-16 14:47:18,015 [WebServer.java:92] - 2 43295
+2023-11-16 14:47:18,015 [WebServer.java:92] - 3 action
+2023-11-16 14:47:18,015 [WebServer.java:92] - 4 unlock_shortly
+2023-11-16 14:47:18,015 [WebServer.java:92] - 5 datetime
+2023-11-16 14:47:18,015 [WebServer.java:92] - 6 2023-11-16T09:30
+2023-11-16 14:47:18,015 [WebServer.java:92] - 7 doorId
+2023-11-16 14:47:18,015 [WebServer.java:92] - 8 D2
+2023-11-16 14:47:18,015 [WebServer.java:122] - tokens : 
+2023-11-16 14:47:18,015 [WebServer.java:124] - reader, 
+2023-11-16 14:47:18,015 [WebServer.java:124] - credential, 
+2023-11-16 14:47:18,015 [WebServer.java:124] - 43295, 
+2023-11-16 14:47:18,016 [WebServer.java:124] - action, 
+2023-11-16 14:47:18,016 [WebServer.java:124] - unlock_shortly, 
+2023-11-16 14:47:18,016 [WebServer.java:124] - datetime, 
+2023-11-16 14:47:18,016 [WebServer.java:124] - 2023-11-16T09:30, 
+2023-11-16 14:47:18,016 [WebServer.java:124] - doorId, 
+2023-11-16 14:47:18,016 [WebServer.java:124] - D2, 
+2023-11-16 14:47:18,016 [WebServer.java:124] - null, 
+2023-11-16 14:47:18,016 [WebServer.java:124] - null, 
+2023-11-16 14:47:18,016 [WebServer.java:124] - null, 
+2023-11-16 14:47:18,016 [WebServer.java:124] - null, 
+2023-11-16 14:47:18,016 [WebServer.java:124] - null, 
+2023-11-16 14:47:18,016 [WebServer.java:124] - null, 
+2023-11-16 14:47:18,016 [WebServer.java:124] - null, 
+2023-11-16 14:47:18,016 [WebServer.java:124] - null, 
+2023-11-16 14:47:18,016 [WebServer.java:124] - null, 
+2023-11-16 14:47:18,016 [WebServer.java:124] - null, 
+2023-11-16 14:47:18,016 [WebServer.java:124] - null, 
+2023-11-16 14:47:18,016 [WebServer.java:126] - 
+2023-11-16 14:47:18,016 [WebServer.java:100] - created request reader Request{credential=43295, userName=unknown, action=unlock_shortly, now=2023-11-16T09:30, doorID=D2, closed=false, authorized=false, reasons=[]}
+2023-11-16 14:47:18,016 [Door.java:49] - not authorized
+2023-11-16 14:47:18,017 [WebServer.java:102] - processed request reader Request{credential=43295, userName=unknown, action=unlock_shortly, now=2023-11-16T09:30, doorID=D2, closed=true, authorized=false, reasons=[You have no access to parking]}
+2023-11-16 14:47:18,017 [WebServer.java:105] - answer
+HTTP/1.0 200 OK
+Content-type: application/json
+Access-Control-Allow-Origin: *
+
+{"reasons":["You have no access to parking"],"authorized":false,"action":"unlock_shortly","closed":true,"state":"locked","doorId":"D2"}
+2023-11-16 14:47:26,316 [WebServer.java:74] - sockedthread : GET /refresh HTTP/1.1
+2023-11-16 14:47:26,317 [WebServer.java:92] - 0 refresh
+2023-11-16 14:47:26,317 [WebServer.java:122] - tokens : 
+2023-11-16 14:47:26,317 [WebServer.java:124] - refresh, 
+2023-11-16 14:47:26,317 [WebServer.java:124] - null, 
+2023-11-16 14:47:26,317 [WebServer.java:124] - null, 
+2023-11-16 14:47:26,317 [WebServer.java:124] - null, 
+2023-11-16 14:47:26,317 [WebServer.java:124] - null, 
+2023-11-16 14:47:26,317 [WebServer.java:124] - null, 
+2023-11-16 14:47:26,317 [WebServer.java:124] - null, 
+2023-11-16 14:47:26,317 [WebServer.java:124] - null, 
+2023-11-16 14:47:26,317 [WebServer.java:124] - null, 
+2023-11-16 14:47:26,317 [WebServer.java:124] - null, 
+2023-11-16 14:47:26,317 [WebServer.java:124] - null, 
+2023-11-16 14:47:26,318 [WebServer.java:124] - null, 
+2023-11-16 14:47:26,318 [WebServer.java:124] - null, 
+2023-11-16 14:47:26,319 [WebServer.java:124] - null, 
+2023-11-16 14:47:26,319 [WebServer.java:124] - null, 
+2023-11-16 14:47:26,319 [WebServer.java:124] - null, 
+2023-11-16 14:47:26,319 [WebServer.java:124] - null, 
+2023-11-16 14:47:26,319 [WebServer.java:124] - null, 
+2023-11-16 14:47:26,319 [WebServer.java:124] - null, 
+2023-11-16 14:47:26,319 [WebServer.java:124] - null, 
+2023-11-16 14:47:26,319 [WebServer.java:126] - 
+2023-11-16 14:47:26,319 [WebServer.java:100] - created request refresh RequestRefresh{[]}
+2023-11-16 14:47:26,320 [WebServer.java:102] - processed request refresh RequestRefresh{[{"closed":true,"id":"D1","state":"locked"}, {"closed":true,"id":"D2","state":"locked"}, {"closed":true,"id":"D3","state":"locked"}, {"closed":true,"id":"D4","state":"locked"}, {"closed":true,"id":"D5","state":"locked"}, {"closed":true,"id":"D6","state":"locked"}, {"closed":true,"id":"D7","state":"locked"}, {"closed":true,"id":"D8","state":"locked"}, {"closed":true,"id":"D9","state":"locked"}]}
+2023-11-16 14:47:26,320 [WebServer.java:105] - answer
+HTTP/1.0 200 OK
+Content-type: application/json
+Access-Control-Allow-Origin: *
+
+{"doors":[{"closed":true,"id":"D1","state":"locked"},{"closed":true,"id":"D2","state":"locked"},{"closed":true,"id":"D3","state":"locked"},{"closed":true,"id":"D4","state":"locked"},{"closed":true,"id":"D5","state":"locked"},{"closed":true,"id":"D6","state":"locked"},{"closed":true,"id":"D7","state":"locked"},{"closed":true,"id":"D8","state":"locked"},{"closed":true,"id":"D9","state":"locked"}]}
+2023-11-16 14:47:35,774 [WebServer.java:74] - sockedthread : GET /area?credential=95783&action=unlock&datetime=2023-11-16T09:30&areaId=hall HTTP/1.1
+2023-11-16 14:47:35,774 [WebServer.java:92] - 0 area
+2023-11-16 14:47:35,774 [WebServer.java:92] - 1 credential
+2023-11-16 14:47:35,774 [WebServer.java:92] - 2 95783
+2023-11-16 14:47:35,774 [WebServer.java:92] - 3 action
+2023-11-16 14:47:35,774 [WebServer.java:92] - 4 unlock
+2023-11-16 14:47:35,775 [WebServer.java:92] - 5 datetime
+2023-11-16 14:47:35,775 [WebServer.java:92] - 6 2023-11-16T09:30
+2023-11-16 14:47:35,775 [WebServer.java:92] - 7 areaId
+2023-11-16 14:47:35,775 [WebServer.java:92] - 8 hall
+2023-11-16 14:47:35,775 [WebServer.java:122] - tokens : 
+2023-11-16 14:47:35,775 [WebServer.java:124] - area, 
+2023-11-16 14:47:35,775 [WebServer.java:124] - credential, 
+2023-11-16 14:47:35,775 [WebServer.java:124] - 95783, 
+2023-11-16 14:47:35,775 [WebServer.java:124] - action, 
+2023-11-16 14:47:35,775 [WebServer.java:124] - unlock, 
+2023-11-16 14:47:35,775 [WebServer.java:124] - datetime, 
+2023-11-16 14:47:35,775 [WebServer.java:124] - 2023-11-16T09:30, 
+2023-11-16 14:47:35,775 [WebServer.java:124] - areaId, 
+2023-11-16 14:47:35,775 [WebServer.java:124] - hall, 
+2023-11-16 14:47:35,775 [WebServer.java:124] - null, 
+2023-11-16 14:47:35,775 [WebServer.java:124] - null, 
+2023-11-16 14:47:35,775 [WebServer.java:124] - null, 
+2023-11-16 14:47:35,775 [WebServer.java:124] - null, 
+2023-11-16 14:47:35,775 [WebServer.java:124] - null, 
+2023-11-16 14:47:35,775 [WebServer.java:124] - null, 
+2023-11-16 14:47:35,775 [WebServer.java:124] - null, 
+2023-11-16 14:47:35,775 [WebServer.java:124] - null, 
+2023-11-16 14:47:35,776 [WebServer.java:124] - null, 
+2023-11-16 14:47:35,776 [WebServer.java:124] - null, 
+2023-11-16 14:47:35,776 [WebServer.java:124] - null, 
+2023-11-16 14:47:35,776 [WebServer.java:126] - 
+2023-11-16 14:47:35,776 [WebServer.java:100] - created request area Request{credential=95783, action=unlock, now=2023-11-16T09:30, areaId=hall, requestsDoors=}
+2023-11-16 14:47:35,776 [Lock.java:21] - Door D3 has been unlocked
+2023-11-16 14:47:35,776 [Lock.java:21] - Door D4 has been unlocked
+2023-11-16 14:47:35,776 [WebServer.java:102] - processed request area Request{credential=95783, action=unlock, now=2023-11-16T09:30, areaId=hall, requestsDoors=[Request{credential=95783, userName=unknown, action=unlock, now=2023-11-16T09:30, doorID=D3, closed=true, authorized=true, reasons=[]}, Request{credential=95783, userName=unknown, action=unlock, now=2023-11-16T09:30, doorID=D4, closed=true, authorized=true, reasons=[]}]}
+2023-11-16 14:47:35,776 [WebServer.java:105] - answer
+HTTP/1.0 200 OK
+Content-type: application/json
+Access-Control-Allow-Origin: *
+
+{"todo":"request areas not yet implemented","areaId":"hall","action":"unlock","requestsDoors":[{"reasons":[],"authorized":true,"action":"unlock","closed":true,"state":"unlocked","doorId":"D3"},{"reasons":[],"authorized":true,"action":"unlock","closed":true,"state":"unlocked","doorId":"D4"}]}
+2023-11-16 14:47:40,861 [WebServer.java:74] - sockedthread : GET /area?credential=95783&action=lock&datetime=2023-11-16T09:30&areaId=hall HTTP/1.1
+2023-11-16 14:47:40,862 [WebServer.java:92] - 0 area
+2023-11-16 14:47:40,862 [WebServer.java:92] - 1 credential
+2023-11-16 14:47:40,863 [WebServer.java:92] - 2 95783
+2023-11-16 14:47:40,863 [WebServer.java:92] - 3 action
+2023-11-16 14:47:40,863 [WebServer.java:92] - 4 lock
+2023-11-16 14:47:40,863 [WebServer.java:92] - 5 datetime
+2023-11-16 14:47:40,863 [WebServer.java:92] - 6 2023-11-16T09:30
+2023-11-16 14:47:40,863 [WebServer.java:92] - 7 areaId
+2023-11-16 14:47:40,863 [WebServer.java:92] - 8 hall
+2023-11-16 14:47:40,863 [WebServer.java:122] - tokens : 
+2023-11-16 14:47:40,863 [WebServer.java:124] - area, 
+2023-11-16 14:47:40,863 [WebServer.java:124] - credential, 
+2023-11-16 14:47:40,863 [WebServer.java:124] - 95783, 
+2023-11-16 14:47:40,863 [WebServer.java:124] - action, 
+2023-11-16 14:47:40,863 [WebServer.java:124] - lock, 
+2023-11-16 14:47:40,863 [WebServer.java:124] - datetime, 
+2023-11-16 14:47:40,863 [WebServer.java:124] - 2023-11-16T09:30, 
+2023-11-16 14:47:40,864 [WebServer.java:124] - areaId, 
+2023-11-16 14:47:40,864 [WebServer.java:124] - hall, 
+2023-11-16 14:47:40,864 [WebServer.java:124] - null, 
+2023-11-16 14:47:40,864 [WebServer.java:124] - null, 
+2023-11-16 14:47:40,864 [WebServer.java:124] - null, 
+2023-11-16 14:47:40,864 [WebServer.java:124] - null, 
+2023-11-16 14:47:40,864 [WebServer.java:124] - null, 
+2023-11-16 14:47:40,864 [WebServer.java:124] - null, 
+2023-11-16 14:47:40,864 [WebServer.java:124] - null, 
+2023-11-16 14:47:40,864 [WebServer.java:124] - null, 
+2023-11-16 14:47:40,864 [WebServer.java:124] - null, 
+2023-11-16 14:47:40,864 [WebServer.java:124] - null, 
+2023-11-16 14:47:40,864 [WebServer.java:124] - null, 
+2023-11-16 14:47:40,864 [WebServer.java:126] - 
+2023-11-16 14:47:40,865 [WebServer.java:100] - created request area Request{credential=95783, action=lock, now=2023-11-16T09:30, areaId=hall, requestsDoors=}
+2023-11-16 14:47:40,865 [Unlock.java:17] - Door D3 has been locked
+2023-11-16 14:47:40,865 [Unlock.java:17] - Door D4 has been locked
+2023-11-16 14:47:40,865 [WebServer.java:102] - processed request area Request{credential=95783, action=lock, now=2023-11-16T09:30, areaId=hall, requestsDoors=[Request{credential=95783, userName=unknown, action=lock, now=2023-11-16T09:30, doorID=D3, closed=true, authorized=true, reasons=[]}, Request{credential=95783, userName=unknown, action=lock, now=2023-11-16T09:30, doorID=D4, closed=true, authorized=true, reasons=[]}]}
+2023-11-16 14:47:40,865 [WebServer.java:105] - answer
+HTTP/1.0 200 OK
+Content-type: application/json
+Access-Control-Allow-Origin: *
+
+{"todo":"request areas not yet implemented","areaId":"hall","action":"lock","requestsDoors":[{"reasons":[],"authorized":true,"action":"lock","closed":true,"state":"locked","doorId":"D3"},{"reasons":[],"authorized":true,"action":"lock","closed":true,"state":"locked","doorId":"D4"}]}

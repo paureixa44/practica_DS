@@ -22,6 +22,9 @@ public class Partition extends Area {
   public void acceptVisitor(Visitor v) {
     v.visitPartition(this);
   }
+  public ArrayList<Area> getRooms() {
+    return rooms;
+  }
   /*
   @Override
   public List<Door> getDoorsGivingAccess() {

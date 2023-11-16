@@ -6,4 +6,5 @@ public abstract class Visitor {
   public abstract void visitPartition(Partition p);
   public abstract void visitRoom(Room r);
   public abstract Area getArea();
+  public abstract List<Door> getDoors();
 }

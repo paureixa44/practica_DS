@@ -17,19 +17,27 @@ public class Room extends Area {
     this.id = id;
     this.doors = new ArrayList<>();
   }
-  public String getId() { return this.id; }
+  public String getId() {
+    return this.id;
+  }
   @Override
   public void acceptVisitor(Visitor v) {
     v.visitRoom(this);
   }
+  public ArrayList<Door> getDoors() {
+    return doors;
+  }
+
   /*
   @Override
   public ArrayList<Door> getDoorsGivingAccess() {
     return doors;
   }
-  public void addDoorsGivingAccess(Door door){
+  */
+  public void addDoorsGivingAccess(Door door) {
     this.doors.add(door);
   }
+  /*
   public Area findAreaById(String id) {
     if (this.id.equals(id)) {
       return this;
