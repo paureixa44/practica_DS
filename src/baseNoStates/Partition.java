@@ -19,6 +19,11 @@ public class Partition extends Area {
   public String getId() { return this.id; }
 
   @Override
+  public void acceptVisitor(Visitor v) {
+    v.visitPartition(this);
+  }
+  /*
+  @Override
   public List<Door> getDoorsGivingAccess() {
     ArrayList<Door> all_area_doors = new ArrayList<>(0); //array on guardem les portes
     //recorrem les habitacions de la particio per aconseguir les portes de cada una
@@ -27,6 +32,9 @@ public class Partition extends Area {
     }
     return all_area_doors.stream().distinct().collect(Collectors.toList()); //treiem les portes repetides
   }
+
+  */
+  /*
   @Override
   public Area findAreaById(String id) {
     //comprovem si ja la tenim
@@ -43,6 +51,7 @@ public class Partition extends Area {
     }
     return busca;
   }
+  */
 
   /**
    * Gets all the areas a user can be in.

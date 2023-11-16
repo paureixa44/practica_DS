@@ -19,6 +19,11 @@ public class Room extends Area {
   }
   public String getId() { return this.id; }
   @Override
+  public void acceptVisitor(Visitor v) {
+    v.visitRoom(this);
+  }
+  /*
+  @Override
   public ArrayList<Door> getDoorsGivingAccess() {
     return doors;
   }
@@ -32,5 +37,7 @@ public class Room extends Area {
       return null;
     }
   }
+  */
+
   public ArrayList<Area> getUserAreas() { return new ArrayList<>(List.of(this));  }
 }

@@ -11,6 +11,7 @@ import java.util.TimerTask;
  */
 public class Clock extends Observable {
   protected Timer timer;
+  private static Clock instance = null;
   private final int period;
 
   /**
@@ -22,6 +23,12 @@ public class Clock extends Observable {
     this.period = period;
     this.timer = new Timer();
     start();
+  }
+  public static Clock getInstance() {
+    if(instance == null) {
+      instance = new Clock(1);
+    }
+    return instance;
   }
   /**
    * Starts the clock.

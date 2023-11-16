@@ -11,7 +11,7 @@ import java.util.Observer;
  * Defines the Unlock Shortly state for the doors.
  */
 public class UnlockShortly extends State implements Observer {
-  private static final Clock clock = new Clock(1);
+  private static Clock clock;
   private final LocalDateTime time;
   private static final Logger logger = LoggerFactory.getLogger(Lock.class);
 
@@ -23,7 +23,7 @@ public class UnlockShortly extends State implements Observer {
   public UnlockShortly(Door door) {
     super(door);
     this.id = DoorState.UNLOCKED_SHORTLY;
-    Clock clock = new Clock(1);
+    clock = Clock.getInstance();
     clock.addObserver(this);
     this.time = LocalDateTime.now();
   }

@@ -1,3 +1,254 @@
 2023-11-15 10:28:25,729 %PARSER_ERROR[level1] [Thread-1] b.Lock [Lock.java:16] - Can't lock door D2 because it's already locked
 2023-11-15 12:03:52,458 [Lock.java:21] - Door D2 has been unlocked
 2023-11-15 12:03:58,190 [Lock.java:16] - Can't lock door D1 because it's already locked
+2023-11-16 12:59:15,999 [WebServer.java:36] - Server started.
+Listening for connections on port : 8080 ...
+
+2023-11-16 12:59:23,651 [WebServer.java:74] - sockedthread : GET /refresh HTTP/1.1
+2023-11-16 12:59:23,655 [WebServer.java:92] - 0 refresh
+2023-11-16 12:59:23,655 [WebServer.java:122] - tokens : 
+2023-11-16 12:59:23,656 [WebServer.java:124] - refresh, 
+2023-11-16 12:59:23,656 [WebServer.java:124] - null, 
+2023-11-16 12:59:23,657 [WebServer.java:124] - null, 
+2023-11-16 12:59:23,657 [WebServer.java:124] - null, 
+2023-11-16 12:59:23,657 [WebServer.java:124] - null, 
+2023-11-16 12:59:23,657 [WebServer.java:124] - null, 
+2023-11-16 12:59:23,657 [WebServer.java:124] - null, 
+2023-11-16 12:59:23,657 [WebServer.java:124] - null, 
+2023-11-16 12:59:23,657 [WebServer.java:124] - null, 
+2023-11-16 12:59:23,657 [WebServer.java:124] - null, 
+2023-11-16 12:59:23,657 [WebServer.java:124] - null, 
+2023-11-16 12:59:23,657 [WebServer.java:124] - null, 
+2023-11-16 12:59:23,658 [WebServer.java:124] - null, 
+2023-11-16 12:59:23,658 [WebServer.java:124] - null, 
+2023-11-16 12:59:23,658 [WebServer.java:124] - null, 
+2023-11-16 12:59:23,658 [WebServer.java:124] - null, 
+2023-11-16 12:59:23,658 [WebServer.java:124] - null, 
+2023-11-16 12:59:23,658 [WebServer.java:124] - null, 
+2023-11-16 12:59:23,659 [WebServer.java:124] - null, 
+2023-11-16 12:59:23,659 [WebServer.java:124] - null, 
+2023-11-16 12:59:23,659 [WebServer.java:126] - 
+2023-11-16 12:59:23,660 [WebServer.java:100] - created request refresh RequestRefresh{[]}
+2023-11-16 12:59:23,673 [WebServer.java:102] - processed request refresh RequestRefresh{[{"closed":true,"id":"D1","state":"locked"}, {"closed":true,"id":"D2","state":"locked"}, {"closed":true,"id":"D3","state":"locked"}, {"closed":true,"id":"D4","state":"locked"}, {"closed":true,"id":"D5","state":"locked"}, {"closed":true,"id":"D6","state":"locked"}, {"closed":true,"id":"D7","state":"locked"}, {"closed":true,"id":"D8","state":"locked"}, {"closed":true,"id":"D9","state":"locked"}]}
+2023-11-16 12:59:23,673 [WebServer.java:105] - answer
+HTTP/1.0 200 OK
+Content-type: application/json
+Access-Control-Allow-Origin: *
+
+{"doors":[{"closed":true,"id":"D1","state":"locked"},{"closed":true,"id":"D2","state":"locked"},{"closed":true,"id":"D3","state":"locked"},{"closed":true,"id":"D4","state":"locked"},{"closed":true,"id":"D5","state":"locked"},{"closed":true,"id":"D6","state":"locked"},{"closed":true,"id":"D7","state":"locked"},{"closed":true,"id":"D8","state":"locked"},{"closed":true,"id":"D9","state":"locked"}]}
+2023-11-16 12:59:30,358 [WebServer.java:74] - sockedthread : GET /reader?credential=11343&action=unlock_shortly&datetime=2023-11-16T09:30&doorId=D2 HTTP/1.1
+2023-11-16 12:59:30,358 [WebServer.java:92] - 0 reader
+2023-11-16 12:59:30,358 [WebServer.java:92] - 1 credential
+2023-11-16 12:59:30,358 [WebServer.java:92] - 2 11343
+2023-11-16 12:59:30,358 [WebServer.java:92] - 3 action
+2023-11-16 12:59:30,358 [WebServer.java:92] - 4 unlock_shortly
+2023-11-16 12:59:30,358 [WebServer.java:92] - 5 datetime
+2023-11-16 12:59:30,358 [WebServer.java:92] - 6 2023-11-16T09:30
+2023-11-16 12:59:30,358 [WebServer.java:92] - 7 doorId
+2023-11-16 12:59:30,359 [WebServer.java:92] - 8 D2
+2023-11-16 12:59:30,359 [WebServer.java:122] - tokens : 
+2023-11-16 12:59:30,359 [WebServer.java:124] - reader, 
+2023-11-16 12:59:30,359 [WebServer.java:124] - credential, 
+2023-11-16 12:59:30,359 [WebServer.java:124] - 11343, 
+2023-11-16 12:59:30,359 [WebServer.java:124] - action, 
+2023-11-16 12:59:30,359 [WebServer.java:124] - unlock_shortly, 
+2023-11-16 12:59:30,359 [WebServer.java:124] - datetime, 
+2023-11-16 12:59:30,359 [WebServer.java:124] - 2023-11-16T09:30, 
+2023-11-16 12:59:30,359 [WebServer.java:124] - doorId, 
+2023-11-16 12:59:30,359 [WebServer.java:124] - D2, 
+2023-11-16 12:59:30,359 [WebServer.java:124] - null, 
+2023-11-16 12:59:30,359 [WebServer.java:124] - null, 
+2023-11-16 12:59:30,359 [WebServer.java:124] - null, 
+2023-11-16 12:59:30,359 [WebServer.java:124] - null, 
+2023-11-16 12:59:30,360 [WebServer.java:124] - null, 
+2023-11-16 12:59:30,360 [WebServer.java:124] - null, 
+2023-11-16 12:59:30,360 [WebServer.java:124] - null, 
+2023-11-16 12:59:30,360 [WebServer.java:124] - null, 
+2023-11-16 12:59:30,360 [WebServer.java:124] - null, 
+2023-11-16 12:59:30,360 [WebServer.java:124] - null, 
+2023-11-16 12:59:30,360 [WebServer.java:124] - null, 
+2023-11-16 12:59:30,360 [WebServer.java:126] - 
+2023-11-16 12:59:30,370 [WebServer.java:100] - created request reader Request{credential=11343, userName=unknown, action=unlock_shortly, now=2023-11-16T09:30, doorID=D2, closed=false, authorized=false, reasons=[]}
+2023-11-16 12:59:30,374 [WebServer.java:102] - processed request reader Request{credential=11343, userName=unknown, action=unlock_shortly, now=2023-11-16T09:30, doorID=D2, closed=true, authorized=true, reasons=[]}
+2023-11-16 12:59:30,374 [WebServer.java:105] - answer
+HTTP/1.0 200 OK
+Content-type: application/json
+Access-Control-Allow-Origin: *
+
+{"reasons":[],"authorized":true,"action":"unlock_shortly","closed":true,"state":"unlocked_shortly","doorId":"D2"}
+2023-11-16 12:59:39,079 [WebServer.java:74] - sockedthread : GET /reader?credential=11343&action=open&datetime=2023-11-16T09:30&doorId=D2 HTTP/1.1
+2023-11-16 12:59:39,080 [WebServer.java:92] - 0 reader
+2023-11-16 12:59:39,080 [WebServer.java:92] - 1 credential
+2023-11-16 12:59:39,080 [WebServer.java:92] - 2 11343
+2023-11-16 12:59:39,080 [WebServer.java:92] - 3 action
+2023-11-16 12:59:39,080 [WebServer.java:92] - 4 open
+2023-11-16 12:59:39,080 [WebServer.java:92] - 5 datetime
+2023-11-16 12:59:39,080 [WebServer.java:92] - 6 2023-11-16T09:30
+2023-11-16 12:59:39,080 [WebServer.java:92] - 7 doorId
+2023-11-16 12:59:39,080 [WebServer.java:92] - 8 D2
+2023-11-16 12:59:39,080 [WebServer.java:122] - tokens : 
+2023-11-16 12:59:39,080 [WebServer.java:124] - reader, 
+2023-11-16 12:59:39,081 [WebServer.java:124] - credential, 
+2023-11-16 12:59:39,081 [WebServer.java:124] - 11343, 
+2023-11-16 12:59:39,081 [WebServer.java:124] - action, 
+2023-11-16 12:59:39,081 [WebServer.java:124] - open, 
+2023-11-16 12:59:39,081 [WebServer.java:124] - datetime, 
+2023-11-16 12:59:39,081 [WebServer.java:124] - 2023-11-16T09:30, 
+2023-11-16 12:59:39,081 [WebServer.java:124] - doorId, 
+2023-11-16 12:59:39,081 [WebServer.java:124] - D2, 
+2023-11-16 12:59:39,081 [WebServer.java:124] - null, 
+2023-11-16 12:59:39,081 [WebServer.java:124] - null, 
+2023-11-16 12:59:39,081 [WebServer.java:124] - null, 
+2023-11-16 12:59:39,082 [WebServer.java:124] - null, 
+2023-11-16 12:59:39,082 [WebServer.java:124] - null, 
+2023-11-16 12:59:39,082 [WebServer.java:124] - null, 
+2023-11-16 12:59:39,082 [WebServer.java:124] - null, 
+2023-11-16 12:59:39,082 [WebServer.java:124] - null, 
+2023-11-16 12:59:39,082 [WebServer.java:124] - null, 
+2023-11-16 12:59:39,082 [WebServer.java:124] - null, 
+2023-11-16 12:59:39,082 [WebServer.java:124] - null, 
+2023-11-16 12:59:39,082 [WebServer.java:126] - 
+2023-11-16 12:59:39,083 [WebServer.java:100] - created request reader Request{credential=11343, userName=unknown, action=open, now=2023-11-16T09:30, doorID=D2, closed=false, authorized=false, reasons=[]}
+2023-11-16 12:59:39,083 [WebServer.java:102] - processed request reader Request{credential=11343, userName=unknown, action=open, now=2023-11-16T09:30, doorID=D2, closed=false, authorized=true, reasons=[]}
+2023-11-16 12:59:39,083 [WebServer.java:105] - answer
+HTTP/1.0 200 OK
+Content-type: application/json
+Access-Control-Allow-Origin: *
+
+{"reasons":[],"authorized":true,"action":"open","closed":false,"state":"unlocked_shortly","doorId":"D2"}
+2023-11-16 12:59:40,598 [WebServer.java:74] - sockedthread : GET /refresh HTTP/1.1
+2023-11-16 12:59:40,598 [WebServer.java:92] - 0 refresh
+2023-11-16 12:59:40,598 [WebServer.java:122] - tokens : 
+2023-11-16 12:59:40,598 [WebServer.java:124] - refresh, 
+2023-11-16 12:59:40,598 [WebServer.java:124] - null, 
+2023-11-16 12:59:40,598 [WebServer.java:124] - null, 
+2023-11-16 12:59:40,598 [WebServer.java:124] - null, 
+2023-11-16 12:59:40,598 [WebServer.java:124] - null, 
+2023-11-16 12:59:40,598 [WebServer.java:124] - null, 
+2023-11-16 12:59:40,598 [WebServer.java:124] - null, 
+2023-11-16 12:59:40,599 [WebServer.java:124] - null, 
+2023-11-16 12:59:40,599 [WebServer.java:124] - null, 
+2023-11-16 12:59:40,599 [WebServer.java:124] - null, 
+2023-11-16 12:59:40,599 [WebServer.java:124] - null, 
+2023-11-16 12:59:40,599 [WebServer.java:124] - null, 
+2023-11-16 12:59:40,599 [WebServer.java:124] - null, 
+2023-11-16 12:59:40,599 [WebServer.java:124] - null, 
+2023-11-16 12:59:40,599 [WebServer.java:124] - null, 
+2023-11-16 12:59:40,599 [WebServer.java:124] - null, 
+2023-11-16 12:59:40,599 [WebServer.java:124] - null, 
+2023-11-16 12:59:40,599 [WebServer.java:124] - null, 
+2023-11-16 12:59:40,599 [WebServer.java:124] - null, 
+2023-11-16 12:59:40,599 [WebServer.java:124] - null, 
+2023-11-16 12:59:40,599 [WebServer.java:126] - 
+2023-11-16 12:59:40,599 [WebServer.java:100] - created request refresh RequestRefresh{[]}
+2023-11-16 12:59:40,600 [WebServer.java:102] - processed request refresh RequestRefresh{[{"closed":true,"id":"D1","state":"locked"}, {"closed":false,"id":"D2","state":"propped"}, {"closed":true,"id":"D3","state":"locked"}, {"closed":true,"id":"D4","state":"locked"}, {"closed":true,"id":"D5","state":"locked"}, {"closed":true,"id":"D6","state":"locked"}, {"closed":true,"id":"D7","state":"locked"}, {"closed":true,"id":"D8","state":"locked"}, {"closed":true,"id":"D9","state":"locked"}]}
+2023-11-16 12:59:40,600 [WebServer.java:105] - answer
+HTTP/1.0 200 OK
+Content-type: application/json
+Access-Control-Allow-Origin: *
+
+{"doors":[{"closed":true,"id":"D1","state":"locked"},{"closed":false,"id":"D2","state":"propped"},{"closed":true,"id":"D3","state":"locked"},{"closed":true,"id":"D4","state":"locked"},{"closed":true,"id":"D5","state":"locked"},{"closed":true,"id":"D6","state":"locked"},{"closed":true,"id":"D7","state":"locked"},{"closed":true,"id":"D8","state":"locked"},{"closed":true,"id":"D9","state":"locked"}]}
+2023-11-16 12:59:41,372 [WebServer.java:74] - sockedthread : GET /refresh HTTP/1.1
+2023-11-16 12:59:41,372 [WebServer.java:92] - 0 refresh
+2023-11-16 12:59:41,372 [WebServer.java:122] - tokens : 
+2023-11-16 12:59:41,373 [WebServer.java:124] - refresh, 
+2023-11-16 12:59:41,373 [WebServer.java:124] - null, 
+2023-11-16 12:59:41,373 [WebServer.java:124] - null, 
+2023-11-16 12:59:41,373 [WebServer.java:124] - null, 
+2023-11-16 12:59:41,373 [WebServer.java:124] - null, 
+2023-11-16 12:59:41,373 [WebServer.java:124] - null, 
+2023-11-16 12:59:41,374 [WebServer.java:124] - null, 
+2023-11-16 12:59:41,374 [WebServer.java:124] - null, 
+2023-11-16 12:59:41,374 [WebServer.java:124] - null, 
+2023-11-16 12:59:41,374 [WebServer.java:124] - null, 
+2023-11-16 12:59:41,374 [WebServer.java:124] - null, 
+2023-11-16 12:59:41,374 [WebServer.java:124] - null, 
+2023-11-16 12:59:41,374 [WebServer.java:124] - null, 
+2023-11-16 12:59:41,375 [WebServer.java:124] - null, 
+2023-11-16 12:59:41,375 [WebServer.java:124] - null, 
+2023-11-16 12:59:41,375 [WebServer.java:124] - null, 
+2023-11-16 12:59:41,375 [WebServer.java:124] - null, 
+2023-11-16 12:59:41,375 [WebServer.java:124] - null, 
+2023-11-16 12:59:41,375 [WebServer.java:124] - null, 
+2023-11-16 12:59:41,375 [WebServer.java:124] - null, 
+2023-11-16 12:59:41,375 [WebServer.java:126] - 
+2023-11-16 12:59:41,375 [WebServer.java:100] - created request refresh RequestRefresh{[]}
+2023-11-16 12:59:41,375 [WebServer.java:102] - processed request refresh RequestRefresh{[{"closed":true,"id":"D1","state":"locked"}, {"closed":false,"id":"D2","state":"propped"}, {"closed":true,"id":"D3","state":"locked"}, {"closed":true,"id":"D4","state":"locked"}, {"closed":true,"id":"D5","state":"locked"}, {"closed":true,"id":"D6","state":"locked"}, {"closed":true,"id":"D7","state":"locked"}, {"closed":true,"id":"D8","state":"locked"}, {"closed":true,"id":"D9","state":"locked"}]}
+2023-11-16 12:59:41,376 [WebServer.java:105] - answer
+HTTP/1.0 200 OK
+Content-type: application/json
+Access-Control-Allow-Origin: *
+
+{"doors":[{"closed":true,"id":"D1","state":"locked"},{"closed":false,"id":"D2","state":"propped"},{"closed":true,"id":"D3","state":"locked"},{"closed":true,"id":"D4","state":"locked"},{"closed":true,"id":"D5","state":"locked"},{"closed":true,"id":"D6","state":"locked"},{"closed":true,"id":"D7","state":"locked"},{"closed":true,"id":"D8","state":"locked"},{"closed":true,"id":"D9","state":"locked"}]}
+2023-11-16 12:59:41,561 [WebServer.java:74] - sockedthread : GET /refresh HTTP/1.1
+2023-11-16 12:59:41,561 [WebServer.java:92] - 0 refresh
+2023-11-16 12:59:41,562 [WebServer.java:122] - tokens : 
+2023-11-16 12:59:41,562 [WebServer.java:124] - refresh, 
+2023-11-16 12:59:41,562 [WebServer.java:124] - null, 
+2023-11-16 12:59:41,562 [WebServer.java:124] - null, 
+2023-11-16 12:59:41,562 [WebServer.java:124] - null, 
+2023-11-16 12:59:41,562 [WebServer.java:124] - null, 
+2023-11-16 12:59:41,562 [WebServer.java:124] - null, 
+2023-11-16 12:59:41,562 [WebServer.java:124] - null, 
+2023-11-16 12:59:41,562 [WebServer.java:124] - null, 
+2023-11-16 12:59:41,562 [WebServer.java:124] - null, 
+2023-11-16 12:59:41,562 [WebServer.java:124] - null, 
+2023-11-16 12:59:41,562 [WebServer.java:124] - null, 
+2023-11-16 12:59:41,562 [WebServer.java:124] - null, 
+2023-11-16 12:59:41,562 [WebServer.java:124] - null, 
+2023-11-16 12:59:41,562 [WebServer.java:124] - null, 
+2023-11-16 12:59:41,563 [WebServer.java:124] - null, 
+2023-11-16 12:59:41,563 [WebServer.java:124] - null, 
+2023-11-16 12:59:41,563 [WebServer.java:124] - null, 
+2023-11-16 12:59:41,563 [WebServer.java:124] - null, 
+2023-11-16 12:59:41,563 [WebServer.java:124] - null, 
+2023-11-16 12:59:41,563 [WebServer.java:124] - null, 
+2023-11-16 12:59:41,563 [WebServer.java:126] - 
+2023-11-16 12:59:41,563 [WebServer.java:100] - created request refresh RequestRefresh{[]}
+2023-11-16 12:59:41,563 [WebServer.java:102] - processed request refresh RequestRefresh{[{"closed":true,"id":"D1","state":"locked"}, {"closed":false,"id":"D2","state":"propped"}, {"closed":true,"id":"D3","state":"locked"}, {"closed":true,"id":"D4","state":"locked"}, {"closed":true,"id":"D5","state":"locked"}, {"closed":true,"id":"D6","state":"locked"}, {"closed":true,"id":"D7","state":"locked"}, {"closed":true,"id":"D8","state":"locked"}, {"closed":true,"id":"D9","state":"locked"}]}
+2023-11-16 12:59:41,563 [WebServer.java:105] - answer
+HTTP/1.0 200 OK
+Content-type: application/json
+Access-Control-Allow-Origin: *
+
+{"doors":[{"closed":true,"id":"D1","state":"locked"},{"closed":false,"id":"D2","state":"propped"},{"closed":true,"id":"D3","state":"locked"},{"closed":true,"id":"D4","state":"locked"},{"closed":true,"id":"D5","state":"locked"},{"closed":true,"id":"D6","state":"locked"},{"closed":true,"id":"D7","state":"locked"},{"closed":true,"id":"D8","state":"locked"},{"closed":true,"id":"D9","state":"locked"}]}
+2023-11-16 12:59:45,455 [WebServer.java:74] - sockedthread : GET /reader?credential=11343&action=close&datetime=2023-11-16T09:30&doorId=D2 HTTP/1.1
+2023-11-16 12:59:45,456 [WebServer.java:92] - 0 reader
+2023-11-16 12:59:45,456 [WebServer.java:92] - 1 credential
+2023-11-16 12:59:45,456 [WebServer.java:92] - 2 11343
+2023-11-16 12:59:45,456 [WebServer.java:92] - 3 action
+2023-11-16 12:59:45,456 [WebServer.java:92] - 4 close
+2023-11-16 12:59:45,456 [WebServer.java:92] - 5 datetime
+2023-11-16 12:59:45,456 [WebServer.java:92] - 6 2023-11-16T09:30
+2023-11-16 12:59:45,456 [WebServer.java:92] - 7 doorId
+2023-11-16 12:59:45,456 [WebServer.java:92] - 8 D2
+2023-11-16 12:59:45,456 [WebServer.java:122] - tokens : 
+2023-11-16 12:59:45,456 [WebServer.java:124] - reader, 
+2023-11-16 12:59:45,456 [WebServer.java:124] - credential, 
+2023-11-16 12:59:45,457 [WebServer.java:124] - 11343, 
+2023-11-16 12:59:45,457 [WebServer.java:124] - action, 
+2023-11-16 12:59:45,457 [WebServer.java:124] - close, 
+2023-11-16 12:59:45,457 [WebServer.java:124] - datetime, 
+2023-11-16 12:59:45,457 [WebServer.java:124] - 2023-11-16T09:30, 
+2023-11-16 12:59:45,457 [WebServer.java:124] - doorId, 
+2023-11-16 12:59:45,457 [WebServer.java:124] - D2, 
+2023-11-16 12:59:45,457 [WebServer.java:124] - null, 
+2023-11-16 12:59:45,457 [WebServer.java:124] - null, 
+2023-11-16 12:59:45,457 [WebServer.java:124] - null, 
+2023-11-16 12:59:45,457 [WebServer.java:124] - null, 
+2023-11-16 12:59:45,457 [WebServer.java:124] - null, 
+2023-11-16 12:59:45,457 [WebServer.java:124] - null, 
+2023-11-16 12:59:45,457 [WebServer.java:124] - null, 
+2023-11-16 12:59:45,457 [WebServer.java:124] - null, 
+2023-11-16 12:59:45,458 [WebServer.java:124] - null, 
+2023-11-16 12:59:45,458 [WebServer.java:124] - null, 
+2023-11-16 12:59:45,458 [WebServer.java:124] - null, 
+2023-11-16 12:59:45,458 [WebServer.java:126] - 
+2023-11-16 12:59:45,458 [WebServer.java:100] - created request reader Request{credential=11343, userName=unknown, action=close, now=2023-11-16T09:30, doorID=D2, closed=false, authorized=false, reasons=[]}
+2023-11-16 12:59:45,458 [WebServer.java:102] - processed request reader Request{credential=11343, userName=unknown, action=close, now=2023-11-16T09:30, doorID=D2, closed=true, authorized=true, reasons=[]}
+2023-11-16 12:59:45,458 [WebServer.java:105] - answer
+HTTP/1.0 200 OK
+Content-type: application/json
+Access-Control-Allow-Origin: *
+
+{"reasons":[],"authorized":true,"action":"close","closed":true,"state":"locked","doorId":"D2"}
