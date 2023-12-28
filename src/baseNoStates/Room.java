@@ -1,5 +1,8 @@
 package baseNoStates;
 
+import org.json.JSONArray;
+import org.json.JSONObject;
+
 import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -28,24 +31,21 @@ public class Room extends Area {
     return doors;
   }
 
-  /*
-  @Override
-  public ArrayList<Door> getDoorsGivingAccess() {
-    return doors;
-  }
-  */
   public void addDoorsGivingAccess(Door door) {
     this.doors.add(door);
   }
-  /*
-  public Area findAreaById(String id) {
-    if (this.id.equals(id)) {
-      return this;
-    } else {
-      return null;
-    }
-  }
-  */
 
   public ArrayList<Area> getUserAreas() { return new ArrayList<>(List.of(this));  }
+
+  public JSONObject toJson(int depth) { // depth not used here
+    JSONObject json = new JSONObject();
+    json.put("class", "space");
+    json.put("id", id);
+    JSONArray jsonDoors = new JSONArray();
+    for (Door d : doors) {
+      jsonDoors.put(d.toJson());
+    }
+    json.put("access_doors", jsonDoors);
+    return json;
+  }
 }

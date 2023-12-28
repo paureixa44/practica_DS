@@ -1,5 +1,8 @@
 package baseNoStates;
 
+import org.json.JSONArray;
+import org.json.JSONObject;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -25,36 +28,6 @@ public class Partition extends Area {
   public ArrayList<Area> getRooms() {
     return rooms;
   }
-  /*
-  @Override
-  public List<Door> getDoorsGivingAccess() {
-    ArrayList<Door> all_area_doors = new ArrayList<>(0); //array on guardem les portes
-    //recorrem les habitacions de la particio per aconseguir les portes de cada una
-    for (Area area : rooms) {
-      all_area_doors.addAll(area.getDoorsGivingAccess()); //afegim les portes a l'array
-    }
-    return all_area_doors.stream().distinct().collect(Collectors.toList()); //treiem les portes repetides
-  }
-
-  */
-  /*
-  @Override
-  public Area findAreaById(String id) {
-    //comprovem si ja la tenim
-    Area busca = null;
-    if (this.id.equals(id)) {
-      return this;
-    } else { // si no la tenim la busquem recursivament per totes les areas
-      for (Area area : rooms) {
-        Area aux = area.findAreaById(id);
-        if (aux != null) {
-          busca = aux;
-        }
-      }
-    }
-    return busca;
-  }
-  */
 
   /**
    * Gets all the areas a user can be in.
@@ -66,5 +39,21 @@ public class Partition extends Area {
       test.addAll(ex);
     }
     return test;
+  }
+
+  public JSONObject toJson(int depth) {
+    // for depth=1 only the root and children,
+    // for recusive = all levels use Integer.MAX_VALUE
+    JSONObject json = new JSONObject();
+    json.put("class", "partition");
+    json.put("id", id);
+    JSONArray jsonAreas = new JSONArray();
+    if (depth > 0) {
+      for (Area a : rooms) {
+        jsonAreas.put(a.toJson(depth - 1));
+      }
+      json.put("areas", jsonAreas);
+    }
+    return json;
   }
 }

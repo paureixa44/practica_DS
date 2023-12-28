@@ -1,5 +1,7 @@
 package baseNoStates;
 
+import org.json.JSONObject;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -12,4 +14,5 @@ public abstract class Area {
   public abstract void acceptVisitor(Visitor v);
   public abstract String getId();
   public abstract ArrayList<Area> getUserAreas();
+  public abstract JSONObject toJson(int depth);
 }

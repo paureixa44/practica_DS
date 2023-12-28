@@ -71,12 +71,16 @@ public final class DirectoryDoors {
   }
 
   public static Area findAreaById(String id) {
-    //crear visitor li passes la id
-    //fer un accept visitor
-    Visitor visitor = new FindAreaById(id);
-    building.acceptVisitor(visitor);
+    if (id.equals("ROOT"))
+      return building;
+    else {
+      //crear visitor li passes la id
+      //fer un accept visitor
+      Visitor visitor = new FindAreaById(id);
+      building.acceptVisitor(visitor);
 
-    return visitor.getArea();
+      return visitor.getArea();
+    }
   }
 
   // this is needed by RequestRefresh
@@ -85,4 +89,6 @@ public final class DirectoryDoors {
     return allDoors;
   }
 
+
+  public DirectoryDoors getInstance() { return this;  }
 }
